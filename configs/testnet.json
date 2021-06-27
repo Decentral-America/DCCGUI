@@ -9,12 +9,12 @@
     "tokenomica": "3Mq2ikxDH6rV5VBUNX1Ef8Ag1Vjntbh4MvD"
   },
   "apiVersion": "v0",
-  "code": "T",
+  "code": "!",
   "bankRecipient": "3NCKpqzSnHmXhZEmqYy4U6RUKUAJDTxWgWP",
-  "node": "https://nodes-testnet.wavesnodes.com",
-  "matcher": "https://matcher.testnet.wavesnodes.com/matcher",
+  "node": "https://testnet-node.decentralchain.io",
+  "matcher": "https://matcher.decentralchain.io/matcher",
   "api": "https://api.testnet.wavesplatform.com",
-  "explorer": "https://wavesexplorer.com/testnet",
+  "explorer": "https://decentralscan.com/testnet",
   "coinomat": "https://localhost:8080/coinomat",
   "wavesGateway": "https://gateways-dev.wvservices.com",
   "support": "https://support.wavesplatform.com",
@@ -53,7 +53,7 @@
     "BNT": "B6pP4SJY1aCXfVneF9P2hmBeQBPhNTVTGPDPZ57VGYQp"
   },
   "matcherPriorityList": [
-    { "ticker": "WAVES", "id": "WAVES"},
+    { "ticker": "DCC", "id": "DCC"},
     { "ticker": "BTC", "id": "Fmg13HEHJHuZYbtJq8Da8wifJENq8uBxDuWoP9pVe2Qe"},
     { "ticker": "USD", "id": "HyFJ3rrq5m7FxdkWtQXkZrDat1F7LjVVGfpSkUuEXQHj"},
     { "ticker": "EUR", "id": "2xnE3EdpqXtFgCP156qt1AbyjpqdZ5jGjWo3CwTawcux"},

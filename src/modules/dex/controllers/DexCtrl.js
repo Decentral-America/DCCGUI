@@ -105,7 +105,7 @@
 
             $onDestroy() {
                 super.$onDestroy();
-                window.document.title = 'Waves DEX';
+                window.document.title = 'DecentralDEX';
             }
 
             // hide and show graph to force its resize
