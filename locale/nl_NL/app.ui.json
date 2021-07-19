@@ -75,7 +75,7 @@
         "sign": "Onderteken",
         "success": "Uw transactie is verzonden!",
         "wavesKeeperUnconfirmed": {
-            "description": "Probeer alstublieft opnieuw. Indien de error aanhoudt maak dan een ticket aan bij [support](https://support.wavesplatform.com)",
+            "description": "Probeer alstublieft opnieuw. Indien de error aanhoudt maak dan een ticket aan bij [support](https://decentralchain.io/soporte)",
             "header": "U heeft het verzoek niet via Waves Keeper bevestigd"
         }
     },
@@ -99,7 +99,7 @@
         "sign": {
             "confirmRequestKeeper": {
                 "cancel": "Annuleer",
-                "errorDescription": "Probeer het opnieuw. Als het probleem aanhoudt maak alstublieft een ticket aan bij [support](https://support.wavesplatform.com)",
+                "errorDescription": "Probeer het opnieuw. Als het probleem aanhoudt maak alstublieft een ticket aan bij [support](https://decentralchain.io/soporte)",
                 "errorDescriptionSwitchUser": "Dit account komt niet overeen met het geselecteerde account in uw Waves Keeper. Activeer een ander account in Waves Keeper en probeer het opnieuw.",
                 "errorHeader": "U heeft het verzoek niet bevestigd met Waves Keeper",
                 "sign": "Probeer opnieuw",

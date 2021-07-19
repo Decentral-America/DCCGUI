@@ -192,7 +192,7 @@
         "mainPage": "Pagina principal",
         "majorFiatCryptocurrencies": "Compatible con las principales criptomonedas y fiat: BTC, LTC, ETH, USD y otros",
         "markets": "Mercados",
-        "marketsDescription": "DecentralDEX le permite ejecutar operaciones de forma rápida y segura, independientemente de si se realizan transacciones a través de una aplicación móvil, un cliente de escritorio, una billetera web o la API de Waves.",
+        "marketsDescription": "DecentralDEX le permite ejecutar operaciones de forma rápida y segura, independientemente de si se realizan transacciones a través de una aplicación móvil, un cliente de escritorio, una billetera web o la API de DCC.",
         "marketsTableDescription": "Para ver más pares negociados, haga clic en",
         "marketsTableDescriptionLink": "Ver intercambio",
         "menu": "Menú",

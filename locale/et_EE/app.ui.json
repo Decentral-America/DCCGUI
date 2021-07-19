@@ -75,7 +75,7 @@
         "sign": "Allkirjasta",
         "success": "Teie tehing on teostamisel!",
         "wavesKeeperUnconfirmed": {
-            "description": "Palun proovige uuesti. Kui viga püsib, saatke palun pilet [kasutajatoele](https://support.wavesplatform.com)",
+            "description": "Palun proovige uuesti. Kui viga püsib, saatke palun pilet [kasutajatoele](https://decentralchain.io/soporte)",
             "header": "Te ei kinnitanud päringut Waves Keeperiga"
         }
     },
@@ -99,7 +99,7 @@
         "sign": {
             "confirmRequestKeeper": {
                 "cancel": "Tühista",
-                "errorDescription": "Palun proovige uuesti. Kui viga püsib, saatke palun pilet [kasutajatoele](https://support.wavesplatform.com)",
+                "errorDescription": "Palun proovige uuesti. Kui viga püsib, saatke palun pilet [kasutajatoele](https://decentralchain.io/soporte)",
                 "errorDescriptionSwitchUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
                 "errorHeader": "Te pole kinnitanud päringut Waves Keeperiga",
                 "sign": "Jätka",

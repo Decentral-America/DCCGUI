@@ -20,7 +20,7 @@
         "filter": {
             "helpIcon": {
                 "assetId": "Asset ID",
-                "description": "You can find out more about searching assets [here](https://docs.wavesplatform.com/en/waves-client/)",
+                "description": "You can find out more about searching assets [here](https://docs.decentralchain.io)",
                 "header": "You can search by:",
                 "name": "Name",
                 "ticker": "Ticker"
@@ -65,19 +65,19 @@
         "addressSaved": "Address saved",
         "back": "Go back",
         "error": {
-            "hasLockedKeeperDescription": "To continue working with Waves Keeper, you must enter a previously-created password, or create a new one.",
-            "hasLockedKeeperHeader": "Enter password from Waves Keeper",
+            "hasLockedKeeperDescription": "To continue working with Cubensis Connect, you must enter a previously-created password, or create a new one.",
+            "hasLockedKeeperHeader": "Enter password from Cubensis Connect",
             "hasNoUsersDescription": "Log in to an existing account, or create a new one, then try again.",
             "hasNoUsersHeader": "You do not have an active account",
             "install": "Install",
             "networkDescription": "The account you selected is on the wrong network. Change network, then try again.",
             "networkHeader": "Change network",
             "notInstalledDescription": "After installing, create an account, sign in, and then refresh the page to continue.",
-            "notInstalledHeader": "Don't have Waves Keeper?",
+            "notInstalledHeader": "Don't have Cubensis Connect?",
             "refresh": "Retry"
         },
-        "heading": "Import account from the Waves Keeper",
-        "loading": "Import account from the Waves Keeper",
+        "heading": "Import account from the Cubensis Connect",
+        "loading": "Import account from the Cubensis Connect",
         "login": "Continue",
         "name": "Account name",
         "nameExists": "That name is taken",
@@ -86,7 +86,7 @@
         "saveUserData": "Keep me signed in on this computer"
     },
     "LedgerClient_utils": "Ledger Device",
-    "LedgerClientDescription": "Import account from the Waves Keeper",
+    "LedgerClientDescription": "Import account from the Cubensis Connect",
     "modal": {
         "acceptNewTerms": {
             "title": "Terms of Use Agreement"
@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Click to rate token",
                 "tooltipLink": "More Details",
-                "tooltipNeedWAVES": "and 0.001 WAVES",
+                "tooltipNeedWAVES": "and 0.001 DCC",
                 "tooltipNeedWCT": "To rate a token, you must have at least 1",
-                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 WAVES.",
+                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 DCC.",
                 "tooltipTitle": "To rate a token, you must have at least 1 WCT in your wallet."
             },
             "reissue": {
@@ -201,7 +201,7 @@
         },
         "deposit": {
             "coinomatBCH": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BCH to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BCH to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your Bitcoin Cash client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -209,7 +209,7 @@
                 "warningTitle": "Send only BCH to this deposit address"
             },
             "coinomatBSV": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BSV to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BSV to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your Bitcoin Satoshi Vision client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -217,7 +217,7 @@
                 "warningTitle": "Send only BSV to this deposit address"
             },
             "coinomatBTC": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BTC to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BTC to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your Bitcoin client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -225,7 +225,7 @@
                 "warningTitle": "Send only BTC to this deposit address"
             },
             "coinomatDASH": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of DASH to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of DASH to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your DASH client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -233,7 +233,7 @@
                 "warningTitle": "Send only DASH to this deposit address"
             },
             "coinomatETH": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of ETH to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of ETH to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your Ethereum client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -241,7 +241,7 @@
                 "warningTitle": "Please do not deposit ETH from smart contracts! Do not deposit ERC20 tokens! Only Ethereum is allowed."
             },
             "coinomatLTC": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of LTC to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of LTC to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your Litecoin client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -249,7 +249,7 @@
                 "warningTitle": "Send only LTC to this deposit address"
             },
             "coinomatXMR": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of XMR to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of XMR to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your Monero client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -257,7 +257,7 @@
                 "warningTitle": "Send only XMR to this deposit address"
             },
             "coinomatZEC": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of ZEC to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of ZEC to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your Zcash client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -271,7 +271,7 @@
             "scanQrCode": "Scan QR Code",
             "title": "Deposit {{assetName}}",
             "wavesGatewayBNT": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of Bancor to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of Bancor to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -279,7 +279,7 @@
                 "warningTitle": "Please do not deposit BNT from smart contracts! Do not deposit other ERC20 tokens! Only Bancor is allowed."
             },
             "wavesGatewayBTC": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BTC to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BTC to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your BTC client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -287,7 +287,7 @@
                 "warningTitle": "Send only BTC to this deposit address"
             },
             "wavesGatewayERGO": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of ERGO to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of ERGO to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your ERGO client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -295,7 +295,7 @@
                 "warningTitle": "Send only ERGO to this deposit address"
             },
             "wavesGatewayETH": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of ETH to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of ETH to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your ETH client or wallet",
                 "warningMinAmountText": "If you will send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}",
@@ -309,13 +309,13 @@
                 "warningTitle": "This is ERC20 USDT deposit address. Send only USDT to this deposit address. Sending any other coin or token to this address may result in the loss of your deposit. Please do not deposit USDT from smart contracts!"
             },
             "wavesGatewayVST": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of WEST to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of WEST to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your WEST client or wallet",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}"
             },
             "wavesGatewayWEST": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of WEST to a token in your Waves account.",
-                "helpDescrText_copy": "Once the transaction is confirmed, the gateway will process the transfer of WEST to a token in your Waves account.",
+                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of WEST to a token in your DCC account.",
+                "helpDescrText_copy": "Once the transaction is confirmed, the gateway will process the transfer of WEST to a token in your DCC account.",
                 "helpDescrTitle": "Enter this address into your WEST client or wallet",
                 "helpDescrTitle_copy": "Enter this address into your WEST client or wallet",
                 "warningMinAmountTitle": "The minimum amount of deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum amount of deposit is {{maxAmount}} {{assetTicker}}"
@@ -338,7 +338,7 @@
         "gatewaySign": {
             "cancel": "Cancel",
             "continue": "Allow",
-            "description": "{{name}} will have access to your Waves address. It will not get your SEED or Private key. Don't enter your secret phrase (SEED) on websites you will be redirected on.",
+            "description": "{{name}} will have access to your DCC address. It will not get your SEED or Private key. Don't enter your secret phrase (SEED) on websites you will be redirected on.",
             "descriptionDesktop1": "The link will be opened in your default web browser. If you want to use another web browser,",
             "descriptionDesktop2": "copy",
             "descriptionDesktop3": "and paste the link into its URL bar.",
@@ -347,16 +347,16 @@
                 "headline": "Something went wrong",
                 "title": "Error"
             },
-            "headline": "{span.link}[{{url}}] wants to access your Waves Address",
+            "headline": "{span.link}[{{url}}] wants to access your DCC Address",
             "retrySign": "Retry",
-            "title": "Sign in with Waves",
+            "title": "Sign in with DCC",
             "txHash": "TXHASH",
             "warning": "Don't enter your secret phrase (SEED) on websites you will be redirected on."
         },
         "import": {
-            "errorBeta": "We were unable to retrieve your accounts from the Waves Beta Client. Try importing from the Waves Lite Client.",
+            "errorBeta": "We were unable to retrieve your accounts from the DCC Beta Client. Try importing from the DCC Lite Client.",
             "errorHeader": "No accounts found",
-            "errorLite": "We were unable to retrieve your accounts from the Waves Lite Client. Try importing from the Waves Beta Client.",
+            "errorLite": "We were unable to retrieve your accounts from the DCC Lite Client. Try importing from the DCC Beta Client.",
             "errorUnable": "We were unable to retrieve your accounts. Please restore them by using their backup SEEDs.",
             "fromBetaButton": "Import from Beta Client",
             "fromLiteButton": "Import from Lite Client",
@@ -371,10 +371,10 @@
             "selectAccountToImport": "Select which accounts you want to import",
             "selectAccountToImportFrom": "Select where to import accounts from",
             "selectButton": "Select",
-            "wavesBetaClient": "Waves Beta Client",
-            "wavesBetaClientDescription": "Import accounts from Waves Beta Client",
-            "wavesLiteClient": "Waves Lite Client",
-            "wavesLiteClientDescription": "Import accounts from Waves Lite Client"
+            "wavesBetaClient": "DCC Beta Client",
+            "wavesBetaClientDescription": "Import accounts from DCC Beta Client",
+            "wavesLiteClient": "DCC Lite Client",
+            "wavesLiteClientDescription": "Import accounts from DCC Lite Client"
         },
         "matcherChoice": {
             "customMatcher": "Custom matcher address",
@@ -382,7 +382,7 @@
             "matcherTerms": "I agree to the Super DEX Mather Terms of Use.",
             "terms": "Terms",
             "title": "Choose matcher",
-            "wavesTerms": "I am over 18 years old, and I agree to the Waves Terms of Use and Waves Privacy Policy."
+            "wavesTerms": "I am over 18 years old, and I agree to the DCC Terms of Use and DCC Privacy Policy."
         },
         "open-main": {
             "dex": {
@@ -438,7 +438,7 @@
             "scanQrCode": "Scan QR Code",
             "title": "Share your address",
             "warningText": "Sending any other digital asset to this address will result in the permanent loss of your funds.",
-            "warningTitle": "Send only WAVES and Waves tokens to this address"
+            "warningTitle": "Send only DCC and DCC tokens to this address"
         },
         "receive": {
             "accountStatus": "Account status",
@@ -451,7 +451,7 @@
             },
             "bankSuccessHeader": "You were redirected to the IDNow.eu for verification.",
             "bankSuccessText": "After you go through the verification you will receive an email with further instructions.",
-            "bankVerifiedPlateDescription": "Before you withdraw your funds, we recommend you look at the [instructions](https://docs.wavesplatform.com/en/waves-client/transfers-and-gateways/eur-usd-transfers.html) and [limits and transaction fees](https://coinomat.com/limits.php).",
+            "bankVerifiedPlateDescription": "Before you withdraw your funds, we recommend you look at the [instructions](https://docs.decentralchain.io) and [limits and transaction fees](https://coinomat.com/limits.php).",
             "bankVerifiedPlateHeader": "Your funds are now available for withdrawal to a bank account.",
             "card": {
                 "continue": "Continue",
@@ -487,7 +487,7 @@
             "maximumIs": "the maximum is",
             "minimumIs": "The minimum is",
             "providedByCoinomat": {
-                "descriprion": "{div}[This service is provided by Coinomat Company (Сoinomat).\nWaves Platform AG does not undertake any responsibility for the activities carried out by Coinomat and does not take any part in the relationship that may arise between Coinomat and users of the Waves Platform.]{div}[By using Coinomat services, you agree to be bound by [Coinomat Terms of Service and Conduction of Transactions](https://coinomat.com/terms.php). If you do not agree to these terms, then do not use Coinomat services.]",
+                "descriprion": "{div}[This service is provided by Coinomat Company (Сoinomat).\n DCC Platform AG does not undertake any responsibility for the activities carried out by Coinomat and does not take any part in the relationship that may arise between Coinomat and users of the DCC Platform.]{div}[By using Coinomat services, you agree to be bound by [Coinomat Terms of Service and Conduction of Transactions](https://coinomat.com/terms.php). If you do not agree to these terms, then do not use Coinomat services.]",
                 "header": "This service is provided by Coinomat Company (Сoinomat).",
                 "termsReadedInputLabel": "I agree with the [Terms of Service and Conduction of Transactions](https://coinomat.com/terms.php), [Limits](https://coinomat.com/limits.php) and [Privacy Policy](https://coinomat.com/privacy.php) of Coinomat Company.",
                 "warning": "In case of problems with verification, payment processing or revoke your consent, please contact the Coinomat support team — [support@coinomat.com](mailto:support@coinomat.com)"
@@ -521,8 +521,8 @@
             "warningPlural": "You did not save your Seed phrases"
         },
         "removeKeeperAccount": {
-            "heading": "Remove Waves Keeper account",
-            "text": "This will only delete the saved path to this account. It will not delete the account from Waves Keeper."
+            "heading": "Remove Cubensis Connect account",
+            "text": "This will only delete the saved path to this account. It will not delete the account from Cubensis Connect."
         },
         "removeLedgerAccount": {
             "heading": "Remove Ledger account",
@@ -582,13 +582,13 @@
             },
             "gatewayTerms": {
                 "accept": "Accept and Continue",
-                "text": "By using Gateway service, you agree to be bound by [Gateway Terms of Service](https://dex.wavesplatform.com/) and [Conduction of Transactions](https://dex.wavesplatform.com/). If you do not agree to these terms, then do not use this Gateway service.",
+                "text": "By using Gateway service, you agree to be bound by [Gateway Terms of Service](https://decentral.exchange/) and [Conduction of Transactions](https://decentral.exchange/). If you do not agree to these terms, then do not use this Gateway service.",
                 "title": "Gateway service agreement"
             },
             "icoWarning": "Do not withdraw {{assetName}} to an ICO. We will not credit your account with tokens from that sale.",
             "idNumber": {
                 "helpIcon": {
-                    "description": "You can find out more about withdrawing money to a bank account [here](https://docs.wavesplatform.com/en/waves-client/transfers-and-gateways/eur-usd-transfers.html).",
+                    "description": "You can find out more about withdrawing money to a bank account [here](https://docs.decentralchain.io).",
                     "title": "Your ID number is a unique number assigned to each user after confirming a bank account with Coinomat."
                 }
             },
@@ -621,7 +621,7 @@
                 "fee": "Transaction Fee {{fee, money-currency}}"
             },
             "notVerifiedHeader": "You have not been verified.",
-            "notVerifiedText": "Withdrawal to a bank account is only available to verified users. You can find out more about sending and receiving fiat money [here](https://docs.wavesplatform.com/en/waves-client/transfers-and-gateways/eur-usd-transfers.html).",
+            "notVerifiedText": "Withdrawal to a bank account is only available to verified users. You can find out more about sending and receiving fiat money [here](https://docs.decentralchain.io).",
             "or": "or",
             "placeholderRecipient": "Paste or scan an address",
             "recipient": "Recipient",
@@ -631,7 +631,7 @@
             "titleComplete": "Sending Complete",
             "toBank": "Withdraw to bank account",
             "total": "Total",
-            "toWaves": "Send to Waves address",
+            "toWaves": "Send to DCC address",
             "txFee": "Transaction Fee",
             "validationError": {
                 "notEnoughFunds": "You don't have enough funds to pay the required fees. You must pay {{fee, money-currency}} transaction fee.",
@@ -674,7 +674,7 @@
             "general": {
                 "auto": "Auto",
                 "blockHeight": "Current height",
-                "blue": "Waves",
+                "blue": "DCC",
                 "color": "Color",
                 "dark": "Dark",
                 "green": "Classic",
@@ -700,9 +700,9 @@
             "message": "To open Settings, sign in or create an account",
             "network": {
                 "apiAddress": "Data service",
-                "apiAddressHelp": "The Data Service provides additional APIs for interacting with Waves blockchain data.",
+                "apiAddressHelp": "The Data Service provides additional APIs for interacting with DCC blockchain data.",
                 "assetNameFilter": "Naming service",
-                "assetNameFilterHelp": "This service checks the name of the token with the Waves token library.\nFor completely disable it, clear the field.",
+                "assetNameFilterHelp": "This service checks the name of the token with the DCC token library.\nFor completely disable it, clear the field.",
                 "copy": "copy",
                 "dataProvider": "Data provider",
                 "dataProviderDescription": "{{dataProviderDescription}}",
@@ -728,7 +728,7 @@
                 "unavailable": {
                     "description": {
                         "ledger": "Export is not available for accounts stored on Ledger Device",
-                        "wavesKeeper": "Export for accounts imported from Waves Keeper is available in Waves Keeper Settings"
+                        "wavesKeeper": "Export for accounts imported from Cubensis Connect is available in Cubensis Connect Settings"
                     },
                     "header": {
                         "ledger": "Export unavailable",
@@ -767,7 +767,7 @@
             "confirm": "Confirm",
             "confirmRequest": "Confirm request",
             "confirmRequest_utils": "Confirm request",
-            "confirmRequestKeeper": "Waiting for confirmation from Waves Keeper...",
+            "confirmRequestKeeper": "Waiting for confirmation from Cubensis Connect...",
             "confirmRequestLedger": {
                 "cancel": "Cancel",
                 "errorDescription": "Please try again. If the error persists, please refer to [this article](https://support.ledgerwallet.com/hc/en-us/articles/115005165269-Fix-connection-issues)",
@@ -778,7 +778,7 @@
             "confirmRequestMatcher_utils": "Sign a request to the Matcher. If you do not sign it, you cannot trade on DEX from a Ledger account.",
             "confirmRequestToMatcher": "Sign a request to the Matcher. If you do not sign it, you cannot trade on DEX.",
             "connecting": "Connecting...",
-            "connectingKeeper": "Connecting to Waves Keeper...",
+            "connectingKeeper": "Connecting to Cubensis Connect...",
             "connectionError": "Unable to Connect Ledger Device",
             "connectionErrorKeeper": "Unable to access account",
             "connectionText": "The connection may have timed out. Please try again.",
@@ -786,7 +786,7 @@
             "enterPin": "Enter your PIN code",
             "fee": "Fee",
             "matcher": "Sign orders requests",
-            "openApp": "Open the Waves App",
+            "openApp": "Open the DCC App",
             "orderType": "Order type",
             "pair": "Pair",
             "price": "Price",
@@ -796,14 +796,14 @@
             "requestId": "Request hash",
             "retry": "Retry",
             "sell": "Sell",
-            "signByKeeper": "Waiting for confirmation from Waves Keeper...",
+            "signByKeeper": "Waiting for confirmation from Cubensis Connect...",
             "signByLedger": "Waiting for confirmation on Ledger Device…",
             "signError": "The request has not been confirmed.",
-            "signErrorKeeper": "You did not confirm the request using Waves Keeper",
+            "signErrorKeeper": "You did not confirm the request using Cubensis Connect",
             "signErrorText": "You did not confirm the request on your Ledger Device",
-            "signErrorTextImportKeeper": "Sign in to Waves Keeper with address {{address}}, and then refresh page to continue.",
-            "signErrorTextKeeper": "Please try again. If the error persists, please create a ticket to [Support](https://support.wavesplatform.com/)",
-            "signErrorTextKeeperWrongUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
+            "signErrorTextImportKeeper": "Sign in to Cubensis Connect with address {{address}}, and then refresh page to continue.",
+            "signErrorTextKeeper": "Please try again. If the error persists, please create a ticket to [Support](https://decentralchain.io/soporte/)",
+            "signErrorTextKeeperWrongUser": "This account does not match the selected account in your Cubensis Connect. Please activate another account in Waves Keeper and try again.",
             "timestamp": "Timestamp",
             "txId": "TXID"
         },
@@ -811,7 +811,7 @@
             "title": "Change sponsorship"
         },
         "sponsorship": {
-            "amountPerTx": "Amount per transaction (per 0.001 WAVES)",
+            "amountPerTx": "Amount per transaction (per 0.001 DCC)",
             "assetId": "ID",
             "continue": "Continue",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "Transaction Fee {{fee, money-currency}}",
             "title": "Enable Sponsorship",
             "warningHeader": "Users will be able to pay transaction fees in {{name}}",
-            "warningText": "For each transaction, 0.001 WAVES will be deducted from your balance and {{name}} will be credited to your account. The amount of {{name}} to be charged to users for transactions is set by you when you enable Sponsorship (enter the amount in the form below). Sponsorship will only work if you have a balance of at least 1.005 WAVES. If your balance falls below this amount, you will be unable to sponsor transactions."
+            "warningText": "For each transaction, 0.001 DCC will be deducted from your balance and {{name}} will be credited to your account. The amount of {{name}} to be charged to users for transactions is set by you when you enable Sponsorship (enter the amount in the form below). Sponsorship will only work if you have a balance of at least 1.005 DCC. If your balance falls below this amount, you will be unable to sponsor transactions."
         },
         "startLease": {
             "amount": "Amount",
@@ -840,18 +840,18 @@
         "termsAccept": {
             "body": {
                 "advancedMode": "Advanced features",
-                "analytics": "I would like to help improve the Waves platform by sending anonymous usage statistics to the developers.",
-                "backup": "I understand that if this app is moved to another device or deleted, my Waves can only be recovered with the backup phrase.",
+                "analytics": "I would like to help improve DecentralChain by sending anonymous usage statistics to the developers.",
+                "backup": "I understand that if this app is moved to another device or deleted, my DCC can only be recovered with the backup phrase.",
                 "ok": "Confirm and Begin",
-                "privacyPolicy": "I have read and agree with the [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+                "privacyPolicy": "I have read and agree with the [Privacy Policy](https://decentralchain.io/privacy-policy).",
                 "read": "I have read, understood and agree to the",
-                "readTermsAndConditions": "I have read and agree with the [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+                "readTermsAndConditions": "I have read and agree with the [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
                 "security": "I understand that my funds are held securely on this device, not by a company",
-                "securityAndBackup": "I understand that my funds are held securely on this device, not by a company. If this app is moved to another device or deleted, my Waves can only be recovered with the backup phrase.",
+                "securityAndBackup": "I understand that my funds are held securely on this device, not by a company. If this app is moved to another device or deleted, my DCC can only be recovered with the backup phrase.",
                 "terms": "Terms of Use"
             },
             "header": {
-                "description": "Waves is different — the wallet is stored safely on your device",
+                "description": "DCC is different — the wallet is stored safely on your device",
                 "title": "Done! Let’s review",
                 "title2": "Terms of Use"
             }
@@ -891,17 +891,17 @@
                 "buttonReadMore": "Read more",
                 "p1": "Please take some time to understand some important things for your own safety. 🙏",
                 "p2": "We cannot recover your funds or freeze your account if you visit a phishing site or lose your backup phrase (aka SEED phrase).",
-                "p3": "By continuing to use our platform, you agree to accept all risks associated with the loss of your SEED, including but not limited to the inability to obtain your funds and dispose of them. In case you lose your SEED, you agree and acknowledge that the Waves Platform would not be responsible for the negative consequences of this.",
-                "title": "Welcome to the Waves Platform!"
+                "p3": "By continuing to use our platform, you agree to accept all risks associated with the loss of your SEED, including but not limited to the inability to obtain your funds and dispose of them. In case you lose your SEED, you agree and acknowledge that the DCC Platform would not be responsible for the negative consequences of this.",
+                "title": "Welcome to the DCC Platform!"
             },
             "step2": {
                 "backButton": "Go Back",
                 "cell1": "You use your wallet anonymously, meaning your account is not connected to an email account or any other identifying data.",
                 "cell2": "Your password protects your account when working on a certain device or browser. It is needed in order to ensure that your secret phrase is not saved in storage.",
                 "cell3": "If you forget your password, you can easily create a new one by using the account recovery form via your secret phrase. If you lose your secret phrase, however, you will have no way to access your account.",
-                "cell4": "You cannot change your secret phrase. If you accidentally sent it to someone or suspect that scammers have taken it over, then create a new Waves wallet immediately and transfer your funds to it.",
+                "cell4": "You cannot change your secret phrase. If you accidentally sent it to someone or suspect that scammers have taken it over, then create a new DCC wallet immediately and transfer your funds to it.",
                 "nextButton": "Protect Yourself",
-                "p1": "When registering your account, you will be asked to save your secret phrase (SEED) and to protect your account with a password. On normal centralized servers, special attention is paid to the password, which can be changed and reset via email, if the need arises. However, on decentralized platforms such as Waves, everything is arranged differently:",
+                "p1": "When registering your account, you will be asked to save your secret phrase (SEED) and to protect your account with a password. On normal centralized servers, special attention is paid to the password, which can be changed and reset via email, if the need arises. However, on decentralized platforms such as DCC, everything is arranged differently:",
                 "title": "What you need to know about your SEED"
             },
             "step3": {
@@ -921,7 +921,7 @@
         },
         "unsuccessfulMigration": {
             "checkbox": "Don't show this again",
-            "description": "You have started the account migration from Waves DEX to this exchange, but it hasn't been finished. Your accounts haven't been moved. Go back to Waves DEX and start the process from the beginning.",
+            "description": "You have started the account migration from DecentralDEX to this exchange, but it hasn't been finished. Your accounts haven't been moved. Go back to DecentralDEX and start the process from the beginning.",
             "title": "Unfinished Migration",
             "understand": "I understand"
         }
@@ -947,9 +947,9 @@
     "Unpin_utils": "Unpin",
     "utils": {
         "migrationError": "Oops! Your accounts are safe but haven't been moved. Please try again.",
-        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://decentralchain.io/privacy-policy).",
         "privacyPolicyText": "Privacy Policy",
-        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
         "termsAgreementText": "Terms and Conditions",
         "termsAssign": "I have read and agree with the",
         "whatsNew": {

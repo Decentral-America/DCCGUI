@@ -42,7 +42,7 @@
                 "required": "Se requiere este campo"
             },
             "expiration": "Terminación",
-            "fee": "Comisión de {{fee}} WAVES",
+            "fee": "Comisión de {{fee}} DCC",
             "hasScript": "Cancele[script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) por operar",
             "last": "Última",
             "limit": "Limit Order",
@@ -251,7 +251,7 @@
             "OrderHistory": "Mi historial de ordenes",
             "trade": "Trade",
             "tradeHistory": "Historial",
-            "waves": "Waves"
+            "waves": "DCC"
         }
     }
 }

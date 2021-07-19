@@ -75,7 +75,7 @@
         "sign": "İmzala",
         "success": "Transferiniz yolda!",
         "wavesKeeperUnconfirmed": {
-            "description": "Lütfen tekrar deneyin. Eğer hata devam ederse lütfen [destek] ile iletişime geçin. (https://support.wavesplatform.com)",
+            "description": "Lütfen tekrar deneyin. Eğer hata devam ederse lütfen [destek] ile iletişime geçin. (https://decentralchain.io/soporte)",
             "header": "Talebi Waves Keeper'dan onaylamadınız"
         }
     },
@@ -99,7 +99,7 @@
         "sign": {
             "confirmRequestKeeper": {
                 "cancel": "İptal",
-                "errorDescription": "Lütfen tekrar deneyin. Eğer hata devam ederse lütfen [destek] ile iletişime geçin. (https://support.wavesplatform.com)",
+                "errorDescription": "Lütfen tekrar deneyin. Eğer hata devam ederse lütfen [destek] ile iletişime geçin. (https://decentralchain.io/soporte)",
                 "errorDescriptionSwitchUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
                 "errorHeader": "Talebi Waves Keeper'dan onaylamadınız",
                 "sign": "Tekrar deneyin",

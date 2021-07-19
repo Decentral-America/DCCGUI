@@ -802,7 +802,7 @@
             "signErrorKeeper": "आपने वेव्स कीपर के उपयोग से अनुरोध की पुष्टि नहीं की",
             "signErrorText": "आपने अपने लेजर नैनो एस पर अनुरोध की पुष्टि नहीं की",
             "signErrorTextImportKeeper": "{{address}}, पते के साथ वेव्स कीपर के लिए साइन इन करें, और फिर जारी रखने के लिए पृष्ठ ताज़ा करें।",
-            "signErrorTextKeeper": "कृपया पुन: प्रयास करें। यदि एरर बनी रहती है, तो कृपया [सहायता](https://support.wavesplatform.com/) का टिकट बनाएं",
+            "signErrorTextKeeper": "कृपया पुन: प्रयास करें। यदि एरर बनी रहती है, तो कृपया [सहायता](https://decentralchain.io/soporte/) का टिकट बनाएं",
             "signErrorTextKeeperWrongUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
             "timestamp": "Timestamp",
             "txId": "TXID"
@@ -843,9 +843,9 @@
                 "analytics": "डवलपरों को गुमनाम उपयोग आंकड़ें भेज कर Waves प्लेटफार्म को बेहतर करने में सहायता करना चाहूँगा।",
                 "backup": "मैं समझता हूँ कि यदि ये ऐप एक अन्य डिवाइस पर जाता है हट जाता है तो मेरा Waves केवल मेरे बैकअप वाक्य से ही रिकवर किया जा सकता है।",
                 "ok": "पुष्टि करें और शुरु करें",
-                "privacyPolicy": "I have read and agree with the [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+                "privacyPolicy": "I have read and agree with the [Privacy Policy](https://decentralchain.io/privacy-policy).",
                 "read": "मैने इसे पढ़, समझ लिया है और सहमतच हूँ",
-                "readTermsAndConditions": "I have read and agree with the [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+                "readTermsAndConditions": "I have read and agree with the [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
                 "security": "मैं समझता हूँ कि मेरे फंड मेरी डिवाइस पर सुरक्षित रूप से रखे हैं, ना कि कंपनी के पास",
                 "securityAndBackup": "I understand that my funds are held securely on this device, not by a company. If this app is moved to another device or deleted, my Waves can only be recovered with the backup phrase.",
                 "terms": "उपयोग की शर्तें"
@@ -947,9 +947,9 @@
     "Unpin_utils": "अनपिन",
     "utils": {
         "migrationError": "Oops! Your accounts are safe but haven't been moved. Please try again.",
-        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://decentralchain.io/privacy-policy).",
         "privacyPolicyText": "Privacy Policy",
-        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
         "termsAgreementText": "Terms and Conditions",
         "termsAssign": "I have read and agree with the",
         "whatsNew": {

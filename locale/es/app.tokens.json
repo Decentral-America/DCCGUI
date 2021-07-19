@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "Este campo define el número de decimales en los que tu Token Activo será dividido.",
-        "scriptDescription": "Cada validación de una transacción por parte de un script de Smart Asset aumenta la tarifa de transacción por 0,004 WAVES. Por ejemplo, si se realiza una tx normal para un Smart Asset, el coste es 0,001 + 0,004 = 0,005 WAVES. Si se realiza una transacción de exchange, el coste es  0.003 + 0.004 = 0.007 WAVES.",
+        "scriptDescription": "Cada validación de una transacción por parte de un script de Smart Asset aumenta la tarifa de transacción por 0,004 DCC. Por ejemplo, si se realiza una tx normal para un Smart Asset, el coste es 0,001 + 0,004 = 0,005 DCC. Si se realiza una transacción de exchange, el coste es  0.003 + 0.004 = 0.007 DCC.",
         "scriptHeader": "Un Smart Asset es un asset con un script adjunto que establece condiciones en cada transacción realizada para el token en cuestión.",
         "scriptLearnMore": "Aprenda más",
         "totalTokens": {
@@ -30,7 +30,7 @@
     },
     "name": "Nombre de tu Activo",
     "NFT": {
-        "description": "Un token no fungible (NFT) es un token individual único que existe en la cadena de bloques Waves. Actualmente, la visualización de NFT en Waves Wallet y en Waves DEX no es compatible. Puede ver sus NFT en [Waves Explorer] (https://wavesexplorer.com/)",
+        "description": "Un token no fungible (NFT) es un token individual único que existe en la cadena de bloques DCC. Actualmente, la visualización de NFT en DCC Wallet y en DCC DEX no es compatible. Puede ver sus NFT en [DecentralScan] (https://decentralscan.com/)",
         "title": "Estás creando un token no fungible."
     },
     "notifications": {

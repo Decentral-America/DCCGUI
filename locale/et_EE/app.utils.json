@@ -802,7 +802,7 @@
             "signErrorKeeper": "Te ei kinnitanud päringut Waves Keeperiga",
             "signErrorText": "Te ei kinnitanud päringut teie Ledger Nano S-s",
             "signErrorTextImportKeeper": "Logige sisse Waves Keeperisse aadressiga {{address}} ja seejärel värskendage leht jätkamiseks.",
-            "signErrorTextKeeper": "Palun proovi uuesti. Kui viga püsib, looge pilet [kasutajatoele](https://support.wavesplatform.com/)",
+            "signErrorTextKeeper": "Palun proovi uuesti. Kui viga püsib, looge pilet [kasutajatoele](https://decentralchain.io/soporte/)",
             "signErrorTextKeeperWrongUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
             "timestamp": "Timestamp",
             "txId": "TXID"
@@ -843,9 +843,9 @@
                 "analytics": "Sooviksin parandada Waves platvormi, saates arendajatele anonüümset kasutusstatistikat.",
                 "backup": "Ma saan aru, et kui see rakendus teisaldatakse teise seadmesse või kustutatakse, saab minu Waves rahakottid taastada ainult salafraasiga.",
                 "ok": "Kinnita ja Alusta",
-                "privacyPolicy": "I have read and agree with the [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+                "privacyPolicy": "I have read and agree with the [Privacy Policy](https://decentralchain.io/privacy-policy).",
                 "read": "Olen lugenud, mõistnud ja nõustunud",
-                "readTermsAndConditions": "I have read and agree with the [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+                "readTermsAndConditions": "I have read and agree with the [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
                 "security": "Ma saan aru, et minu raha hoitakse turvaliselt selles seadmes, mitte ettevõtte poolt",
                 "securityAndBackup": "I understand that my funds are held securely on this device, not by a company. If this app is moved to another device or deleted, my Waves can only be recovered with the backup phrase.",
                 "terms": "Kasutustingimused"
@@ -947,9 +947,9 @@
     "Unpin_utils": "Unpin",
     "utils": {
         "migrationError": "Oops! Your accounts are safe but haven't been moved. Please try again.",
-        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://decentralchain.io/privacy-policy).",
         "privacyPolicyText": "Privacy Policy",
-        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
         "termsAgreementText": "Terms and Conditions",
         "termsAssign": "I have read and agree with the",
         "whatsNew": {

@@ -4,10 +4,10 @@
         "available": "Disponible",
         "create": "Empezar a Arrendar",
         "leased": "Arrendadas",
-        "title": "Saldo de WAVES"
+        "title": "Saldo de DCC"
     },
     "description": {
-        "text1": "Solo puedes transferir o vender WAVES que no estén en arrendamiento. La cantidad arrendada no puede ser transferida ni vendida ni por ti ni por cualquier otro.",
+        "text1": "Solo puedes transferir o vender DCC que no estén en arrendamiento. La cantidad arrendada no puede ser transferida ni vendida ni por ti ni por cualquier otro.",
         "text2": "Puedes cancelar una transacción de arrendamiento tan pronto como aparezca en el blockchain, lo que suele ocurrir en un minuto o menos.",
         "text3": "El 'Saldo generador' se actualizará después de 1000 bloques.",
         "title": "Nota rápida"
@@ -18,5 +18,5 @@
     "test": {
         "test": "prueba de texto"
     },
-    "title_leasing": "Has seleccionado inciar sesión en el app Waves desktop"
+    "title_leasing": "Has seleccionado inciar sesión en el app DCC desktop"
 }

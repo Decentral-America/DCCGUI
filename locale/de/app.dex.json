@@ -42,8 +42,8 @@
                 "required": "Dieses Feld wird benötigt"
             },
             "expiration": "Ablauf",
-            "fee": "Gebühr {{fee}} WAVES",
-            "hasScript": "Brechen Sie [script](https://docs.wavesplatform.com/de/waves-client/advanced_features/script_transaction.html) ab, um den Handel zu tätigen",
+            "fee": "Gebühr {{fee}} DCC",
+            "hasScript": "Brechen Sie [script](https://docs.decentralchain.io) ab, um den Handel zu tätigen",
             "last": "Letzte",
             "limit": "Limit Order",
             "market": "Market Order",
@@ -140,7 +140,7 @@
             "time": "Zeit",
             "total": "Gesamt",
             "type": "Typ",
-            "withScript": "Sie können nicht handeln, während in Ihrem Konto ein [Skript](https://docs.wavesplatform.com/de/waves-client/advanced_features/script_transaction.html) installiert ist"
+            "withScript": "Sie können nicht handeln, während in Ihrem Konto ein [Skript](https://docs.decentralchain.io) installiert ist"
         },
         "noChartDataMessage": "{div}[Nicht genügend Gebote und Anfragen]{div}[um ein Markttiefediagramm zu erstellen]",
         "noChartDataTitle": "Hier ist nichts...",
@@ -186,7 +186,7 @@
             "helpIcon": {
                 "assetId": "Asset-ID",
                 "AssetId1AssetId2": "Asset1 ID / Asset2 ID",
-                "description": "Weitere Informationen zum Durchsuchen von Assets finden Sie hier (https://docs.wavesplatform.com/en/waves-dex/start-trading-on-the-waves-dex.html).",
+                "description": "Weitere Informationen zum Durchsuchen von Assets finden Sie hier (https://docs.decentralchain.io).",
                 "header": "Sie können suchen nach:",
                 "name": "Name",
                 "name1Name2": "Name1 / Name2"
@@ -251,7 +251,7 @@
             "OrderHistory": "Meine Bestellhistorie",
             "trade": "Trade",
             "tradeHistory": "Handelsgeschichte",
-            "waves": "Waves"
+            "waves": "DCC"
         }
     }
 }

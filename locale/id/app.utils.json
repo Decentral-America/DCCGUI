@@ -802,7 +802,7 @@
             "signErrorKeeper": "Anda tidak mengonfirmasi permintaan menggunakan Waves Keeper",
             "signErrorText": "Anda tidak mengonfirmasi permintaan pada Perangkat Ledger Anda",
             "signErrorTextImportKeeper": "Masuk ke Waves Keeper dengan alamat {{address}}, lalu segarkan laman untuk melanjutkan.",
-            "signErrorTextKeeper": "Silakan coba lagi. Jika kesalahan berlanjut, silakan buat tiket ke [Dukungan](https://support.wavesplatform.com/)",
+            "signErrorTextKeeper": "Silakan coba lagi. Jika kesalahan berlanjut, silakan buat tiket ke [Dukungan](https://decentralchain.io/soporte/)",
             "signErrorTextKeeperWrongUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
             "timestamp": "Timestamp",
             "txId": "TXID"
@@ -843,9 +843,9 @@
                 "analytics": "Saya ingin membantu meningkatkan platform Waves dengan mengirimkan statistik penggunaan anonim ke para pengembang.",
                 "backup": "Saya memahami bahwa jika aplikasi ini dipindahkan ke perangkat lain atau dihapus, Waves saya hanya dapat dipulihkan dengan frasa cadangan.",
                 "ok": "Konfirmasi dan Mulai",
-                "privacyPolicy": "Saya telah membaca dan menyetujui [Kebijakan Privasi] (https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+                "privacyPolicy": "Saya telah membaca dan menyetujui [Kebijakan Privasi] (https://decentralchain.io/privacy-policy).",
                 "read": "Saya telah membaca, memahami dan menyetujui",
-                "readTermsAndConditions": "Saya telah membaca dan menyetujui [Syarat dan Ketentuan] (https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf)",
+                "readTermsAndConditions": "Saya telah membaca dan menyetujui [Syarat dan Ketentuan] (https://decentralchain.io/terms-and-conditions)",
                 "security": "Saya memahami bahwa dana saya disimpan dengan aman di perangkat ini, bukan oleh perusahaan",
                 "securityAndBackup": "Saya mengerti bahwa dana saya disimpan dengan aman di perangkat ini, bukan oleh perusahaan. Jika aplikasi ini dipindahkan ke perangkat lain atau dihapus, Waves saya hanya dapat dipulihkan dengan frasa cadangan.",
                 "terms": "Syarat Penggunaan"
@@ -947,9 +947,9 @@
     "Unpin_utils": "Lepas semat",
     "utils": {
         "migrationError": "Oops! Your accounts are safe but haven't been moved. Please try again.",
-        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://decentralchain.io/privacy-policy).",
         "privacyPolicyText": "Privacy Policy",
-        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
         "termsAgreementText": "Terms and Conditions",
         "termsAssign": "I have read and agree with the",
         "whatsNew": {

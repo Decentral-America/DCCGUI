@@ -802,7 +802,7 @@
             "signErrorKeeper": "您没有使用Waves Keeper确认请求",
             "signErrorText": "您未在Ledger设备上确认该请求",
             "signErrorTextImportKeeper": "使用地址{{address}}登录Waves Keeper，然后刷新页面以继续。",
-            "signErrorTextKeeper": "请再试一次。如果错误仍然存在，请创建[帮助]的票证（https://support.wavesplatform.com/）",
+            "signErrorTextKeeper": "请再试一次。如果错误仍然存在，请创建[帮助]的票证（https://decentralchain.io/soporte/）",
             "signErrorTextKeeperWrongUser": "此帐户与Waves Keeper中的所选帐户不匹配。请在Waves Keeper中激活另一个帐户，然后重试。",
             "timestamp": "时间戳",
             "txId": "TXID"
@@ -843,9 +843,9 @@
                 "analytics": "我想向开发者发送匿名统计信息来帮助改善Waves平台。",
                 "backup": "我了解如果此应用移至其他设备或已删除，我的Waves账户只能通过备份短语（助记词）进行恢复。",
                 "ok": "确认并开始",
-                "privacyPolicy": "我已阅读并同意[隐私权政策]（https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf）。",
+                "privacyPolicy": "我已阅读并同意[隐私权政策]（https://decentralchain.io/privacy-policy）。",
                 "read": "我已阅读、理解并同意",
-                "readTermsAndConditions": "我已阅读，理解并同意[条款和细则]（https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf）",
+                "readTermsAndConditions": "我已阅读，理解并同意[条款和细则]（https://decentralchain.io/terms-and-conditions）",
                 "security": "我了解我的资产安全地存放在此设备上，而不是存放于公司",
                 "securityAndBackup": "我知道我的资金是安全地保存在这个设备上，而不是公司。如果将此应用程序移动到其他设备或删除，我的Waves只能使用备份恢复。",
                 "terms": "使用条款"
@@ -947,9 +947,9 @@
     "Unpin_utils": "卸下",
     "utils": {
         "migrationError": "糟糕！您的帐户是安全的，但尚未转移。请再试一次。",
-        "privacyPolicy": "我已阅读并同意[隐私权政策]（https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf）。",
+        "privacyPolicy": "我已阅读并同意[隐私权政策]（https://decentralchain.io/privacy-policy）。",
         "privacyPolicyText": "隐私政策",
-        "termsAgreement": "我已阅读并同意[条款和条件]（https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf）。",
+        "termsAgreement": "我已阅读并同意[条款和条件]（https://decentralchain.io/terms-and-conditions）。",
         "termsAgreementText": "条款和细则",
         "termsAssign": "我已阅读并同意",
         "whatsNew": {

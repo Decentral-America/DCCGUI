@@ -802,7 +802,7 @@
             "signErrorKeeper": "Vous n'avez pas confirmer la requête en utilisant Waves Keeper",
             "signErrorText": "Vous n'avez pas confirmé la requête sur votre appareil Ledger",
             "signErrorTextImportKeeper": "Connectez-vous à Waves Keeper avec l'adresse {{address}}, puis rafraîchissez la page pour continuer.",
-            "signErrorTextKeeper": "Veuillez réessayer. Si l'erreur persiste, veuillez créer un ticket pour [le support](https://support.wavesplatform.com/)",
+            "signErrorTextKeeper": "Veuillez réessayer. Si l'erreur persiste, veuillez créer un ticket pour [le support](https://decentralchain.io/soporte/)",
             "signErrorTextKeeperWrongUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
             "timestamp": "Timestamp",
             "txId": "TXID"
@@ -843,9 +843,9 @@
                 "analytics": "J'aimerais aider à améliorer la plateforme Waves en envoyant des statistiques d'utilisation anonymes aux développeurs.",
                 "backup": "Je comprends que si cette application est déplacée vers un autre appareil ou supprimée, mes Waves ne peuvent être restaurées qu'avec la phrase de sauvegarde.",
                 "ok": "Confirmer et Commencer",
-                "privacyPolicy": "J'ai lu et j'accepte la [Politique de confidentialité](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+                "privacyPolicy": "J'ai lu et j'accepte la [Politique de confidentialité](https://decentralchain.io/privacy-policy).",
                 "read": "J'ai lu, compris et j'accepte les",
-                "readTermsAndConditions": "J'ai lu et j'accepte les [Conditions générales](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+                "readTermsAndConditions": "J'ai lu et j'accepte les [Conditions générales](https://decentralchain.io/terms-and-conditions).",
                 "security": "Je comprends que mes fonds sont conservés en toute sécurité sur cet appareil, et non par une entreprise",
                 "securityAndBackup": "Je comprends que mes fonds sont conservés de manière sécurisée sur cet appareil et non par une entreprise. Si cette application est déplacée vers un autre appareil ou supprimée, mes Waves ne peuvent être récupérés qu'avec la phrase de sauvegarde.",
                 "terms": "Conditions d'utilisation"
@@ -947,9 +947,9 @@
     "Unpin_utils": "Désépingler",
     "utils": {
         "migrationError": "Oops! Your accounts are safe but haven't been moved. Please try again.",
-        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+        "privacyPolicy": "I have read and agree with the [Privacy Policy](https://decentralchain.io/privacy-policy).",
         "privacyPolicyText": "Privacy Policy",
-        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+        "termsAgreement": "I have read and agree with the [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
         "termsAgreementText": "Terms and Conditions",
         "termsAssign": "I have read and agree with the",
         "whatsNew": {

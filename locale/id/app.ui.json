@@ -75,7 +75,7 @@
         "sign": "Konfirmasi",
         "success": "Transaksi Anda sedang dalam perjalanan!",
         "wavesKeeperUnconfirmed": {
-            "description": "Silakan coba lagi. Jika kesalahan berlanjut, kirimkan tiket ke [dukungan](https://support.wavesplatform.com)",
+            "description": "Silakan coba lagi. Jika kesalahan berlanjut, kirimkan tiket ke [dukungan](https://decentralchain.io/soporte)",
             "header": "Anda tidak mengonfirmasi permintaan menggunakan Waves Keeper"
         }
     },
@@ -99,7 +99,7 @@
         "sign": {
             "confirmRequestKeeper": {
                 "cancel": "Batalkan",
-                "errorDescription": "Silakan coba lagi. Jika kesalahan berlanjut, kirimkan tiket ke [dukungan](https://support.wavesplatform.com)",
+                "errorDescription": "Silakan coba lagi. Jika kesalahan berlanjut, kirimkan tiket ke [dukungan](https://decentralchain.io/soporte)",
                 "errorDescriptionSwitchUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
                 "errorHeader": "Anda tidak mengonfirmasi permintaan menggunakan Waves Keeper",
                 "sign": "Mencoba kembali",

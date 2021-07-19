@@ -42,8 +42,8 @@
                 "required": "This field is required"
             },
             "expiration": "Expiration",
-            "fee": "Fee {{fee}} WAVES",
-            "hasScript": "Cancel [script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) to trade",
+            "fee": "Fee {{fee}} DCC",
+            "hasScript": "Cancel [script](https://docs.decentralchain.io/) to trade",
             "last": "Last",
             "limit": "Limit Order",
             "market": "Market Order",
@@ -140,7 +140,7 @@
             "time": "Time",
             "total": "Total",
             "type": "Type",
-            "withScript": "You cannot use the exchange while a [script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) is installed on your account"
+            "withScript": "You cannot use the exchange while a [script](https://docs.decentralchain.io) is installed on your account"
         },
         "noChartDataMessage": "{div}[Not enough bids and asks]{div}[to create market depth chart]",
         "noChartDataTitle": "Nothing Here…",
@@ -186,7 +186,7 @@
             "helpIcon": {
                 "assetId": "Asset ID",
                 "AssetId1AssetId2": "Asset1 ID / Asset2 ID",
-                "description": "You can find out more about searching assets [here](https://docs.wavesplatform.com/en/waves-dex/start-trading-on-the-waves-dex.html )",
+                "description": "You can find out more about searching assets [here](https://docs.decentralchain.io)",
                 "header": "You can search by:",
                 "name": "Name",
                 "name1Name2": "Name1 / Name2"
@@ -251,7 +251,7 @@
             "OrderHistory": "My Order History",
             "trade": "Trade",
             "tradeHistory": "Trade History",
-            "waves": "Waves"
+            "waves": "DCC"
         }
     }
 }

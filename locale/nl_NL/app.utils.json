@@ -802,7 +802,7 @@
             "signErrorKeeper": "U heeft het verzoek van Waves Keeper niet bevestigd",
             "signErrorText": "U hebt het verzoek op uw Ledger niet bevestigd",
             "signErrorTextImportKeeper": "Login met Waves Keeper met {{address}} adres, en ververs dan de pagina om door te gaan.",
-            "signErrorTextKeeper": "Probeer alstublieft opnieuw. Als deze error aanhoudt maak dan een ticket op [Support](https://support.wavesplatform.com/)",
+            "signErrorTextKeeper": "Probeer alstublieft opnieuw. Als deze error aanhoudt maak dan een ticket op [Support](https://decentralchain.io/soporte/)",
             "signErrorTextKeeperWrongUser": "Dit account komt niet overeen met het geselecteerde account in uw Waves Keeper. Activeer een ander account in Waves Keeper en probeer het opnieuw.",
             "timestamp": "Tijdstempel",
             "txId": "TXID"
@@ -843,9 +843,9 @@
                 "analytics": "Ik help graag het Waves Exchange door anoniem gebruikstatistieken te verzenden naar de ontwikkelaars.",
                 "backup": "Ik begrijp dat als deze software verplaatst of verwijderd wordt, mijn Waves account alleen terug gezet kan worden door middel van de backup regel (SEED).",
                 "ok": "Bevestig en Begin",
-                "privacyPolicy": "Ik heb het [Privacybeleid](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf) gelezen en ga hiermee akkoord.",
+                "privacyPolicy": "Ik heb het [Privacybeleid](https://decentralchain.io/privacy-policy) gelezen en ga hiermee akkoord.",
                 "read": "Ik heb gelezen, begrepen en ga ermee akkoord met",
-                "readTermsAndConditions": "Ik heb de [Algemene voorwaarden](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf) gelezen en ga hiermee akkoord.",
+                "readTermsAndConditions": "Ik heb de [Algemene voorwaarden](https://decentralchain.io/terms-and-conditions) gelezen en ga hiermee akkoord.",
                 "security": "Ik heb de gebruiksvoorwaarden gelezen, begrepen en ga akkoord met de",
                 "securityAndBackup": "Ik begrijp dat mijn funds op veilig op dit apparaat staan en niet door een bedrijf worden beheerd. En als deze software verplaatst of verwijderd wordt, mijn Waves account alleen terug gezet kan worden door middel van de backup regel (SEED).",
                 "terms": "Gebruiksvoorwaarden"
@@ -947,9 +947,9 @@
     "Unpin_utils": "Unpin",
     "utils": {
         "migrationError": "Oops! Uw accounts zijn veilig maar zijn niet verhuisd. Probeer het opnieuw.",
-        "privacyPolicy": "Ik heb het [Privacybeleid](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf) gelezen en ga hiermee akkoord.",
+        "privacyPolicy": "Ik heb het [Privacybeleid](https://decentralchain.io/privacy-policy) gelezen en ga hiermee akkoord.",
         "privacyPolicyText": "Privacybeleid",
-        "termsAgreement": "Ik heb de [Algemene voorwaarden](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf) gelezen en ga hiermee akkoord.",
+        "termsAgreement": "Ik heb de [Algemene voorwaarden](https://decentralchain.io/terms-and-conditions) gelezen en ga hiermee akkoord.",
         "termsAgreementText": "Voorwaarden",
         "termsAssign": "Ik heb het gelezen en ga akkoord met",
         "whatsNew": {

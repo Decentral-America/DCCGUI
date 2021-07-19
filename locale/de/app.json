@@ -38,7 +38,7 @@
     },
     "error": {
         "updateClient": {
-            "body": "We are constantly working to make Waves DEX better and more useful.\nPlease update the application to continue.  Download the application from the official [website](https://wavesplatform.com/technology/wallet)!",
+            "body": "We are constantly working to make DecentralDEX better and more useful.\nPlease update the application to continue.  Download the application from the official [website](https://decentrachain.io)!",
             "title": "It's time to update your app!"
         }
     },
@@ -85,8 +85,8 @@
         "tryDesktop": {
             "cancel": "Mit Webclient fortfahren",
             "label": "Meine Entscheidung merken und mich nicht mehr daran erinnern",
-            "message": "Wir empfehlen die Waves Desktop App zu verwenden. Download unter offizielle Seite.",
-            "title": "Verwenden sie die Waves Desktop App.",
+            "message": "Wir empfehlen die DCC Desktop App zu verwenden. Download unter offizielle Seite.",
+            "title": "Verwenden sie die DCC Desktop App.",
             "try": "Desktop App öffnen."
         }
     },

@@ -802,7 +802,7 @@
             "signErrorKeeper": "Вы не подтвердили запрос Waves Keeper",
             "signErrorText": "Вы не подтвердили запрос на устройстве Ledger",
             "signErrorTextImportKeeper": "Войдите в Waves Keeper с адресом {{address}}, а затем обновите страницу, чтобы продолжить.",
-            "signErrorTextKeeper": "Пожалуйста, попробуйте еще раз. Если ошибка повториться, напишите в [Поддержку](https://support.wavesplatform.com/)",
+            "signErrorTextKeeper": "Пожалуйста, попробуйте еще раз. Если ошибка повториться, напишите в [Поддержку](https://decentralchain.io/soporte/)",
             "signErrorTextKeeperWrongUser": "Этот аккаунт не совпадает с выбранным аккаунтом в Waves Keeper. Пожалуйста, активируйте подходящий аккаунт в Waves Keeper и попробуйте снова.",
             "timestamp": "Timestamp",
             "txId": "TXID"
@@ -843,9 +843,9 @@
                 "analytics": "Я хочу помочь развивать Waves, отправляя анонимную статистику разработчикам",
                 "backup": "Я понимаю, что если это приложение установлено на другом устройстве или удалено, то я получу доступ к своим средствам только с помощью секретной фразы",
                 "ok": "Подтвердить и начать",
-                "privacyPolicy": "Я прочел и согласен с [Privacy Policy](https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+                "privacyPolicy": "Я прочел и согласен с [Privacy Policy](https://decentralchain.io/privacy-policy).",
                 "read": "Я прочитал, понял и согласен с",
-                "readTermsAndConditions": "Я прочел и согласен с [Terms and Conditions](https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+                "readTermsAndConditions": "Я прочел и согласен с [Terms and Conditions](https://decentralchain.io/terms-and-conditions).",
                 "security": "Я понимаю, что мои средства хранятся на этом устройстве, а не у компании",
                 "securityAndBackup": "Я понимаю, что мои средства хранятся на этом устройстве, а не у компании и, что, если это приложение установлено на другом устройстве или удалено, то я получу доступ к своим средствам только с помощью секретной фразы.",
                 "terms": "Условиями использования"
@@ -947,9 +947,9 @@
     "Unpin_utils": "Открепить",
     "utils": {
         "migrationError": "Ой! Ваши аккаунты в безопасности, но не были перемещены. Пожалуйста, попробуйте еще раз.",
-        "privacyPolicy": "Ознакомлен(а) и согласен(сна) с [Политикой конфиденциальности].(https://wavesplatform.com/files/docs/Privacy_Policy_SW.pdf).",
+        "privacyPolicy": "Ознакомлен(а) и согласен(сна) с [Политикой конфиденциальности].(https://decentralchain.io/privacy-policy).",
         "privacyPolicyText": "Политикой конфиденциальности",
-        "termsAgreement": "Ознакомлен(а) и согласен(сна) с [Условиями предоставления услуг].(https://wavesplatform.com/files/docs/Waves_terms_and_conditions.pdf).",
+        "termsAgreement": "Ознакомлен(а) и согласен(сна) с [Условиями предоставления услуг].(https://decentralchain.io/terms-and-conditions).",
         "termsAgreementText": "Условиями предоставления услуг",
         "termsAssign": "Ознакомлен(а) и согласен(сна) с",
         "whatsNew": {

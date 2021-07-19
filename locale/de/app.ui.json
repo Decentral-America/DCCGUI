@@ -75,7 +75,7 @@
         "sign": "Signieren",
         "success": "Ihre Transaktion ist auf dem Weg!",
         "wavesKeeperUnconfirmed": {
-            "description": "Bitte versuchen Sie es erneut. Wenn der Fehler weiterhin besteht, senden Sie bitte ein Ticket an [Support](https://support.wavesplatform.com).",
+            "description": "Bitte versuchen Sie es erneut. Wenn der Fehler weiterhin besteht, senden Sie bitte ein Ticket an [Support](https://decentralchain.io/soporte).",
             "header": "Sie haben die Anfrage nicht mit Waves Keeper bestätigt"
         }
     },
@@ -99,7 +99,7 @@
         "sign": {
             "confirmRequestKeeper": {
                 "cancel": "Abbrechen",
-                "errorDescription": "Bitte versuchen Sie es erneut. Wenn der Fehler weiterhin besteht, senden Sie bitte ein Ticket an [Support](https://support.wavesplatform.com).",
+                "errorDescription": "Bitte versuchen Sie es erneut. Wenn der Fehler weiterhin besteht, senden Sie bitte ein Ticket an [Support](https://decentralchain.io/soporte).",
                 "errorDescriptionSwitchUser": "This account does not match the selected account in your Waves Keeper. Please activate another account in Waves Keeper and try again.",
                 "errorHeader": "Sie haben die Anfrage nicht mit Waves Keeper bestätigt",
                 "sign": "Wiederholen",
