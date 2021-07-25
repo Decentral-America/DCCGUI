@@ -145,7 +145,7 @@
             "rating": {
                 "canVoteTip": "点击为代币评分",
                 "tooltipLink": "更多细节",
-                "tooltipNeedWAVES": "和 0.001 WAVES",
+                "tooltipNeedDCC": "和 0.001 DCC",
                 "tooltipNeedWCT": "要为代币评分，您必须至少有1个",
                 "tooltipText": "代币不转让，投票只需要现有余额。您的分数将在24小时后应用。在此期间请保留帐户中的当前代币。 \n费用0.001波浪币。",
                 "tooltipTitle": "要为代币评分，您的钱包中必须至少有1个WCT。"
@@ -811,7 +811,7 @@
             "title": "更改赞助"
         },
         "sponsorship": {
-            "amountPerTx": "每笔交易金额（每0.001WAVES）",
+            "amountPerTx": "每笔交易金额（每0.001DCC）",
             "assetId": "ID",
             "continue": "继续",
             "errors": {
@@ -960,7 +960,7 @@
                 "1_0_0-beta_26": "{span.line}[1. 一些小缺陷已被改正.]",
                 "1_0_0-beta_27": "{span.line}[1. 添加了中文.]{span.line}[2. 添加了土耳其语.]",
                 "1_0_0-beta_30": "{span.line}[1. 您现在可以消除或再发行您已生成的代币.]{span.line}[2. 添加了Waves Auth API支持.]{span.line}[3. 一些小缺陷已被改正.]",
-                "1_0_0-beta_31": "{span.line}[1. 您现在可以用信用卡购买WAVES和BTC.]{span.line}[2. 改善了买入/卖出窗口中的用户界面.]{span.line}[3. 添加了32位Windows支持.]{span.line}[4. 一些缺陷已被改正.]",
+                "1_0_0-beta_31": "{span.line}[1. 您现在可以用信用卡购买DCC和BTC.]{span.line}[2. 改善了买入/卖出窗口中的用户界面.]{span.line}[3. 添加了32位Windows支持.]{span.line}[4. 一些缺陷已被改正.]",
                 "1_0_0-beta_32": "{span.line}[1. 您现在可以在客户端进行大规模传送.]{span.line}[2. 一些小缺陷已被改正.]",
                 "1_0_0-beta_35": "{span.line}[1. 您现在可以在投资组合选项卡中对代币进行排序、筛选和隐藏.]{span.line}[2. 开通支持DASH存放]{span.line}[3. 加了印地语.]{span.line}[4. 加了荷兰语.]{span.line}[5. 您现在可以向其他用户开具发票.]{span.line}[6. 其他小缺陷已被改正了.]",
                 "1_0_0-beta_36": "{span.line}[1. 主要租赁节点列在租赁页面上.]{span.line}[2. 一些缺陷已被改正了. ]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1。添加了调用脚本事务支持。 [阅读更多]（https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)] \n {span.line}[2。改进的用户界面和其他小错误已得到修复。]",
                 "1_2_8": "{span.line} [1。垃圾邮件令牌和交易已隐藏在客户端中。] \n {span.line} [2。改进的用户界面和其他小错误已得到修复。]",
                 "1_3_0": "{span.line}[1。改进了应用程序导航和起始页面界面。]",
-                "1_3_18": "{span.line} [1。使用私钥添加了对钱包的登录。] \n {span.line} [2。令牌的24小时价格变化现在绑定到代币/ WAVES对。]",
+                "1_3_18": "{span.line} [1。使用私钥添加了对钱包的登录。] \n {span.line} [2。令牌的24小时价格变化现在绑定到代币/ DCC对。]",
                 "1_3_19": "{span.line} [1。 Bancor网关已经推出。] \n {span.line} [2。用户菜单界面已得到改进。]",
                 "1_3_2": "{span.line} [1。 WEST网关已经推出。] \n {span.line} [2。改进的用户界面和其他小错误已得到修复。]",
                 "1_3_20": "{span.line} [1。改进了从本地存储中存储和恢复帐户的系统（需要更新[桌面应用程序]（https://wavesplatform.com/technology/wallet））。 \n {span.line} [2。修正了订单中价格的四舍五入。]",

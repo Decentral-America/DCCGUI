@@ -2,7 +2,7 @@ import DataServiceClient from '@waves/data-service-client-js';
 import { IHash } from './interface';
 import { time } from './api/node/node';
 import { request } from './utils/request';
-import { MAINNET_DATA } from '@waves/assets-pairs-order';
+import { MAINNET_DATA } from '@decentralchain/assets-pairs-order';
 import { Signal } from 'ts-utils';
 import {IAssetInfo} from "@waves/data-entities/dist/entities/Asset";
 

@@ -2,7 +2,7 @@
     'use strict';
 
     const ds = require('data-service');
-    const { libs } = require('@waves/waves-transactions');
+    const { libs } = require('@decentralchain/waves-transactions');
     const { path } = require('ramda');
     const analytics = require('@waves/event-sender');
 

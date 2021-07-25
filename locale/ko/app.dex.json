@@ -42,7 +42,7 @@
                 "required": "필수 입력 항목입니다"
             },
             "expiration": "주문 만기",
-            "fee": "수수료 {{fee}} WAVES",
+            "fee": "수수료 {{fee}} DCC",
             "hasScript": "거래하기 위해 [Script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html)를 취소하세요",
             "last": "체결가",
             "limit": "Limit Order",

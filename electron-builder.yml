@@ -4,11 +4,11 @@ copyright: "Waves Platform"
 afterSign: "./notarize.js"
 compression: normal
 npmRebuild: true
-artifactName: "${productName}[${env.WAVES_CONFIGURATION}]-${version}-${os}-${arch}.${ext}"
+artifactName: "${productName}[${env.DCC_CONFIGURATION}]-${version}-${os}-${arch}.${ext}"
 asar: true
 directories:
   buildResources: electron/
-  output: "release/${env.WAVES_CONFIGURATION}"
+  output: "release/${env.DCC_CONFIGURATION}"
 
 win:
   icon: "electron/icons/icon.ico"

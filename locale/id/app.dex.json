@@ -42,7 +42,7 @@
                 "required": "Bagian ini diperlukan"
             },
             "expiration": "Kedaluwarsa",
-            "fee": "Biaya {{fee}} WAVES",
+            "fee": "Biaya {{fee}} DCC",
             "hasScript": "Batalkan [skrip](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) untuk pertukaran",
             "last": "Terakhir",
             "limit": "Limit Order",

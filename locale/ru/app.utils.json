@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Click to rate token",
                 "tooltipLink": "More Details",
-                "tooltipNeedWAVES": "and 0.001 WAVES",
+                "tooltipNeedDCC": "and 0.001 DCC",
                 "tooltipNeedWCT": "To rate a token, you must have at least 1",
-                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 WAVES.",
+                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 DCC.",
                 "tooltipTitle": "To rate a token, you must have at least 1 WCT in your wallet."
             },
             "reissue": {
@@ -438,7 +438,7 @@
             "scanQrCode": "Просканируйте QR-код",
             "title": "Ваш адрес",
             "warningText": "Если вы отправите другие цифровые активы на этот адрес, вы потеряете деньги.",
-            "warningTitle": "Отправляйте только WAVES и Waves-токены на этот адрес"
+            "warningTitle": "Отправляйте только DCC и Waves-токены на этот адрес"
         },
         "receive": {
             "accountStatus": "Статус аккаунта",
@@ -811,7 +811,7 @@
             "title": "Изменить спонсорство"
         },
         "sponsorship": {
-            "amountPerTx": "Цена транзакции (за 0.001 WAVES)",
+            "amountPerTx": "Цена транзакции (за 0.001 DCC)",
             "assetId": "ID",
             "continue": "Продолжить",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "Комиссия {{fee, money-currency}}",
             "title": "Включить спонсорство",
             "warningHeader": "Пользователи смогут оплачивать комиссию в {{name}}",
-            "warningText": "За каждую такую транзакцию с вашего баланса будет снято 0.001 WAVES и начислено {{name}}. Количество {{name}}, которое пользователь платит за транзакцию, устанавливаете вы (укажите соответствующую цену в поле ниже). Спонсорство работает только при балансе больше чем 1,005 Waves. Если у вас на счету менее этой суммы, спонсорство работать не будет."
+            "warningText": "За каждую такую транзакцию с вашего баланса будет снято 0.001 DCC и начислено {{name}}. Количество {{name}}, которое пользователь платит за транзакцию, устанавливаете вы (укажите соответствующую цену в поле ниже). Спонсорство работает только при балансе больше чем 1,005 Waves. Если у вас на счету менее этой суммы, спонсорство работать не будет."
         },
         "startLease": {
             "amount": "Количество",
@@ -960,7 +960,7 @@
                 "1_0_0-beta_26": "{span.line}[1. Исправили несколько мелких багов]",
                 "1_0_0-beta_27": "{span.line}[1. Добавлен китайский язык]{span.line}[2. Добавлен турецкий язык]",
                 "1_0_0-beta_30": "{span.line}[1. Теперь вы можете сжигать и довыпускать токены, которые созданы вами]{span.line}[2. Добавлена поддержка Waves Auth API]{span.line}[3. Были исправлены несколько мелких багов]",
-                "1_0_0-beta_31": "{span.line}[1. Теперь вы можете купить WAVES и BTC при помощи банковской карты]{span.line}[2. Улучшен UI окна постановки ордера]{span.line}[3. Добавлена поддержка 32-битной версии Windows]{span.line}[4. Исправлены несколько мелких багов]",
+                "1_0_0-beta_31": "{span.line}[1. Теперь вы можете купить DCC и BTC при помощи банковской карты]{span.line}[2. Улучшен UI окна постановки ордера]{span.line}[3. Добавлена поддержка 32-битной версии Windows]{span.line}[4. Исправлены несколько мелких багов]",
                 "1_0_0-beta_32": "{span.line}[1. Теперь вы можете делать массовую отправку токенов из Клиента]{span.line}[2. Исправлены несколько мелких багов]",
                 "1_0_0-beta_35": "{span.line}[1. Теперь вы можете сортировать, фильтровать и скрывать токены во вкладке Портфель]{span.line}[2. Запущен шлюз DASH]{span.line}[3. Добавлен хинди]{span.line}[4. Добавлен нидерландский язык]{span.line}[5. Теперь вы можете выставить счет другому пользователю]{span.line}[6. Исправлены несколько мелких багов]",
                 "1_0_0-beta_36": "{span.line}[1. Крупные лизинг-ноды добавлены на страницу лизинга.]{span.line}[2. Исправлены некоторые баги.]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1. Добавлена поддержка Invocation-скриптов. [Подробнее](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)]\n{span.line}[2. Улучшен UI и исправлено несколько багов.]",
                 "1_2_8": "{span.line}[1. Спам токены и транзакции скрыты в клиенте.]\n{span.line}[2. Улучшен UI и исправлено несколько багов.]",
                 "1_3_0": "{span.line}[1. Улучшена навигация приложения и интерфейс стартовых страниц.]",
-                "1_3_18": "{span.line}[1. Добавлен импорт из приватного ключа.]\n{span.line}[2. Изменение цены токена теперь считается по паре с WAVES.]",
+                "1_3_18": "{span.line}[1. Добавлен импорт из приватного ключа.]\n{span.line}[2. Изменение цены токена теперь считается по паре с DCC.]",
                 "1_3_19": "{span.line}[1. Запущен шлюз Bancor]\n{span.line}[2. Улучшен интерфейс меню пользователя.]",
                 "1_3_2": "{span.line}[1. Запущен шлюз WEST.]\n{span.line}[2. Улучшен UI и исправлено несколько багов.]",
                 "1_3_20": "{span.line}[1. Улучшена система хранения и восстановления аккаунтов из локального хранилища (Необходимо обновить [desktop-приложение](https://wavesplatform.com/technology/wallet))]\n{span.line}[2. Исправлено округление цен в ордербуке]",

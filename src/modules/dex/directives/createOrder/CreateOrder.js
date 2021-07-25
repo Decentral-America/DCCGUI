@@ -942,7 +942,7 @@
                                 });
 
                             const filteredFeeList = feeList.filter((fee, i) => {
-                                return fee.lte(balances[i]) || fee.asset.id === WavesApp.defaultAssets.WAVES;
+                                return fee.lte(balances[i]) || fee.asset.id === WavesApp.defaultAssets.DCC;
                             });
 
                             if (!filteredFeeList.length) {
@@ -994,7 +994,7 @@
              * @private
              */
             _getOrderedCustomFeeAssetsList(list) {
-                const currentFeeAsset = (this.fee && this.fee.asset.id) || WavesApp.defaultAssets.WAVES;
+                const currentFeeAsset = (this.fee && this.fee.asset.id) || WavesApp.defaultAssets.DCC;
                 const { currentFee, otherFee } = Object.keys(list).reduce((acc, id) => {
                     if (id === currentFeeAsset) {
                         acc.currentFee.push(id);

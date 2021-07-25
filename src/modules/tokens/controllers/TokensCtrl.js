@@ -13,7 +13,7 @@
      */
     const controller = function (Base, $scope, modalManager, waves, balanceWatcher, user, utils, PromiseControl) {
 
-        const { SIGN_TYPE, WAVES_ID } = require('@waves/signature-adapter');
+        const { SIGN_TYPE, DCC_ID } = require('@decentralchain/signature-adapter');
         const { BigNumber } = require('@waves/bignumber');
         const ds = require('data-service');
         const $ = require('jquery');
@@ -298,7 +298,7 @@
              * @private
              */
             _onChangeBalance() {
-                this._balance = balanceWatcher.getBalance()[WAVES_ID];
+                this._balance = balanceWatcher.getBalance()[DCC_ID];
 
                 this.invalid = (!this.fee || !this._balance) ||
                     this._balance.getTokens().lt(this.fee.getTokens());

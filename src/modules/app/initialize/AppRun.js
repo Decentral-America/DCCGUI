@@ -8,7 +8,7 @@
     // });
 
     const { Money } = require('@waves/data-entities');
-    const { libs } = require('@waves/waves-transactions');
+    const { libs } = require('@decentralchain/waves-transactions');
     const { base64Encode, blake2b, stringToBytes } = libs.crypto;
 
     const locationHref = location.href;

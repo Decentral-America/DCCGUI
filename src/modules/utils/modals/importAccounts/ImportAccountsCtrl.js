@@ -14,7 +14,7 @@
     const controller = function (Base, $scope, utils, user, storage, $state, $mdDialog) {
 
         const { find, propEq, uniqBy, filter, pipe, prop } = require('ramda');
-        const { isValidAddress } = require('@waves/signature-adapter');
+        const { isValidAddress } = require('@decentralchain/signature-adapter');
 
         const OLD_ORIGIN = 'https://client.wavesplatform.com';
 

@@ -55,7 +55,7 @@ items['walletElectron'].niceName = 'wallet-electron'
 def branchesOrTagsScript(String imageName, String repoUrl){
     return """
         if (binding.variables.get('action') == 'Deploy to stage' || binding.variables.get('action').contains('PROD')) {
-            ${getDockerTagsScript(imageName, Constants.WAVES_DOCKER_REGISTRY_CREDS, 'Waves')}
+            ${getDockerTagsScript(imageName, Constants.DCC_DOCKER_REGISTRY_CREDS, 'Waves')}
         } else {
             ${getGitBranchesScript(repoUrl)}
         }

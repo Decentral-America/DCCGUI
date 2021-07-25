@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    const { SIGN_TYPE } = require('@waves/signature-adapter');
+    const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
 
     /**
      * @param $scope
@@ -69,7 +69,7 @@
                  * @type {ISendState}
                  */
                 this.state = {
-                    assetId: options.assetId || WavesApp.defaultAssets.WAVES,
+                    assetId: options.assetId || WavesApp.defaultAssets.DCC,
                     mirrorId: user.getSetting('baseAssetId'),
                     gatewayData: {
                         details: null,

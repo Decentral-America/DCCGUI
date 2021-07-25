@@ -42,7 +42,7 @@
                 "required": "这是必填栏"
             },
             "expiration": "满期",
-            "fee": "费用 {{fee}} WAVES",
+            "fee": "费用 {{fee}} DCC",
             "hasScript": "取消[脚本]（https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html）进行交易",
             "last": "最新交易价",
             "limit": "限价单",

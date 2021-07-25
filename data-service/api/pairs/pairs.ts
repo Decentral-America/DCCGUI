@@ -3,8 +3,8 @@ import { BigNumber } from '@waves/bignumber';
 import { getDataService, matcherSettingsPromise } from '../../config';
 import { request } from '../../utils/request';
 import { get as getAsset } from '../assets/assets';
-import { createOrderPair } from '@waves/assets-pairs-order';
-import { WAVES_ID } from '@waves/signature-adapter';
+import { createOrderPair } from '@decentralchain/assets-pairs-order';
+import { DCC_ID } from '@decentralchain/signature-adapter';
 import { TPairJSON } from '@waves/data-service-client-js/src/types';
 import { TMoneyInput } from '@waves/data-entities/dist/entities/Money';
 
@@ -51,7 +51,7 @@ const remapPairInfo = (pairs: Array<AssetPair>, volumeFactory: (data: TMoneyInpu
 
 export function info(matcher: string, pairs: AssetPair[]) {
     return Promise.all([
-        getAsset(WAVES_ID),
+        getAsset(DCC_ID),
         request({ method: () => getDataService().getPairs(matcher)(pairs).then(response => response.data) })
     ]).then(([waves, list]) => {
         const factory = (data: TMoneyInput) => data && Money.fromTokens(data, waves) || null;

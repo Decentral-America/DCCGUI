@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "This field defines the number of decimals that your asset token will be divided in.",
-        "scriptDescription": "Each validation of a transaction by a Smart Asset’s script increases the transaction fee by 0.004 WAVES. For example, if a regular tx is made for a Smart Asset, the cost is 0.001 + 0.004 = 0.005 WAVES. If an exchange transaction is made, the cost is 0.003 + 0.004 = 0.007 WAVES.",
+        "scriptDescription": "Each validation of a transaction by a Smart Asset’s script increases the transaction fee by 0.004 DCC. For example, if a regular tx is made for a Smart Asset, the cost is 0.001 + 0.004 = 0.005 DCC. If an exchange transaction is made, the cost is 0.003 + 0.004 = 0.007 DCC.",
         "scriptHeader": "A Smart Asset is an asset with an attached script that places conditions on every transaction made for the token in question.",
         "scriptLearnMore": "Learn more",
         "totalTokens": {

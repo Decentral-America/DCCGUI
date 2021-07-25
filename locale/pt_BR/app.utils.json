@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Click to rate token",
                 "tooltipLink": "More Details",
-                "tooltipNeedWAVES": "and 0.001 WAVES",
+                "tooltipNeedDCC": "and 0.001 DCC",
                 "tooltipNeedWCT": "To rate a token, you must have at least 1",
-                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 WAVES.",
+                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 DCC.",
                 "tooltipTitle": "To rate a token, you must have at least 1 WCT in your wallet."
             },
             "reissue": {
@@ -438,7 +438,7 @@
             "scanQrCode": "Capturar QR Code",
             "title": "Compartilhar seu endereço",
             "warningText": "Se enviar qualquer outro ativo digital para esse endereço resultará na perda permanente de seus fundos.",
-            "warningTitle": "Envie apenas WAVES e tokens Waves para este endereço"
+            "warningTitle": "Envie apenas DCC e tokens Waves para este endereço"
         },
         "receive": {
             "accountStatus": "Status da conta",
@@ -811,7 +811,7 @@
             "title": "Alterar patrocínio"
         },
         "sponsorship": {
-            "amountPerTx": "Valor por transação (por 0.001 WAVES)",
+            "amountPerTx": "Valor por transação (por 0.001 DCC)",
             "assetId": "ID",
             "continue": "Continuar",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "Taxa de Transação {{fee, money-currency}}",
             "title": "Ativar Patrocínio",
             "warningHeader": "Os usuários poderão pagar taxas de transação em {{name}}",
-            "warningText": "Para cada transação, 0.001 WAVES serão deduzidos do seu saldo e {{name}} será creditado em sua conta. A quantia de {{name}} a ser cobrada dos usuários pelas transações é definida por você quando você ativar o patrocínio (insira o valor no formulário abaixo). O patrocínio só funcionará se você tiver um saldo de pelo menos 1.005 WAVES. Se o seu saldo ficar abaixo desse valor, você não poderá patrocinar transações."
+            "warningText": "Para cada transação, 0.001 DCC serão deduzidos do seu saldo e {{name}} será creditado em sua conta. A quantia de {{name}} a ser cobrada dos usuários pelas transações é definida por você quando você ativar o patrocínio (insira o valor no formulário abaixo). O patrocínio só funcionará se você tiver um saldo de pelo menos 1.005 DCC. Se o seu saldo ficar abaixo desse valor, você não poderá patrocinar transações."
         },
         "startLease": {
             "amount": "Quantidade",
@@ -960,7 +960,7 @@
                 "1_0_0-beta_26": "{span.line}[1. Pequenos bugs adicionais foram corrigidos.]",
                 "1_0_0-beta_27": "{span.line}[1. Adicionado o idioma Chinês.]{span.line}[2. Adicionado o idioma Turco.]",
                 "1_0_0-beta_30": "{span.line}[1. Agora você pode queimar e reemitir os tokens criados por você.]{span.line}[2. Adicionado o suporte para Waves Auth API.]{span.line}[3. Pequenos bugs adicionais foram corrigidos.]",
-                "1_0_0-beta_31": "{span.line}[1. Agora você pode comprar WAVES e BTC com cartão de crédito.]{span.line}[2. O aparência da janela Comprar/Vender foi melhorada.]{span.line}[3. Suporte para Windows de 32 bits adicionado.]{span.line}[4. Vários outros bugs foram corrigidos.]",
+                "1_0_0-beta_31": "{span.line}[1. Agora você pode comprar DCC e BTC com cartão de crédito.]{span.line}[2. O aparência da janela Comprar/Vender foi melhorada.]{span.line}[3. Suporte para Windows de 32 bits adicionado.]{span.line}[4. Vários outros bugs foram corrigidos.]",
                 "1_0_0-beta_32": "{span.line}[1. Agora você pode fazer transferências simultâneas pelo Client.]{span.line}[2. Pequenos bugs adicionais foram corrigidos.]",
                 "1_0_0-beta_35": "{span.line}[1. Agora você pode classificar, filtrar e ocultar tokens na guia Portfólio.]{span.line}[2. O gateway de DASH foi lançado.]{span.line}[3. Adicionado o idioma Hindi.]{span.line}[4. Adicionado o idioma Holandês.]{span.line}[5. Agora você pode criar fatura para outros usuários.]{span.line}[6. Pequenos bugs adicionais foram corrigidos.]",
                 "1_0_0-beta_36": "{span.line}[1. Os principais nós de aluguel estão listados na página de aluguel.]{span.line}[2. Alguns bugs foram corrigidos.]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1. Invocation script transaction support added. [Read more](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_2_8": "{span.line}[1. Spam tokens and transactions have been hidden in client.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_3_0": "{span.line}[1. Improved app navigation and start page interface.]",
-                "1_3_18": "{span.line}[1. Added login to wallet using a private key.]\n{span.line}[2. The 24 hours price change of a token is now bound to token/WAVES pair.]",
+                "1_3_18": "{span.line}[1. Added login to wallet using a private key.]\n{span.line}[2. The 24 hours price change of a token is now bound to token/DCC pair.]",
                 "1_3_19": "{span.line}[1. Bancor gateway has been launched.]\n{span.line}[2. User menu interface has been improved.]",
                 "1_3_2": "{span.line}[1. WEST gateway has been launched.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_3_20": "{span.line}[1. Improved system for storing and restoring accounts from local storage (Need to update the [desktop application](https://wavesplatform.com/technology/wallet)).]\n{span.line}[2. Fixed rounding of prices in the orderbook.]",

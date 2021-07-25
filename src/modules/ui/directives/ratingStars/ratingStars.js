@@ -12,9 +12,9 @@
                                  $mdDialog,
                                  utils) {
 
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         const WCT_ID = WavesApp.WCTAsset;
-        const WAVES_ID = WavesApp.defaultAssets.WAVES;
+        const DCC_ID = WavesApp.defaultAssets.DCC;
         const NEED_WCT = 1;
 
         class RatingStars extends Base {
@@ -75,7 +75,7 @@
 
             _checkBalance() {
                 const balance = balanceWatcher.getBalance();
-                this.wavesBalance = balance[WAVES_ID];
+                this.wavesBalance = balance[DCC_ID];
                 this.wctBalance = balance[WCT_ID];
                 if (this.wavesBalance.gte(this.fee) && this.wctBalance && this.wctBalance.getTokens().gte(NEED_WCT)) {
                     this.hasBalance = true;

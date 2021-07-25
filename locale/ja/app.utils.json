@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "クリックしてトークンを評価",
                 "tooltipLink": "詳細を表示",
-                "tooltipNeedWAVES": "0.001 WAVES",
+                "tooltipNeedDCC": "0.001 DCC",
                 "tooltipNeedWCT": "トークンを評価するには、最低1 WCTが必要です。",
-                "tooltipText": "評価に際してトークンは転送されません。投票には規定の残高のみが必要です。スコアは24時間後に反映されます。その間は残高を維持してください。手数料は0.001WAVESです。",
+                "tooltipText": "評価に際してトークンは転送されません。投票には規定の残高のみが必要です。スコアは24時間後に反映されます。その間は残高を維持してください。手数料は0.001DCCです。",
                 "tooltipTitle": "トークンを評価するには、ウォレットに最低1 WCTが必要です。"
             },
             "reissue": {
@@ -811,7 +811,7 @@
             "title": "スポンサーシップを変更"
         },
         "sponsorship": {
-            "amountPerTx": "トランザクションごとの数量 (単位: 0.001 WAVES)",
+            "amountPerTx": "トランザクションごとの数量 (単位: 0.001 DCC)",
             "assetId": "ID",
             "continue": "次へ",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "トランザクション手数料 {{fee, money-currency}}",
             "title": "スポンサーシップを有効化",
             "warningHeader": "ユーザーはトランザクション手数料を {{name}} で支払い可能になります",
-            "warningText": "それぞれのトランザクションで0.001 WAVESがあなたの残高から差し引かれ、{{name}} があなたのアカウントに与えられます。{{name}} の数量が、トランザクションを実行するユーザーに請求されます。これは、あなたがスポンサーシップを有効にした時に設定されます。（請求する数量を以下のフォームから入力してください）スポンサーシップはあなたが最低でも1.005 WAVESを保有していないと機能しません。残高がこの数量を下回った時、スポンサーシップトランザクションを実行することはできません。"
+            "warningText": "それぞれのトランザクションで0.001 DCCがあなたの残高から差し引かれ、{{name}} があなたのアカウントに与えられます。{{name}} の数量が、トランザクションを実行するユーザーに請求されます。これは、あなたがスポンサーシップを有効にした時に設定されます。（請求する数量を以下のフォームから入力してください）スポンサーシップはあなたが最低でも1.005 DCCを保有していないと機能しません。残高がこの数量を下回った時、スポンサーシップトランザクションを実行することはできません。"
         },
         "startLease": {
             "amount": "数量",
@@ -960,7 +960,7 @@
                 "1_0_0-beta_26": "{span.line}[1. いくつかのマイナーなバグを修正しました。]",
                 "1_0_0-beta_27": "{span.line}[1. 中国語を追加しました。]{span.line}[2. トルコ語を追加しました。]",
                 "1_0_0-beta_30": "{span.line}[1. 生成したトークンをバーン、または追加発行できるようになりました。]{span.line}[2. Waves Auth APIサポートを追加しました。]{span.line}[3. 一部のマイナーバグを修正しました。]",
-                "1_0_0-beta_31": "{span.line}[1. クレジットカードでWAVESとBTCを購入できるようになりました。]{span.line}[2. 購入・売却画面のUIを改善しました。]{span.line}[3. Windows 32-bit版対応を追加しました。]{span.line}[4. 複数のその他バグを修正しました。]",
+                "1_0_0-beta_31": "{span.line}[1. クレジットカードでDCCとBTCを購入できるようになりました。]{span.line}[2. 購入・売却画面のUIを改善しました。]{span.line}[3. Windows 32-bit版対応を追加しました。]{span.line}[4. 複数のその他バグを修正しました。]",
                 "1_0_0-beta_32": "{span.line}[1. クライアントからマストランスファーができるようになりました。]{span.line}[2. 一部のマイナーバグを修正しました。]",
                 "1_0_0-beta_35": "{span.line}[1. ポートフォリオタブからトークンをソート、フィルター、隠すことができるようになりました。]{span.line}[2. DASH ゲートウェイがローンチされました。]{span.line}[3. ヒンズー語のサポートが追加されました。]{span.line}[4. オランダ語のサポートが追加されました。]{span.line}[5. 他のユーザーに請求ができるようになりました。]{span.line}[6. 追加のマイナーバグを修正しました。]",
                 "1_0_0-beta_36": "{span.line}[1. 大規模リースノードがリースページに掲載されるようになりました。]{span.line}[2. いくつかのバグを修正しました。]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line} [1. InvokeScriptTransactionをサポート。 [もっと読む](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)]\n {span.line} [2. UIの改善と、いくつかのマイナーバグを修正しました。]",
                 "1_2_8": "{span.line}[1. スパムトークンとトランザクションが非表示になりました。]{span.line}[2. UIの改善と、いくつかのマイナーなバグを修正しました。]",
                 "1_3_0": "{span.line} [1. アプリのナビゲーションとスタートページのインターフェースが改善されました。]",
-                "1_3_18": "{span.line}[1. 秘密鍵によるログインが可能になりました。]{span.line}[2. 24時間以内のトークン価格の変化がトークン/WAVESペアに対応しました。]",
+                "1_3_18": "{span.line}[1. 秘密鍵によるログインが可能になりました。]{span.line}[2. 24時間以内のトークン価格の変化がトークン/DCCペアに対応しました。]",
                 "1_3_19": "{span.line}[1. Bancor gateway has been launched.]\n{span.line}[2. User menu interface has been improved.]",
                 "1_3_2": "{span.line} [1. WESTのゲートウェイが追加されました。 \n{span.line} [2. UIの改善と、いくつかのマイナーなバグを修正しました。]",
                 "1_3_20": "{span.line}[1. Improved system for storing and restoring accounts from local storage (Need to update the [desktop application](https://wavesplatform.com/technology/wallet)).]\n{span.line}[2. Fixed rounding of prices in the orderbook.]",

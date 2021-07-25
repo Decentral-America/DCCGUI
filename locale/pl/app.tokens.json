@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "To pole określa liczbę miejsc po przecinku, na które zostanie podzielona jednostka tokena",
-        "scriptDescription": "Każda weryfikacja transakcji z użyciem skryptu Smart Asset zwiększa dodatkowo opłatę transakcyjną o 0,004 WAVES. Na przykład koszt zwykłej transakcji dla Smart Asset wynosi 0,001 (standardowo) + 0,004 (dodatkowo)  = 0,005 WAVES. W przypadku dokonania transakcji wymiany Smart Asset koszt wynosi 0,003 (standardowo) + 0,004 (dodatkowo) = 0,007 WAVES.",
+        "scriptDescription": "Każda weryfikacja transakcji z użyciem skryptu Smart Asset zwiększa dodatkowo opłatę transakcyjną o 0,004 DCC. Na przykład koszt zwykłej transakcji dla Smart Asset wynosi 0,001 (standardowo) + 0,004 (dodatkowo)  = 0,005 DCC. W przypadku dokonania transakcji wymiany Smart Asset koszt wynosi 0,003 (standardowo) + 0,004 (dodatkowo) = 0,007 DCC.",
         "scriptHeader": "Smart Asset to token z dołączonym skryptem, który zawiera warunki dla każdej transakcji dokonanej dla danego tokena.",
         "scriptLearnMore": "Dowiedz się więcej",
         "totalTokens": {

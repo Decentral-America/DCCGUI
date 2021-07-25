@@ -13,8 +13,8 @@ export USE_SYSTEM_WINE=true
 
 
 # building executables for testnet
-WAVES_CONFIGURATION=testnet ./node_modules/.bin/build -mwl --config.directories.output=dist/desktop/testnet/electron --config.directories.app=dist/desktop/testnet/normal
+DCC_CONFIGURATION=testnet ./node_modules/.bin/build -mwl --config.directories.output=dist/desktop/testnet/electron --config.directories.app=dist/desktop/testnet/normal
 
 # building executables for mainnet
-WAVES_CONFIGURATION=mainnet ./node_modules/.bin/build -mwl --config.directories.output=dist/desktop/mainnet/electron --config.directories.app=dist/desktop/mainnet/normal
+DCC_CONFIGURATION=mainnet ./node_modules/.bin/build -mwl --config.directories.output=dist/desktop/mainnet/electron --config.directories.app=dist/desktop/mainnet/normal
 

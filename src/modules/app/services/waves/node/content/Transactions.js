@@ -14,7 +14,7 @@
 
         const tsUtils = require('ts-utils');
         const R = require('ramda');
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         const ds = require('data-service');
         const { Money } = require('@waves/data-entities');
 

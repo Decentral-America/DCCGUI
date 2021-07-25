@@ -42,7 +42,7 @@
                 "required": "Verplicht veld"
             },
             "expiration": "Vervalt",
-            "fee": "Tarief {{fee}} WAVES",
+            "fee": "Tarief {{fee}} DCC",
             "hasScript": "Annuleer [script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) om te handelen",
             "last": "Laatste",
             "limit": "Limiet order",

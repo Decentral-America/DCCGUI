@@ -11,7 +11,7 @@
     const controller = function (Base, $scope, waves) {
 
         const { indexBy, prop, head } = require('ramda');
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         const { Money } = require('@waves/data-entities');
         const ds = require('data-service');
         const analytics = require('@waves/event-sender');
@@ -161,7 +161,7 @@
             static _parseOrder(data) {
                 const moneyFactory = ds.api.matcher.factory;
                 return Promise.all([
-                    waves.node.assets.getAsset('WAVES'),
+                    waves.node.assets.getAsset('DCC'),
                     waves.node.assets.getAsset(ds.utils.normalizeAssetId(data.assetPair.amountAsset)),
                     waves.node.assets.getAsset(ds.utils.normalizeAssetId(data.assetPair.priceAsset))
                 ])

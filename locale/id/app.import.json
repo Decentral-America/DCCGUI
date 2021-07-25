@@ -29,7 +29,7 @@
     "importAccount": "Impor Akun",
     "importAccountInfo": "Pilih tempat untuk mengimpor akun",
     "KeeperClient": "Keeper Client",
-    "keeperDescription": "Mengimpor akun dari WAVES Keeper",
+    "keeperDescription": "Mengimpor akun dari DCC Keeper",
     "keeperForm": "Pasang",
     "LedgerClient": "Perangkat Ledger",
     "ledgerDescription": "Impor akun dari Perangkat Ledger Anda",

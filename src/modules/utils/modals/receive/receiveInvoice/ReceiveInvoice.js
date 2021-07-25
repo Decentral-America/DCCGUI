@@ -80,9 +80,9 @@
                 }
 
                 const invoiceAmount = (this.invoiceAmount && this.invoiceAmount.toTokens()) || '0';
-                const WAVES_URL = WavesApp.origin;
+                const DCC_URL = WavesApp.origin;
 
-                this.sendLink = `${WAVES_URL}/#send/${assetId}?recipient=${this.chosenAlias}&amount=${invoiceAmount}`;
+                this.sendLink = `${DCC_URL}/#send/${assetId}?recipient=${this.chosenAlias}&amount=${invoiceAmount}`;
             }
 
         }

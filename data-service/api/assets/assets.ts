@@ -3,7 +3,7 @@ import { BigNumber } from '@waves/bignumber';
 import { get as configGet, getDataService } from '../../config';
 import { request } from '../../utils/request';
 import { IBalanceItem, assetsApi } from './interface';
-import { WAVES_ID } from '@waves/signature-adapter';
+import { DCC_ID } from '@decentralchain/signature-adapter';
 import { assetStorage } from '../../utils/AssetStorage';
 import { clearTransferFee, normalizeAssetId, setTransferFeeItem, toArray, toHash } from '../../utils/utils';
 import { isEmpty } from 'ts-utils';
@@ -44,8 +44,8 @@ export function get(assets: string | Array<string>): Promise<any> {
 }
 
 export const wavesAsset = new Asset({
-    ticker: 'WAVES',
-    id: 'WAVES',
+    ticker: 'DCC',
+    id: 'DCC',
     name: 'Waves',
     precision: 8,
     description: '',
@@ -65,7 +65,7 @@ export function getNftList(address: string, limit: number): Promise<Array<any>> 
 }
 
 export function getAssetFromNode(assetId: string): Promise<Asset> {
-    if (assetId === WAVES_ID) {
+    if (assetId === DCC_ID) {
         return Promise.resolve(wavesAsset);
     }
 
@@ -95,7 +95,7 @@ export function balanceList(address: string, txHash?: IHash<Money>, ordersHash?:
 
 export function wavesBalance(address: string): Promise<IBalanceItem> {
     return Promise.all([
-        get(WAVES_ID),
+        get(DCC_ID),
         request<assetsApi.IWavesBalance>({ url: `${configGet('node')}/addresses/balance/details/${address}` })
     ]).then(([waves, details]) => remapWavesBalance(waves, details));
 }
@@ -139,7 +139,7 @@ export function remapAssetsBalance(data: assetsApi.IBalanceList, assetsHash: IHa
         const regular = new Money(new BigNumber(assetData.balance), asset);
         const available = regular.sub(inOrders);
         const empty = new Money(new BigNumber('0'), asset);
-        const balance = isEmpty(assetData.sponsorBalance) ? null : new Money(assetData.sponsorBalance as string, assetsHash[WAVES_ID]);
+        const balance = isEmpty(assetData.sponsorBalance) ? null : new Money(assetData.sponsorBalance as string, assetsHash[DCC_ID]);
         const fee = isEmpty(assetData.minSponsoredAssetFee) ? null : new Money(assetData.minSponsoredAssetFee as string, asset);
         const { issueTransaction } = assetData;
         const { sender } = issueTransaction;
@@ -188,7 +188,7 @@ export function moneyDif(target: Money, ...toDif: Array<Money>): Money {
 }
 
 export function getAssetsByBalanceList(data: assetsApi.IBalanceList): Promise<Array<Asset>> {
-    return get([WAVES_ID, ...data.balances.map((balance) => normalizeAssetId(balance.assetId))]);
+    return get([DCC_ID, ...data.balances.map((balance) => normalizeAssetId(balance.assetId))]);
 }
 
 const splitRequest = (list: string[], getData) => {

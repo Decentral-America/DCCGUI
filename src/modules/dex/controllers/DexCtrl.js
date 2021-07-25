@@ -138,7 +138,7 @@
                     const amountAssetName = amountAsset.ticker || amountAsset.displayName;
                     const priceAssetName = priceAsset.ticker || priceAsset.displayName;
 
-                    const findUnlocked = assetId => assetId !== 'WAVES' && !utils.isLockedInDex(assetId);
+                    const findUnlocked = assetId => assetId !== 'DCC' && !utils.isLockedInDex(assetId);
 
                     const unLockedAsset = utils.isLockedInDex(WavesApp.defaultAssets.BTC) ?
                         Object.values(WavesApp.defaultAssets).find(findUnlocked) :
@@ -146,13 +146,13 @@
 
 
                     user.setSetting('dex.assetIdPair', {
-                        amount: WavesApp.defaultAssets.WAVES,
+                        amount: WavesApp.defaultAssets.DCC,
                         price: unLockedAsset
                     });
 
                     return modalManager.showLockPairWarning(amountAssetName, priceAssetName)
                         .then(() => {
-                            $location.search('assetId2', WavesApp.defaultAssets.WAVES);
+                            $location.search('assetId2', WavesApp.defaultAssets.DCC);
                             $location.search('assetId1', unLockedAsset);
                             this._initializePair();
                         });
@@ -195,7 +195,7 @@
                         if (urlPair) {
                             return this._getPair(urlPair)
                                 .catch(() => this._getPair({
-                                    amount: WavesApp.defaultAssets.WAVES,
+                                    amount: WavesApp.defaultAssets.DCC,
                                     price: WavesApp.defaultAssets.BTC
                                 }))
                                 .then(({ amountAsset, priceAsset }) => {
@@ -228,7 +228,7 @@
                 if (pair) {
                     return ds.api.pairs.get(pair.amount, pair.price);
                 } else {
-                    return ds.api.pairs.get(WavesApp.defaultAssets.WAVES, WavesApp.defaultAssets.BTC);
+                    return ds.api.pairs.get(WavesApp.defaultAssets.DCC, WavesApp.defaultAssets.BTC);
                 }
             }
 

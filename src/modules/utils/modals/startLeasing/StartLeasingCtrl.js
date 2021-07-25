@@ -12,7 +12,7 @@
      */
     const controller = function (Base, $scope, user, utils, waves, i18n) {
 
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         const ds = require('data-service');
         const analytics = require('@waves/event-sender');
 
@@ -35,7 +35,7 @@
                  * @type {string}
                  */
                 this.title = i18n.translate('modal.startLease.title', 'app.utils');
-                this.assetId = WavesApp.defaultAssets.WAVES;
+                this.assetId = WavesApp.defaultAssets.DCC;
                 this.recipient = '';
                 this.amount = null;
 

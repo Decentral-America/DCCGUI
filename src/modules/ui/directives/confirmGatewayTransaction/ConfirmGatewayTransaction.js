@@ -4,7 +4,7 @@
 
     const analytics = require('@waves/event-sender');
     const ds = require('data-service');
-    const WAVES_GATEWAY_ASSETS_ID = [
+    const DCC_GATEWAY_ASSETS_ID = [
         WavesApp.defaultAssets.WEST,
         WavesApp.defaultAssets.ERGO,
         WavesApp.defaultAssets.BNT,
@@ -47,7 +47,7 @@
 
             sendTransaction() {
                 const signableAmountAsset = this.signable.getTxData().amount.asset;
-                if (!WAVES_GATEWAY_ASSETS_ID.includes(signableAmountAsset.id)) {
+                if (!DCC_GATEWAY_ASSETS_ID.includes(signableAmountAsset.id)) {
                     return super.sendTransaction();
                 }
 

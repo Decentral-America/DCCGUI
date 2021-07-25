@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Cliquez pour évaluer le jeton",
                 "tooltipLink": "Plus de détails",
-                "tooltipNeedWAVES": "et 0.001 WAVES",
+                "tooltipNeedDCC": "et 0.001 DCC",
                 "tooltipNeedWCT": "Pour noter un jeton, vous devez avoir au moins 1",
-                "tooltipText": "Les jetons ne sont pas transférés, seul le solde existant est requis pour le vote. Votre score sera appliqué après 24 heures. Veuillez conserver les jetons sur le compte pendant ce temps. \nFrais 0.001 WAVES.",
+                "tooltipText": "Les jetons ne sont pas transférés, seul le solde existant est requis pour le vote. Votre score sera appliqué après 24 heures. Veuillez conserver les jetons sur le compte pendant ce temps. \nFrais 0.001 DCC.",
                 "tooltipTitle": "Pour évaluer un jeton, vous devez avoir au moins 1 WCT dans votre portefeuille."
             },
             "reissue": {
@@ -438,7 +438,7 @@
             "scanQrCode": "Scannez le QR Code",
             "title": "Partager votre adresse",
             "warningText": "L'envoi de tout autre actif numérique à cette adresse entraînera la perte permanente de vos fonds.",
-            "warningTitle": "Envoyez uniquement des WAVES ou des tokens Waves à cette adresse"
+            "warningTitle": "Envoyez uniquement des DCC ou des tokens Waves à cette adresse"
         },
         "receive": {
             "accountStatus": "Statut du compte",
@@ -811,7 +811,7 @@
             "title": "Changer le parrainage"
         },
         "sponsorship": {
-            "amountPerTx": "Montant par transaction (par 0.001 WAVES)",
+            "amountPerTx": "Montant par transaction (par 0.001 DCC)",
             "assetId": "ID",
             "continue": "Continuer",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "Frais de transaction {{fee, money-currency}}",
             "title": "Permettre le parrainage",
             "warningHeader": "Les utilisateurs pourront payer les frais de transactions en {{name}}",
-            "warningText": "Pour chaque transaction, 0.001 WAVES sera déduit de votre solde et {{{name}} sera crédité sur votre compte. Le montant de {{{name}} à facturer aux utilisateurs pour les transactions est fixé par vous lorsque vous activez le parrainage (entrez le montant dans le formulaire ci-dessous). Le parrainage ne fonctionnera que si vous avez un solde d'au moins 1.005 WAVES. Si votre solde est inférieur à ce montant, vous ne pourrez pas parrainer de transactions."
+            "warningText": "Pour chaque transaction, 0.001 DCC sera déduit de votre solde et {{{name}} sera crédité sur votre compte. Le montant de {{{name}} à facturer aux utilisateurs pour les transactions est fixé par vous lorsque vous activez le parrainage (entrez le montant dans le formulaire ci-dessous). Le parrainage ne fonctionnera que si vous avez un solde d'au moins 1.005 DCC. Si votre solde est inférieur à ce montant, vous ne pourrez pas parrainer de transactions."
         },
         "startLease": {
             "amount": "Montant",
@@ -960,7 +960,7 @@
                 "1_0_0-beta_26": "{span.line}[1. Quelques bugs mineurs ont été corrigés.]",
                 "1_0_0-beta_27": "{span.line}[1. Langue chinoise ajoutée.]{span.line}[2. Langue turque ajoutée.]",
                 "1_0_0-beta_30": "{span.line}[1. Vous pouvez maintenant brûler et réémettre les tokens que vous avez générés.]{span.line}[2. Ajout du support de l'API Waves Auth.]{span.line}[3. Quelques bugs mineurs ont été corrigés.]",
-                "1_0_0-beta_31": "{span.line}[1. Vous pouvez maintenant acheter des WAVES et des BTC avec une carte de crédit.]{span.line}[2. Amélioration de l'interface utilisateur dans la fenêtre Achat/Vente.]{span.line}[3. Prise en charge de Windows 32 bits ajoutée.]{span.line}[4. Nombreux autres bugs corrigés.]",
+                "1_0_0-beta_31": "{span.line}[1. Vous pouvez maintenant acheter des DCC et des BTC avec une carte de crédit.]{span.line}[2. Amélioration de l'interface utilisateur dans la fenêtre Achat/Vente.]{span.line}[3. Prise en charge de Windows 32 bits ajoutée.]{span.line}[4. Nombreux autres bugs corrigés.]",
                 "1_0_0-beta_32": "{span.line}[1. Vous pouvez maintenant effectuer des transferts de masse à partir du Client.]{span.line}[2. Quelques bugs mineurs ont été corrigés.]",
                 "1_0_0-beta_35": "{span.line}[1. Vous pouvez maintenant trier, filtrer et cacher les tokens dans l'onglet Portfolio.]{span.line}[2. Le portail DASH a été lancé.]{span.line}[3. Le support de la langue hindi a été ajouté.]{span.line}[4. Le support du néerlandais est ajouté.]{span.line}[5. Vous pouvez maintenant facturer les autres utilisateurs.){span.line}[6. Correction supplémentaire de bugs mineurs].",
                 "1_0_0-beta_36": "{span.line}[1. Les principaux nodes de leasing sont listés sur la page de leasing.]{span.line}[2. Certains bugs sont corrigés.]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1. Prise en charge de la transaction de script d'invocation ajoutée. [En savoir plus](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)] \n{span.line}[2. Interface utilisateur améliorée et correction de bugs mineurs supplémentaires.]",
                 "1_2_8": "{span.line} [1. Les jetons et les transactions de spam ont été masqués dans le client.] \n{span.line} [2. Interface utilisateur améliorée et correction de bugs mineurs supplémentaires.]",
                 "1_3_0": "{span.line}[1. Amélioration de la navigation dans l'application et de l'interface de la page de démarrage.]",
-                "1_3_18": "{span.line}[1. Ajout de la connexion au portefeuille à l'aide d'une clé privée.] \n{span.line}[2. Le changement de prix d'un jeton sur 24 heures est désormais lié à la paire jeton/WAVES.]",
+                "1_3_18": "{span.line}[1. Ajout de la connexion au portefeuille à l'aide d'une clé privée.] \n{span.line}[2. Le changement de prix d'un jeton sur 24 heures est désormais lié à la paire jeton/DCC.]",
                 "1_3_19": "{span.line}[1. Le portail Bancor a été lancé.] \n{span.line}[2. Interface utilisateur améliorée.]",
                 "1_3_2": "{span.line} [1. Le portail WEST a été lancé.] \n{span.line} [2. Interface utilisateur améliorée et correction de bugs mineurs supplémentaires.]",
                 "1_3_20": "{span.line}[1. Improved system for storing and restoring accounts from local storage (Need to update the [desktop application](https://wavesplatform.com/technology/wallet)).]\n{span.line}[2. Fixed rounding of prices in the orderbook.]",

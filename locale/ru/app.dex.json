@@ -42,7 +42,7 @@
                 "required": "Это поле необходимо заполнить"
             },
             "expiration": "Действителен",
-            "fee": "Комис. {{fee}} WAVES",
+            "fee": "Комис. {{fee}} DCC",
             "hasScript": "Отмените [скрипт](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) чтобы торговать",
             "last": "Last",
             "limit": "Лимит Ордер",

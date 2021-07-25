@@ -2,7 +2,7 @@
     "signUp": {
         "headers": {
             "onePassBtn": "Zaczynajmy!",
-            "onePassDesc": "Lokalne przechowywanie danych, fazy SEED i szyfrowanie sprawiają, że WAVES DEX jest niezawodny. Jednak idziemy dalej. Nadszedł czas, aby włączyć nowy poziom bezpieczeństwa. Zaloguj się do swoich kont i przełączaj się między nimi za pomocą kilku kilknięć.",
+            "onePassDesc": "Lokalne przechowywanie danych, fazy SEED i szyfrowanie sprawiają, że DCC DEX jest niezawodny. Jednak idziemy dalej. Nadszedł czas, aby włączyć nowy poziom bezpieczeństwa. Zaloguj się do swoich kont i przełączaj się między nimi za pomocą kilku kilknięć.",
             "onePassword": "Jedno hasło do wszystkich kont",
             "protect": "Chroń Swoje Konta",
             "protectDesc": "Ustaw jedno hasło dla wszystkich swoich kont",

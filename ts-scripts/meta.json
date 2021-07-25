@@ -1,7 +1,7 @@
 {
   "vendors": [
     "node_modules/@waves/bignumber/dist/bignumber.umd.js",
-    "node_modules/@waves/waves-transactions/dist/min/waves-transactions.min.js",
+    "node_modules/@decentralchain/waves-transactions/dist/min/waves-transactions.min.js",
     "node_modules/@waves/oracle-data/dist/oracle-data.min.js",
     "node_modules/@waves/parse-json-bignumber/dist/parse-json-bignumber.min.js",
     "node_modules/handlebars/dist/handlebars.min.js",
@@ -23,7 +23,7 @@
     "node_modules/ts-api-validator/dist/ts-api-validator.partial.min.js",
     "node_modules/jquery/dist/jquery.min.js",
     "node_modules/d3/d3.min.js",
-    "node_modules/@waves/signature-adapter/dist/signature-adapter.min.js",
+    "node_modules/@decentralchain/signature-adapter/dist/signature-adapter.min.js",
     "data-service-dist/data-service.js",
     "node_modules/identity-img/dist/identity-img.min.js",
     "node_modules/i18next-locize-backend/i18nextLocizeBackend.min.js",

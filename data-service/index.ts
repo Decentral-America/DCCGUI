@@ -14,14 +14,14 @@ import { get } from './config';
 import { TAssetData, TBigNumberData } from './interface';
 import { get as getAssetPair } from './api/pairs/pairs';
 import { broadcast as broadcastF, createOrderSend, cancelOrderSend, cancelAllOrdersSend } from './broadcast/broadcast';
-import * as signatureAdapters from '@waves/signature-adapter';
-import { SIGN_TYPE, isValidAddress as utilsIsValidAddress } from '@waves/signature-adapter';
+import * as signatureAdapters from '@decentralchain/signature-adapter';
+import { SIGN_TYPE, isValidAddress as utilsIsValidAddress } from '@decentralchain/signature-adapter';
 import { TTimeType } from './utils/utils';
 import { IUserData } from './sign';
 import { HttpConnectProvider } from './connect/HttpConnectProvider';
 import { PostMessageConnectProvider } from './connect/PostMessageConnectProvider';
 
-export { getAdapterByType, getAvailableList } from '@waves/signature-adapter';
+export { getAdapterByType, getAvailableList } from '@decentralchain/signature-adapter';
 export { Seed } from './classes/Seed';
 export { assetStorage } from './utils/AssetStorage';
 export * from './store';

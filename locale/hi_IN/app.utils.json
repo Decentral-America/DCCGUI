@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Click to rate token",
                 "tooltipLink": "More Details",
-                "tooltipNeedWAVES": "and 0.001 WAVES",
+                "tooltipNeedDCC": "and 0.001 DCC",
                 "tooltipNeedWCT": "To rate a token, you must have at least 1",
-                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 WAVES.",
+                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 DCC.",
                 "tooltipTitle": "To rate a token, you must have at least 1 WCT in your wallet."
             },
             "reissue": {
@@ -438,7 +438,7 @@
             "scanQrCode": "QR कोड स्कैन करें",
             "title": "अपना पता साझा करें",
             "warningText": "इस पते पर कोई और डिजिटल एसेट भेजने से आपके फंड की स्थायी हानि हो जाएगी।",
-            "warningTitle": "इस पते पर केवल WAVES और Waves टोकन ही भेजें"
+            "warningTitle": "इस पते पर केवल DCC और Waves टोकन ही भेजें"
         },
         "receive": {
             "accountStatus": "खाते की स्थिति",
@@ -648,7 +648,7 @@
             "step2Description": "आपका सत्यापन हो जाने के बाद आपको आगे के निर्देश मिलेंगे",
             "title": "{{assetName}} जमा करें",
             "warning": "सत्यापन या भुगतान प्रोसेसिंग में किसी समस्या की स्थिति में, कृपया Coinomat सपोर्टिंग टीम से संपर्क करें — [support@coinomat.com](mailto:support@coinomat.com)",
-            "warningTitle": "इस पते पर केवल WAVES और Waves टोकन ही भेजें"
+            "warningTitle": "इस पते पर केवल DCC और Waves टोकन ही भेजें"
         },
         "setAssetScript": {
             "errorNoMoney": "आवश्यक शुल्क का भुगतान करने के लिए आपके पास पर्याप्त धन नहीं है। आपको {{fee, money-currency}} लेन-देन शुल्क का भुगतान करना होगा।",
@@ -811,7 +811,7 @@
             "title": "स्पॉन्सरशिप बदलें"
         },
         "sponsorship": {
-            "amountPerTx": "प्रति लेन-देन की राशि (प्रति 0.001 WAVES)",
+            "amountPerTx": "प्रति लेन-देन की राशि (प्रति 0.001 DCC)",
             "assetId": "आईडी",
             "continue": "जारी रहना",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "लेनदेन शुल्क {{fee, money-currency}}",
             "title": "स्पॉन्सरशिप सक्षम करें",
             "warningHeader": "उपयोगकर्ता {{name}} में लेनदेन शुल्क का भुगतान करने में सक्षम होंगे",
-            "warningText": "प्रति लेनदेन के लिए, 0.001 WAVES आपके शेष राशि से काट लिए जाएंगे और {{name}} आपके खाते में जमा कर दिए जाएंगे। जब आप स्पॉन्सरशिप सक्षम करते हैं, तो {{name}} की राशि का लेन-देन उपयोगकर्ताओं से किया जाता है, यह आपके द्वारा निर्धारित किया जाता है। स्पॉन्सरशिप केवल तभी काम करेगा जब आपके पास कम से कम 1.005 WAVES का बैलेंस हो। यदि आपका शेष राशि इस राशि से कम हो जाती है, तो आप लेनदेन को स्पॉन्सरशिप नहीं कर पाएंगे।"
+            "warningText": "प्रति लेनदेन के लिए, 0.001 DCC आपके शेष राशि से काट लिए जाएंगे और {{name}} आपके खाते में जमा कर दिए जाएंगे। जब आप स्पॉन्सरशिप सक्षम करते हैं, तो {{name}} की राशि का लेन-देन उपयोगकर्ताओं से किया जाता है, यह आपके द्वारा निर्धारित किया जाता है। स्पॉन्सरशिप केवल तभी काम करेगा जब आपके पास कम से कम 1.005 DCC का बैलेंस हो। यदि आपका शेष राशि इस राशि से कम हो जाती है, तो आप लेनदेन को स्पॉन्सरशिप नहीं कर पाएंगे।"
         },
         "startLease": {
             "amount": "राशि",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1. Invocation script transaction support added. [Read more](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_2_8": "{span.line}[1. Spam tokens and transactions have been hidden in client.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_3_0": "{span.line}[1. Improved app navigation and start page interface.]",
-                "1_3_18": "{span.line}[1. Added login to wallet using a private key.]\n{span.line}[2. The 24 hours price change of a token is now bound to token/WAVES pair.]",
+                "1_3_18": "{span.line}[1. Added login to wallet using a private key.]\n{span.line}[2. The 24 hours price change of a token is now bound to token/DCC pair.]",
                 "1_3_19": "{span.line}[1. Bancor gateway has been launched.]\n{span.line}[2. User menu interface has been improved.]",
                 "1_3_2": "{span.line}[1. WEST gateway has been launched.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_3_20": "{span.line}[1. Improved system for storing and restoring accounts from local storage (Need to update the [desktop application](https://wavesplatform.com/technology/wallet)).]\n{span.line}[2. Fixed rounding of prices in the orderbook.]",

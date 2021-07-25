@@ -13,8 +13,8 @@
 
         const ds = require('data-service');
         const { Money } = require('@waves/data-entities');
-        const { currentFeeFactory, SIGN_TYPE } = require('@waves/signature-adapter');
-        const { libs } = require('@waves/waves-transactions');
+        const { currentFeeFactory, SIGN_TYPE } = require('@decentralchain/signature-adapter');
+        const { libs } = require('@decentralchain/waves-transactions');
         const { address } = libs.crypto;
         const { path } = require('ramda');
         const { BigNumber } = require('@waves/bignumber');
@@ -52,7 +52,7 @@
                                 .then(assetList => assetList.filter(asset => asset.hasScript))
                                 .then(assetList => assetList.map(asset => asset.id)),
                             ds.signature.getSignatureApi().makeSignable({ type: tx.type, data: tx }).getBytes(),
-                            ds.api.assets.get('WAVES'),
+                            ds.api.assets.get('DCC'),
                             this._isSmartAccount(tx)
                         ]).then(([smartAssetsIdList, bytes, wavesAsset, hasScript]) => {
                             const bigNumberFee = currentFee(tx, bytes, hasScript, smartAssetsIdList);
@@ -204,7 +204,7 @@
              * @private
              */
             _fillIssue(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     name: tx.name || 'name',
                     description: tx.description || 'description',
@@ -223,7 +223,7 @@
              * @private
              */
             _fillTransfer(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     recipient: tx.recipient || user.address,
                     amount: tx.amount || new Money(1, asset),
@@ -240,7 +240,7 @@
              * @private
              */
             _fillReissue(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     assetId: tx.assetId || WavesApp.defaultAssets.BTC,
                     reissuable: tx.reissue || true,
@@ -255,7 +255,7 @@
              * @private
              */
             _fillBurn(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     assetId: tx.assetId || WavesApp.defaultAssets.BTC,
                     amount: tx.amount || new BigNumber(1),
@@ -269,7 +269,7 @@
              * @private
              */
             _fillLease(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     recipient: tx.recipient || user.address,
                     fee: tx.fee || new Money(1, asset),
@@ -283,7 +283,7 @@
              * @private
              */
             _fillCancelLease(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     leaseId: tx.leaseId || WavesApp.defaultAssets.BTC,
                     fee: tx.fee || new Money(1, asset)
@@ -296,7 +296,7 @@
              * @private
              */
             _fillCreateAlias(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     alias: tx.alias || 'qwerty',
                     fee: tx.fee || new Money(1, asset)
@@ -316,7 +316,7 @@
                     return acc.add(item.amount);
                 }, tx.transfers[0].amount.cloneWithTokens(0)) || null;
 
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     transfers: transfers || [{
                         amount: new Money(1, asset),
@@ -334,7 +334,7 @@
              * @private
              */
             _fillData(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     data: tx.data || [],
                     fee: tx.fee || new Money(1, asset)
@@ -347,7 +347,7 @@
              * @private
              */
             _fillSetScript(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     script: tx.script || '',
                     fee: tx.fee || new Money(1, asset)
@@ -360,7 +360,7 @@
              * @private
              */
             _fillSponsorship(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     assetId: tx.assetId || WavesApp.defaultAssets.BTC,
                     minSponsoredAssetFee: tx.minSponsoredAssetFee || new Money(1, asset),
@@ -374,7 +374,7 @@
              * @private
              */
             _fillSetAssetScript(tx) {
-                return ds.api.assets.get('WAVES').then(asset => ({
+                return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     script: tx.script || 'base64:AQa3b8tH',
                     assetId: tx.assetId || WavesApp.defaultAssets.BTC,
