@@ -109,8 +109,10 @@
                         <div class="section-markets__row-cell last-price">
                             <w-balance money="pair.lastPrice"></w-balance>
                             <span class="section-markets__currency">&nbsp;/&nbsp;
+                                <!-- <w-exchange balance="pair.lastPrice"
+                                            target-asset-id="{{WavesApp.defaultAssets.USD}}"></w-exchange> --> 
                                 <w-exchange balance="pair.lastPrice"
-                                            target-asset-id="{{WavesApp.defaultAssets.USD}}"></w-exchange>
+                                            target-asset-id="{{WavesApp.defaultAssets.DCC}}"></w-exchange>
                                 &nbsp;$
                             </span>
                         </div>

@@ -140,9 +140,9 @@
 
                     const findUnlocked = assetId => assetId !== 'DCC' && !utils.isLockedInDex(assetId);
 
-                    const unLockedAsset = utils.isLockedInDex(WavesApp.defaultAssets.BTC) ?
+                    const unLockedAsset = utils.isLockedInDex(WavesApp.defaultAssets.DCC) ?
                         Object.values(WavesApp.defaultAssets).find(findUnlocked) :
-                        WavesApp.defaultAssets.BTC;
+                        WavesApp.defaultAssets.DCC;
 
 
                     user.setSetting('dex.assetIdPair', {
@@ -196,7 +196,8 @@
                             return this._getPair(urlPair)
                                 .catch(() => this._getPair({
                                     amount: WavesApp.defaultAssets.DCC,
-                                    price: WavesApp.defaultAssets.BTC
+                                    // price: WavesApp.defaultAssets.BTC
+                                    price: WavesApp.defaultAssets.DCC
                                 }))
                                 .then(({ amountAsset, priceAsset }) => {
                                     const activeTab = user.getSetting('dex.watchlist.activeTab');
@@ -228,7 +229,7 @@
                 if (pair) {
                     return ds.api.pairs.get(pair.amount, pair.price);
                 } else {
-                    return ds.api.pairs.get(WavesApp.defaultAssets.DCC, WavesApp.defaultAssets.BTC);
+                    return ds.api.pairs.get(WavesApp.defaultAssets.DCC /* WavesApp.defaultAssets.BTC */);
                 }
             }
 

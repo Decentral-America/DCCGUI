@@ -5,10 +5,10 @@
     const analytics = require('@waves/event-sender');
     const ds = require('data-service');
     const WAVES_GATEWAY_ASSETS_ID = [
-        WavesApp.defaultAssets.WEST,
-        WavesApp.defaultAssets.ERGO,
-        WavesApp.defaultAssets.BNT,
-        WavesApp.defaultAssets.ETH
+        // WavesApp.defaultAssets.WEST,
+        // WavesApp.defaultAssets.ERGO,
+        // WavesApp.defaultAssets.BNT,
+        // WavesApp.defaultAssets.ETH
         // WavesApp.defaultAssets.BTC
     ];
 

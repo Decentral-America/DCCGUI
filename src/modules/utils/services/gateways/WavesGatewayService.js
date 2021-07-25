@@ -2,11 +2,11 @@
     'use strict';
 
     const GATEWAYS = {
-        [WavesApp.defaultAssets.WEST]: { waves: 'WWEST', gateway: 'WEST' },
-        [WavesApp.defaultAssets.ERGO]: { waves: 'WERGO', gateway: 'ERGO' },
-        [WavesApp.defaultAssets.BNT]: { waves: 'WBNT', gateway: 'BNT' },
-        [WavesApp.defaultAssets.ETH]: { waves: 'ETH', gateway: 'ETH' },
-        [WavesApp.defaultAssets.BTC]: { waves: 'WBTC', gateway: 'BTC' }
+        // [WavesApp.defaultAssets.WEST]: { waves: 'WWEST', gateway: 'WEST' },
+        // [WavesApp.defaultAssets.ERGO]: { waves: 'WERGO', gateway: 'ERGO' },
+        // [WavesApp.defaultAssets.BNT]: { waves: 'WBNT', gateway: 'BNT' },
+        // [WavesApp.defaultAssets.ETH]: { waves: 'ETH', gateway: 'ETH' },
+        // [WavesApp.defaultAssets.BTC]: { waves: 'WBTC', gateway: 'BTC' }
     };
 
     const PATH = `${WavesApp.network.wavesGateway}/api/v1`;

@@ -7,7 +7,7 @@
   "apiVersion": "v0",
   "bankRecipient": "3P7qtv5Z7AMhwyvf5sM6nLuWWypyjVKb7Us",
   "code": "?",
-  "node": "mainnet-node.decentralchain.io",
+  "node": "https://mainnet-node.decentralchain.io",
   "matcher": "https://mainnet-matcher.decentralchain.io/matcher",
   "api": "https://api.wavesplatform.com",
   "explorer": "https://decentralscan.com",

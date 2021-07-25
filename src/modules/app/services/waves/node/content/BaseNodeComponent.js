@@ -242,7 +242,7 @@
             _fillReissue(tx) {
                 return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
-                    assetId: tx.assetId || WavesApp.defaultAssets.BTC,
+                    assetId: tx.assetId || WavesApp.defaultAssets.DCC,
                     reissuable: tx.reissue || true,
                     quantity: tx.quantity || new BigNumber(1),
                     fee: tx.fee || new Money(1, asset)
@@ -257,7 +257,7 @@
             _fillBurn(tx) {
                 return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
-                    assetId: tx.assetId || WavesApp.defaultAssets.BTC,
+                    assetId: tx.assetId || WavesApp.defaultAssets.DCC,
                     amount: tx.amount || new BigNumber(1),
                     fee: tx.fee || new Money(1, asset)
                 }));
@@ -285,7 +285,7 @@
             _fillCancelLease(tx) {
                 return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
-                    leaseId: tx.leaseId || WavesApp.defaultAssets.BTC,
+                    leaseId: tx.leaseId || WavesApp.defaultAssets.DCC,
                     fee: tx.fee || new Money(1, asset)
                 }));
             }
@@ -362,7 +362,7 @@
             _fillSponsorship(tx) {
                 return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
-                    assetId: tx.assetId || WavesApp.defaultAssets.BTC,
+                    assetId: tx.assetId || WavesApp.defaultAssets.DCC,
                     minSponsoredAssetFee: tx.minSponsoredAssetFee || new Money(1, asset),
                     fee: tx.fee || new Money(1, asset)
                 }));
@@ -377,7 +377,7 @@
                 return ds.api.assets.get('DCC').then(asset => ({
                     type: tx.type,
                     script: tx.script || 'base64:AQa3b8tH',
-                    assetId: tx.assetId || WavesApp.defaultAssets.BTC,
+                    assetId: tx.assetId || WavesApp.defaultAssets.DCC,
                     fee: tx.fee || new Money(1, asset)
                 }));
             }

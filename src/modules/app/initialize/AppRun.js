@@ -511,7 +511,8 @@
                 const balance = balanceWatcher.getBalance();
                 const pairs = Object.entries(balance).reduce((acc, [assetId, asset]) => {
                     if (asset.toTokens() !== '0') {
-                        acc.push([assetId, WavesApp.defaultAssets.USD]);
+                        // acc.push([assetId, WavesApp.defaultAssets.USD]);
+                        acc.push([assetId, WavesApp.defaultAssets.DCC]);
                     }
 
                     return acc;
@@ -522,7 +523,8 @@
                 }
 
                 Promise.all([
-                    ds.api.assets.get(WavesApp.defaultAssets.USD),
+                    // ds.api.assets.get(WavesApp.defaultAssets.USD),
+                    ds.api.assets.get(WavesApp.defaultAssets.DCC),
                     ds.api.matchers.getRates(matcher.currentMatcherAddress, pairs)
                 ]).then(([usdAsset, rates]) => {
                     const usd = rates.data.reduce((acc, rate) => {

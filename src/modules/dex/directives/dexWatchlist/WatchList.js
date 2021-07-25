@@ -74,8 +74,8 @@
              */
             tabs = [
                 { name: 'directives.watchlist.all', value: 'all' },
-                { name: 'DCC', value: WavesApp.defaultAssets.DCC },
-                { name: 'BTC', value: WavesApp.defaultAssets.BTC }
+                { name: 'DCC', value: WavesApp.defaultAssets.DCC }
+                // { name: 'BTC', value: WavesApp.defaultAssets.BTC }
             ];
             /**
              * @type {string}

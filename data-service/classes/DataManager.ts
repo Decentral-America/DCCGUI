@@ -74,20 +74,20 @@ export class DataManager {
         const WavesApp = (window as any).WavesApp;
 
         const gateways = {
-            [WavesApp.defaultAssets.USD]: true,
-            [WavesApp.defaultAssets.EUR]: true,
-            [WavesApp.defaultAssets.TRY]: true,
-            [WavesApp.defaultAssets.BTC]: true,
-            [WavesApp.defaultAssets.ETH]: true,
-            [WavesApp.defaultAssets.LTC]: true,
-            [WavesApp.defaultAssets.ZEC]: true,
-            [WavesApp.defaultAssets.BCH]: true,
-            [WavesApp.defaultAssets.BSV]: true,
-            [WavesApp.defaultAssets.DASH]: true,
-            [WavesApp.defaultAssets.XMR]: true,
-            [WavesApp.defaultAssets.WEST]: true,
-            [WavesApp.defaultAssets.ERGO]: true,
-            [WavesApp.defaultAssets.BNT]: true,
+            // [WavesApp.defaultAssets.USD]: true,
+            // [WavesApp.defaultAssets.EUR]: true,
+            // [WavesApp.defaultAssets.TRY]: true,
+            // [WavesApp.defaultAssets.BTC]: true,
+            // [WavesApp.defaultAssets.ETH]: true,
+            // [WavesApp.defaultAssets.LTC]: true,
+            // [WavesApp.defaultAssets.ZEC]: true,
+            // [WavesApp.defaultAssets.BCH]: true,
+            // [WavesApp.defaultAssets.BSV]: true,
+            // [WavesApp.defaultAssets.DASH]: true,
+            // [WavesApp.defaultAssets.XMR]: true,
+            // [WavesApp.defaultAssets.WEST]: true,
+            // [WavesApp.defaultAssets.ERGO]: true,
+            // [WavesApp.defaultAssets.BNT]: true,
         };
 
         const gatewaysSoon = (window as any).angular

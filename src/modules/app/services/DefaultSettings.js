@@ -48,7 +48,8 @@
                     scamListUrl: WavesApp.network.scamListUrl,
                     tokensNameListUrl: WavesApp.network.tokensNameListUrl,
                     tradeWithScriptAssets: false,
-                    baseAssetId: WavesApp.defaultAssets.USD,
+                    // baseAssetId: WavesApp.defaultAssets.USD,
+                    baseAssetId: WavesApp.defaultAssets.DCC,
                     events: Object.create(null)
                 };
                 /**
@@ -63,21 +64,21 @@
                     },
                     orderLimit: 0.05,
                     pinnedAssetIdList: [
-                        WavesApp.defaultAssets.DCC,
-                        WavesApp.defaultAssets.BTC,
-                        WavesApp.defaultAssets.ETH,
-                        WavesApp.defaultAssets.USD,
-                        WavesApp.defaultAssets.EUR,
-                        WavesApp.defaultAssets.LTC,
-                        WavesApp.defaultAssets.ZEC,
-                        WavesApp.defaultAssets.BCH,
-                        WavesApp.defaultAssets.BSV,
-                        WavesApp.defaultAssets.TRY,
-                        WavesApp.defaultAssets.DASH,
-                        WavesApp.defaultAssets.XMR,
-                        WavesApp.defaultAssets.WEST,
-                        WavesApp.defaultAssets.ERGO,
-                        WavesApp.defaultAssets.BNT
+                        WavesApp.defaultAssets.DCC
+                        // WavesApp.defaultAssets.BTC,
+                        // WavesApp.defaultAssets.ETH,
+                        // WavesApp.defaultAssets.USD,
+                        // WavesApp.defaultAssets.EUR,
+                        // WavesApp.defaultAssets.LTC,
+                        // WavesApp.defaultAssets.ZEC,
+                        // WavesApp.defaultAssets.BCH,
+                        // WavesApp.defaultAssets.BSV,
+                        // WavesApp.defaultAssets.TRY,
+                        // WavesApp.defaultAssets.DASH,
+                        // WavesApp.defaultAssets.XMR,
+                        // WavesApp.defaultAssets.WEST,
+                        // WavesApp.defaultAssets.ERGO,
+                        // WavesApp.defaultAssets.BNT
                     ],
                     wallet: {
                         activeState: 'assets',
@@ -85,9 +86,9 @@
                             chartMode: 'month',
                             activeChartAssetId: WavesApp.defaultAssets.DCC,
                             chartAssetIdList: [
-                                WavesApp.defaultAssets.DCC,
-                                WavesApp.defaultAssets.BTC,
-                                WavesApp.defaultAssets.ETH
+                                WavesApp.defaultAssets.DCC
+                                // WavesApp.defaultAssets.BTC,
+                                // WavesApp.defaultAssets.ETH
                             ]
                         },
                         transactions: {
@@ -105,7 +106,8 @@
                         chartCropRate: 1.5,
                         assetIdPair: {
                             amount: WavesApp.defaultAssets.DCC,
-                            price: WavesApp.defaultAssets.BTC
+                            // price: WavesApp.defaultAssets.BTC
+                            price: WavesApp.defaultAssets.DCC
                         },
                         createOrder: {
                             expirationName: '30day'
@@ -113,7 +115,10 @@
                         watchlist: {
                             showOnlyFavorite: false,
                             favourite: [
-                                [WavesApp.defaultAssets.DCC, WavesApp.defaultAssets.BTC]
+                                [
+                                  WavesApp.defaultAssets.DCC
+                                  //  WavesApp.defaultAssets.BTC
+                                  ]
                             ],
                             activeTab: 'all'
                         },

@@ -110,7 +110,8 @@
                     });
 
                     this.assetKeyName = gatewayService.getAssetKeyName(this.asset, 'deposit');
-                    this.isWEST = this.asset.id === WavesApp.defaultAssets.WEST;
+                    // this.isWEST = this.asset.id === WavesApp.defaultAssets.WEST;
+                    this.isWEST = false;
                 }
             }
 

@@ -190,7 +190,8 @@
                     } = utils.getDataFromOracles(this.balance.asset.id);
 
                     this.isGateway = isGateway;
-                    this.isWEST = this.balance.asset.id === WavesApp.defaultAssets.WEST;
+                    // this.isWEST = this.balance.asset.id === WavesApp.defaultAssets.WEST;
+                    this.isWEST = false;
 
                     this.isVerifiedOrGateway = isVerified || isGateway;
 

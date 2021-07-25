@@ -18,7 +18,8 @@
              * @return {boolean}
              */
             get isLira() {
-                return this.asset && this.asset.id === WavesApp.defaultAssets.TRY;
+              return false;
+                // return this.asset && this.asset.id === WavesApp.defaultAssets.TRY;
             }
 
             /**

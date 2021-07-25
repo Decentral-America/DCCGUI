@@ -106,7 +106,8 @@
              */
             isMoneroNotIntegratedAddress() {
                 const moneroAddressLength = 95;
-                const assetIsMonero = this.assetId === WavesApp.defaultAssets.XMR;
+                // const assetIsMonero = this.assetId === WavesApp.defaultAssets.XMR;
+                const assetIsMonero = false;
                 return assetIsMonero && this.tx.recipient.length === moneroAddressLength;
             }
 

@@ -46,7 +46,7 @@ export function get(assets: string | Array<string>): Promise<any> {
 export const wavesAsset = new Asset({
     ticker: 'DCC',
     id: 'DCC',
-    name: 'Waves',
+    name: 'DCC',
     precision: 8,
     description: '',
     height: 0,
@@ -65,9 +65,7 @@ export function getNftList(address: string, limit: number): Promise<Array<any>> 
 }
 
 export function getAssetFromNode(assetId: string): Promise<Asset> {
-    console.log(assetId)
-    console.log(DCC_ID)
-    if (assetId === DCC_ID) {
+    if (assetId === DCC_ID || assetId === undefined) {
         return Promise.resolve(wavesAsset);
     }
 

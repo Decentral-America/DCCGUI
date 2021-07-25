@@ -33,50 +33,50 @@
         const { BigNumber } = require('@waves/bignumber');
 
         const WCT_ID = WavesApp.network.code === 'T' ?
-            WavesApp.defaultAssets.TRY :
+            WavesApp.defaultAssets.DCC :
             'DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J';
 
         const PAIRS_IN_SLIDER = [
-            {
-                amount: WavesApp.defaultAssets.WEST,
-                price: 'DCC'
-            },
-            {
-                amount: WavesApp.defaultAssets.BTC,
-                price: 'DCC'
-            },
-            {
-                amount: WCT_ID,
-                price: 'DCC'
-            },
-            {
-                amount: WavesApp.defaultAssets.DASH,
-                price: WavesApp.defaultAssets.BTC
-            },
-            {
-                amount: WavesApp.defaultAssets.ETH,
-                price: WavesApp.defaultAssets.BTC
-            },
-            {
-                amount: WavesApp.defaultAssets.BCH,
-                price: WavesApp.defaultAssets.BTC
-            },
-            {
-                amount: WavesApp.defaultAssets.ETH,
-                price: 'DCC'
-            },
-            {
-                amount: 'DCC',
-                price: WavesApp.defaultAssets.USD
-            },
-            {
-                amount: WavesApp.defaultAssets.ZEC,
-                price: 'DCC'
-            },
-            {
-                amount: WavesApp.defaultAssets.XMR,
-                price: WavesApp.defaultAssets.BTC
-            }
+            // {
+            //     amount: WavesApp.defaultAssets.WEST,
+            //     price: 'DCC'
+            // },
+            // {
+            //     amount: WavesApp.defaultAssets.BTC,
+            //     price: 'DCC'
+            // },
+            // {
+            //     amount: WCT_ID,
+            //     price: 'DCC'
+            // },
+            // {
+            //     amount: WavesApp.defaultAssets.DASH,
+            //     price: WavesApp.defaultAssets.BTC
+            // },
+            // {
+            //     amount: WavesApp.defaultAssets.ETH,
+            //     price: WavesApp.defaultAssets.BTC
+            // },
+            // {
+            //     amount: WavesApp.defaultAssets.BCH,
+            //     price: WavesApp.defaultAssets.BTC
+            // },
+            // {
+            //     amount: WavesApp.defaultAssets.ETH,
+            //     price: 'DCC'
+            // },
+            // {
+            //     amount: 'DCC',
+            //     price: WavesApp.defaultAssets.USD
+            // },
+            // {
+            //     amount: WavesApp.defaultAssets.ZEC,
+            //     price: 'DCC'
+            // },
+            // {
+            //     amount: WavesApp.defaultAssets.XMR,
+            //     price: WavesApp.defaultAssets.BTC
+            // }
         ];
 
 
