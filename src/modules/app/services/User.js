@@ -3,7 +3,7 @@
     'use strict';
 
     const { equals } = require('ramda');
-    const { isValidAddress } = require('@waves/signature-adapter');
+    const { isValidAddress } = require('@decentralchain/signature-adapter');
 
     /**
      * @param {Storage} storage
@@ -693,7 +693,7 @@
                 const address = item ? item.address : this.address;
                 try {
                     this.networkError = false;
-                    waves = await ds.api.assets.get(WavesApp.defaultAssets.WAVES);
+                    waves = await ds.api.assets.get(WavesApp.defaultAssets.DCC);
                 } catch (e) {
                     this.networkError = true;
                     throw new Error('Can\'t get Waves asset');

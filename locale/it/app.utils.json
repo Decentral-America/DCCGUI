@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Clicca per valutare il token",
                 "tooltipLink": "Maggiori dettagli",
-                "tooltipNeedWAVES": "e 0.001 WAVES",
+                "tooltipNeedWAVES": "e 0.001 DCC",
                 "tooltipNeedWCT": "Per valutare un token, devi averne almeno 1",
-                "tooltipText": "I token non verranno trasferiti, per votare è sufficiente un saldo positivo. Il tuo punteggio verrà applicato dopo 24 ore. Si prega di conservare nell'account i token necessari durante questo periodo.\nSpese 0,001 WAVES.",
+                "tooltipText": "I token non verranno trasferiti, per votare è sufficiente un saldo positivo. Il tuo punteggio verrà applicato dopo 24 ore. Si prega di conservare nell'account i token necessari durante questo periodo.\nSpese 0,001 DCC.",
                 "tooltipTitle": "Per valutare un token, devi avere almeno 1 WCT nel tuo portafoglio."
             },
             "reissue": {
@@ -438,7 +438,7 @@
             "scanQrCode": "Scansiona QR Code",
             "title": "Condividi il tuo indirizzo",
             "warningText": "Inviare un qualunque altro asset digitale a questo indirizzo risulterà in una perdita permanente dei fondi inviati.",
-            "warningTitle": "Invia solo WAVES e token Waves a questo indirizzo"
+            "warningTitle": "Invia solo DCC e token Waves a questo indirizzo"
         },
         "receive": {
             "accountStatus": "Stato dell'account",
@@ -811,7 +811,7 @@
             "title": "Cambia sponsorizzazione"
         },
         "sponsorship": {
-            "amountPerTx": "Totale per transazione (per 0.001 WAVES)",
+            "amountPerTx": "Totale per transazione (per 0.001 DCC)",
             "assetId": "ID",
             "continue": "Continua",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "Commissione {{fee, money-currency}}",
             "title": "Attiva sponsorizzazione",
             "warningHeader": "Gli utenti potranno pagare i costi di commissione in {{name}}",
-            "warningText": "Per ogni transazione, saranno prelevati 0.001 WAVES dal tuo bilancio in cambio di {{name}} accreditati sul tuo account. Il totale di {{name}} da addebitare agli utenti per le transazioni è impostabile al momento dell'abilitazione della sponsorizzazione (inserire l'importo nel form di seguito). Se il bilancio in WAVES non sarà disponibile la sponsorizzazione non funzionerà."
+            "warningText": "Per ogni transazione, saranno prelevati 0.001 DCC dal tuo bilancio in cambio di {{name}} accreditati sul tuo account. Il totale di {{name}} da addebitare agli utenti per le transazioni è impostabile al momento dell'abilitazione della sponsorizzazione (inserire l'importo nel form di seguito). Se il bilancio in DCC non sarà disponibile la sponsorizzazione non funzionerà."
         },
         "startLease": {
             "amount": "Somma",
@@ -960,7 +960,7 @@
                 "1_0_0-beta_26": "{span.line}[1. Alcuni bug fix minori.]",
                 "1_0_0-beta_27": "{span.line}[1. Aggiunto il supporto alla lingua Cinese.]{span.line}[2. Aggiunta della lingua Turca.]",
                 "1_0_0-beta_30": "{span.line}[1. È ora possibile distruggere e riemettere i token generati.]{span.line}[2. Aggiunto il supporto alla Waves Auth API.]{span.line}[3. Correzione di alcuni bug minori.]",
-                "1_0_0-beta_31": "{span.line}[1. È ora possibile comprare WAVES e BTC con una carta di credito.]{span.line}[2. Migliorata l'interfaccia nella finestra di Compra/Vendi.]{span.line}[3. Aggiunto il supporto a Windows 32-bit.]{span.line}[4. Bug fix di numerosi bug.]",
+                "1_0_0-beta_31": "{span.line}[1. È ora possibile comprare DCC e BTC con una carta di credito.]{span.line}[2. Migliorata l'interfaccia nella finestra di Compra/Vendi.]{span.line}[3. Aggiunto il supporto a Windows 32-bit.]{span.line}[4. Bug fix di numerosi bug.]",
                 "1_0_0-beta_32": "{span.line}[1. È ora possibile eseguire trasferimenti massivi via Client.]{span.line}[2. Correzione di alcuni bug minori.]",
                 "1_0_0-beta_35": "{span.line}[1. È ora possibile ordinare, filtrare, nascondere token nel tab Portafoglio.]{span.line}[2. Lancio del gateway DASH.]{span.line}[3. Aggiunto il supporto alla lingua Hindi.]{span.line}[4. Aggiunto il supporto alla lingua Olandese.]{span.line}[5. È ora possibile emettere fattura agli altri utenti.]{span.line}[6. Correzione di alcuni bug minori addizionali.]",
                 "1_0_0-beta_36": "{span.line}[1. Aggiunta della lista dei maggiori nodi di prestito sulla relativa pagina dedicata.]{span.line}[2. Correzione di alcuni bug.]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1. Aggiunto il supporto alla transazione degli script di invocazione. [Leggi di più](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)] \n {span.line}[2. Miglioramento dell'interfaccia utente e altri bug minori sono stati risolti.]",
                 "1_2_8": "{span.line}[1. I token Spam sono stati nascosti nel client.]\n{span.line}[2. Miglioramento dell'interfaccia utente e risoluzione di bug minori.]",
                 "1_3_0": "{span.line}[1. Miglioramento dell'interfaccia do navigazione della pagina iniziale.]",
-                "1_3_18": "{span.line} [1. Aggiunto login al wallet utilizzando una chiave privata.]\n{span.line} [2. La modifica del prezzo di 24 ore di un token è ora associata alla coppia token/WAVES.]",
+                "1_3_18": "{span.line} [1. Aggiunto login al wallet utilizzando una chiave privata.]\n{span.line} [2. La modifica del prezzo di 24 ore di un token è ora associata alla coppia token/DCC.]",
                 "1_3_19": "{span.line} [1. Lancio del gateway Bancor.] \n{span.line} [2.Miglioramento dell'interfaccia del menu utente.]",
                 "1_3_2": "{span.line} [1. Lancio del gateway WEST.] \n{span.line} [2. Miglioramento dell'interfaccia utente e risoluzione di altri bug minori.]",
                 "1_3_20": "{span.line} [1. Miglioramento del sistema di archiviazione e ripristino di account da dispositivi di archiviazione locali (è necessario aggiornare [l'applicazione desktop](https://wavesplatform.com/technology/wallet)).] \n {span.line} [2. Risolto il problema relativo all'arrotondamento dei prezzi nel registro ordini.]",

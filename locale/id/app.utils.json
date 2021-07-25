@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Klik untuk menilai token",
                 "tooltipLink": "Detail selengkapnya",
-                "tooltipNeedWAVES": "dan 0,001 WAVES",
+                "tooltipNeedWAVES": "dan 0,001 DCC",
                 "tooltipNeedWCT": "Untuk menilai token, Anda harus memiliki setidaknya 1",
-                "tooltipText": "Token tidak ditransfer, hanya saldo yang ada diperlukan untuk memilih. Skor Anda akan diterapkan setelah 24 jam. Harap simpan token saat ini di akun selama waktu ini. \nBiaya 0,001 WAVES.",
+                "tooltipText": "Token tidak ditransfer, hanya saldo yang ada diperlukan untuk memilih. Skor Anda akan diterapkan setelah 24 jam. Harap simpan token saat ini di akun selama waktu ini. \nBiaya 0,001 DCC.",
                 "tooltipTitle": "Untuk menilai token, Anda harus memiliki setidaknya 1 WCT di dompet Anda."
             },
             "reissue": {
@@ -811,7 +811,7 @@
             "title": "Ubah sponsor"
         },
         "sponsorship": {
-            "amountPerTx": "Jumlah per transaksi (per 0,001 WAVES)",
+            "amountPerTx": "Jumlah per transaksi (per 0,001 DCC)",
             "assetId": "ID",
             "continue": "Lanjutkan",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "Biaya Transaksi {{fee, money-currency}}",
             "title": "Aktifkan Sponsor",
             "warningHeader": "Pengguna akan dapat membayar biaya transaksi di {{name}}",
-            "warningText": "Untuk setiap transaksi, 0,001 WAVES akan dipotong dari saldo Anda dan {{name}} akan dikreditkan ke akun Anda. Jumlah {{name}} untuk dibebankan kepada pengguna untuk transaksi ditetapkan oleh Anda ketika Anda mengaktifkan Sponsorship (masukkan jumlah dalam formulir di bawah). Sponsor hanya akan berfungsi jika Anda memiliki saldo setidaknya 1,005 WAVES. Jika saldo Anda turun di bawah jumlah ini, Anda tidak akan dapat mensponsori transaksi."
+            "warningText": "Untuk setiap transaksi, 0,001 DCC akan dipotong dari saldo Anda dan {{name}} akan dikreditkan ke akun Anda. Jumlah {{name}} untuk dibebankan kepada pengguna untuk transaksi ditetapkan oleh Anda ketika Anda mengaktifkan Sponsorship (masukkan jumlah dalam formulir di bawah). Sponsor hanya akan berfungsi jika Anda memiliki saldo setidaknya 1,005 DCC. Jika saldo Anda turun di bawah jumlah ini, Anda tidak akan dapat mensponsori transaksi."
         },
         "startLease": {
             "amount": "Jumlah",
@@ -959,8 +959,8 @@
                 "1_0_0-beta_25": "{span.line} [1. Anda sekarang dapat mengubah waktu sesi di Pengaturan.] {span.line} [2. Kami telah memperbaiki bug dengan jendela Beli / Jual di DEX untuk mencegahnya dipindahkan ke luar area tampilan.] {span.line} [3. Kami sekarang akan mengingatkan Anda jika Anda belum menyimpan SEED Anda.] {span.line} [4. Beberapa bug kecil telah diperbaiki.]",
                 "1_0_0-beta_26": "{span.line} [1. Beberapa bug kecil telah diperbaiki.]",
                 "1_0_0-beta_27": "{span.line} [1. Menambahkan bahasa Mandarin.] {span.line} [2. Menambahkan bahasa Turki.]",
-                "1_0_0-beta_30": "{span.line} [1. Anda sekarang dapat membakar dan menerbitkan kembali token yang telah Anda buat.] {span.line} [2. Menambahkan dukungan API WAVES Auth.] {span.line} [3. Beberapa bug kecil telah diperbaiki.]",
-                "1_0_0-beta_31": "{span.line} [1. Anda sekarang dapat membeli WAVES dan BTC dengan kartu kredit.] {span.line} [2. Peningkatan UI di jendela Beli / Jual.] {span.line} [3. Dukungan untuk Windows 32-bit ditambahkan.] {span.line} [4. Banyak bug lainnya diperbaiki.]",
+                "1_0_0-beta_30": "{span.line} [1. Anda sekarang dapat membakar dan menerbitkan kembali token yang telah Anda buat.] {span.line} [2. Menambahkan dukungan API DCC Auth.] {span.line} [3. Beberapa bug kecil telah diperbaiki.]",
+                "1_0_0-beta_31": "{span.line} [1. Anda sekarang dapat membeli DCC dan BTC dengan kartu kredit.] {span.line} [2. Peningkatan UI di jendela Beli / Jual.] {span.line} [3. Dukungan untuk Windows 32-bit ditambahkan.] {span.line} [4. Banyak bug lainnya diperbaiki.]",
                 "1_0_0-beta_32": "{span.line} [1. Anda sekarang dapat melakukan transfer massal dari Klien.] {span.line} [2. Beberapa bug kecil telah diperbaiki.]",
                 "1_0_0-beta_35": "{span.line} [1. Anda sekarang dapat mengurutkan, memfilter, dan menyembunyikan token di tab Portofolio.] {span.line} [2. DASH gateway telah diluncurkan.] {span.line} [3. Dukungan bahasa Hindi ditambahkan.] {span.line} [4. Dukungan bahasa Belanda ditambahkan.] {span.line} [5. Anda sekarang dapat menagih pengguna lain.] {span.line} [6. Bug kecil tambahan telah diperbaiki.]",
                 "1_0_0-beta_36": "{span.line} [1. Node leasing utama terdaftar di halaman penyewaan.] {span.line} [2. Beberapa bug diperbaiki.]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line} [1. Dukungan transaksi skrip invokasi ditambahkan. [Baca selengkapnya] (https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)] \n {span.line} [2. UI yang diperbaiki dan bug minor tambahan telah diperbaiki.]",
                 "1_2_8": "{span.line} [1. Token dan transaksi spam telah disembunyikan di klien.] \n {span.line} [2. UI yang diperbaiki dan bug minor tambahan telah diperbaiki.]",
                 "1_3_0": "{span.line} [1. Navigasi aplikasi yang ditingkatkan dan antarmuka halaman mulai.]",
-                "1_3_18": "{span.line} [1. Menambahkan login ke dompet menggunakan kunci pribadi.] \n{span.line} [2. Perubahan harga 24 jam dari token sekarang terikat ke pasangan token/WAVES.]",
+                "1_3_18": "{span.line} [1. Menambahkan login ke dompet menggunakan kunci pribadi.] \n{span.line} [2. Perubahan harga 24 jam dari token sekarang terikat ke pasangan token/DCC.]",
                 "1_3_19": "{span.line} [1. Gerbang Bancor telah diluncurkan.] \n {span.line} [2. Antarmuka menu pengguna telah ditingkatkan.]",
                 "1_3_2": "{span.line} [1. Gateway WEST telah diluncurkan.] \n{span.line} [2. UI yang diperbaiki dan bug minor tambahan telah diperbaiki.]",
                 "1_3_20": "{span.line}[1. Improved system for storing and restoring accounts from local storage (Need to update the [desktop application](https://wavesplatform.com/technology/wallet)).]\n{span.line}[2. Fixed rounding of prices in the orderbook.]",

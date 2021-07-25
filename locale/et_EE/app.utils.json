@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Click to rate token",
                 "tooltipLink": "More Details",
-                "tooltipNeedWAVES": "and 0.001 WAVES",
+                "tooltipNeedWAVES": "and 0.001 DCC",
                 "tooltipNeedWCT": "To rate a token, you must have at least 1",
-                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 WAVES.",
+                "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 DCC.",
                 "tooltipTitle": "To rate a token, you must have at least 1 WCT in your wallet."
             },
             "reissue": {
@@ -438,7 +438,7 @@
             "scanQrCode": "Skaneeri QR-koodi",
             "title": "Jaga oma aadressi",
             "warningText": "Mis tahes muu digitaalse vara saatmine sellele aadressile toob kaasa teie raha püsiva kaotsimineku.",
-            "warningTitle": "Saada sellele aadressile ainult WAVES ja Waves tokenid"
+            "warningTitle": "Saada sellele aadressile ainult DCC ja Waves tokenid"
         },
         "receive": {
             "accountStatus": "Konto staatus",
@@ -811,7 +811,7 @@
             "title": "Muuda sponsorlust"
         },
         "sponsorship": {
-            "amountPerTx": "Summa tehingu kohta (0,001 WAVES)",
+            "amountPerTx": "Summa tehingu kohta (0,001 DCC)",
             "assetId": "ID",
             "continue": "Jätka",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "Tehingutasu {{fee, money-currency}}",
             "title": "Luba Sponsorlus",
             "warningHeader": "Kasutajad saavad maksta tehingutasusid {{name}}'des",
-            "warningText": "Iga tehingu puhul lahutatakse teie saldost 0,001 WAVES ja teie kontole krediteeritakse {{name}}. Teie poolt tehingute eest tasumisele kuuluva {{name}} summa määrate teie, kui lubate sponsorluse (sisestage summa allolevas vormis). Sponsorlus toimib ainult siis, kui teil on vähemalt 1,005 WAVESi saldo. Kui teie saldo langeb alla selle summa, ei saa te tehinguid sponsoreerida."
+            "warningText": "Iga tehingu puhul lahutatakse teie saldost 0,001 DCC ja teie kontole krediteeritakse {{name}}. Teie poolt tehingute eest tasumisele kuuluva {{name}} summa määrate teie, kui lubate sponsorluse (sisestage summa allolevas vormis). Sponsorlus toimib ainult siis, kui teil on vähemalt 1,005 WAVESi saldo. Kui teie saldo langeb alla selle summa, ei saa te tehinguid sponsoreerida."
         },
         "startLease": {
             "amount": "Kogus",
@@ -960,7 +960,7 @@
                 "1_0_0-beta_26": "{span.line}[1. Mõned väikesed vead on parandatud.]",
                 "1_0_0-beta_27": "{span.line}[1. Lisatud Hiina keel.]{span.line}[2. Lisatud Türgi keel.]",
                 "1_0_0-beta_30": "{span.line}[1. Nüüd saate oma loodud tokenid hävitada ning uuesti emiteerida.]{span.line}[2. Lisatud Waves Auth API tugi.]{span.line}[3. Mõned väikesed vead on parandatud.]",
-                "1_0_0-beta_31": "{span.line}[1. Nüüd saate osta WAVES ja BTC krediitkaardiga.]{span.line}[2. Parendatud kasutajaliidest ostu / müügi aknas.]{span.line}[3. Lisatud tugi 32-bitisele Windowsile.]{span.line}[4. Paljud muud vead parandatud.]",
+                "1_0_0-beta_31": "{span.line}[1. Nüüd saate osta DCC ja BTC krediitkaardiga.]{span.line}[2. Parendatud kasutajaliidest ostu / müügi aknas.]{span.line}[3. Lisatud tugi 32-bitisele Windowsile.]{span.line}[4. Paljud muud vead parandatud.]",
                 "1_0_0-beta_32": "{span.line}[1. Nüüd saate Waves Kliendis massülekandeid teha.]{span.line}[2. Mõned väikesed vead on parandatud.]",
                 "1_0_0-beta_35": "{span.line}[1. Nüüd saate sorteerida, filtreerida ja peita tokeneid vahekaardil Portfolio.]{span.line}[2. DASH-lüüs on käivitatud.]{span.line}[3. Hindi keele tugi on lisatud.]{span.line}[4. Hollandi keele tugi on lisatud.]{span.line}[5. Saate nüüd teistele kasutajatele arveid esitada.]{span.line}[6. Väikesed vead on parandatud.]",
                 "1_0_0-beta_36": "{span.line}[1. Suurimad liisingusõlmed on liisingu leheküljel loetletud.]{span.line}[2. Mõned vead on parandatud.]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1. Invocation script transaction support added. [Read more](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_2_8": "{span.line}[1. Spam tokens and transactions have been hidden in client.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_3_0": "{span.line}[1. Improved app navigation and start page interface.]",
-                "1_3_18": "{span.line}[1. Added login to wallet using a private key.]\n{span.line}[2. The 24 hours price change of a token is now bound to token/WAVES pair.]",
+                "1_3_18": "{span.line}[1. Added login to wallet using a private key.]\n{span.line}[2. The 24 hours price change of a token is now bound to token/DCC pair.]",
                 "1_3_19": "{span.line}[1. Bancor gateway has been launched.]\n{span.line}[2. User menu interface has been improved.]",
                 "1_3_2": "{span.line}[1. WEST gateway has been launched.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_3_20": "{span.line}[1. Improved system for storing and restoring accounts from local storage (Need to update the [desktop application](https://wavesplatform.com/technology/wallet)).]\n{span.line}[2. Fixed rounding of prices in the orderbook.]",

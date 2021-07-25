@@ -3,7 +3,7 @@
 
     const ds = require('data-service');
     const { Asset } = require('@waves/data-entities');
-    const { SIGN_TYPE } = require('@waves/signature-adapter');
+    const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
     const analytics = require('@waves/event-sender');
 
     const NO_EXPORT_TYPES = [

@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "Esse campo define o número de casas decimais que o token será dividido.",
-        "scriptDescription": "Cada transação validada por script do Smart Asset é adicionada uma taxa de 0.004 WAVES. Por exemplo, se uma tx normal é feita para um Smart Asset, o custo é de 0.001 + 0.004 = 0.005 WAVES. Se esse tipo de transação for feita na exchange, o custo é de 0.003 + 0.004 = 0.007 WAVES.",
+        "scriptDescription": "Cada transação validada por script do Smart Asset é adicionada uma taxa de 0.004 DCC. Por exemplo, se uma tx normal é feita para um Smart Asset, o custo é de 0.001 + 0.004 = 0.005 DCC. Se esse tipo de transação for feita na exchange, o custo é de 0.003 + 0.004 = 0.007 DCC.",
         "scriptHeader": "O Smart Asset é um ativo com um script anexado que adiciona condições em todas as transações feitas com este token.",
         "scriptLearnMore": "Saiba mais",
         "totalTokens": {

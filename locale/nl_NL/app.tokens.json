@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "Dit veld definieert het aantal decimalen waar uw token in opgesplitst zal worden.",
-        "scriptDescription": "Elke bevestiging van een transactie met een Smart Asset script verhoogt de transactiekosten met 0.004 WAVES. Bijvoorbeeld: als een normale transactie wordt gedaan van een Smart Asset kost dit 0.001 + 0.004 = 0.005 WAVES. Als een exchange transactie wordt gedaan kost dit 0.003 + 0.004 = 0.007 WAVES.",
+        "scriptDescription": "Elke bevestiging van een transactie met een Smart Asset script verhoogt de transactiekosten met 0.004 DCC. Bijvoorbeeld: als een normale transactie wordt gedaan van een Smart Asset kost dit 0.001 + 0.004 = 0.005 DCC. Als een exchange transactie wordt gedaan kost dit 0.003 + 0.004 = 0.007 DCC.",
         "scriptHeader": "Een Smart Asset is een asset met een bijgevoegd script dat voorwaarden op elke transactie plaatst die voor de token in kwestie is gemaakt.",
         "scriptLearnMore": "Lees verder",
         "totalTokens": {

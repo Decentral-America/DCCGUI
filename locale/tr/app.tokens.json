@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "Bu alan kripto paranızın kaç basamağa bölüneceğini belirtmektedir.",
-        "scriptDescription": "Akıllı kripto para işlemleri işlem ücreti 0.004 WAVES arttırır. Örneğin akıllı kripto para için bir işlem yaptığınızda 0.001 + 0.004 = 0.005 WAVES komisyon ödersiniz. Eğer takas işlemi yaparsanız 0.003 + 0.004 = 0.007 WAVES komisyon ödersiniz.",
+        "scriptDescription": "Akıllı kripto para işlemleri işlem ücreti 0.004 DCC arttırır. Örneğin akıllı kripto para için bir işlem yaptığınızda 0.001 + 0.004 = 0.005 DCC komisyon ödersiniz. Eğer takas işlemi yaparsanız 0.003 + 0.004 = 0.007 DCC komisyon ödersiniz.",
         "scriptHeader": "Akıllı kripto para, her işlemde belirli koşulları kontrol eden script'lerden oluşur.",
         "scriptLearnMore": "Daha fazla bilgi edin",
         "totalTokens": {

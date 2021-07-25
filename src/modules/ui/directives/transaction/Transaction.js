@@ -14,7 +14,7 @@
     const controller = function (Base, $filter, modalManager, notification,
                                  waves, user, $scope) {
 
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         class Transaction extends Base {
 
             $postLink() {

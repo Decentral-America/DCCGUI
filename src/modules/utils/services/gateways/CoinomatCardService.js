@@ -2,7 +2,7 @@
     'use strict';
 
     const CARD_GATEWAYS = {
-        [WavesApp.defaultAssets.WAVES]: 'WAVES'
+        [WavesApp.defaultAssets.DCC]: 'DCC'
     };
 
     const PATH = `${WavesApp.network.coinomat}/api/v2/indacoin`;

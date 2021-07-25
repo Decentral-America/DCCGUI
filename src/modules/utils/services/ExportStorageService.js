@@ -1,7 +1,7 @@
 (() => {
     'use strict';
 
-    const { libs, seedUtils } = require('@waves/waves-transactions');
+    const { libs, seedUtils } = require('@decentralchain/waves-transactions');
     const { keyPair } = libs.crypto;
 
     const noop = () => undefined;

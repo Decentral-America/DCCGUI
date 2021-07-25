@@ -20,7 +20,7 @@
 
         const isEmpty = (value) => !value;
         const tsApiValidator = require('ts-api-validator');
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         const ds = require('data-service');
         const schema = new tsApiValidator.Schema({
             type: tsApiValidator.ObjectPart,

@@ -3,7 +3,7 @@
 
     const analytics = require('@waves/event-sender');
     const ds = require('data-service');
-    const { libs } = require('@waves/waves-transactions');
+    const { libs } = require('@decentralchain/waves-transactions');
     const { base58Decode } = libs.crypto;
 
     /**

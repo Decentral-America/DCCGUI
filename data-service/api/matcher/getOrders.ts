@@ -1,4 +1,4 @@
-import { WAVES_ID } from '@waves/signature-adapter';
+import { DCC_ID } from '@decentralchain/signature-adapter';
 import { Asset, AssetPair, Money, OrderPrice } from '@waves/data-entities';
 import { BigNumber } from '@waves/bignumber';
 import { IHash, IMoneyFactory, IPriceMoneyFactory } from '../../interface';
@@ -118,7 +118,7 @@ export function prepareReservedBalance(data: IReservedBalanceApi): Promise<IHash
 
 function getAssetsFromOrderList(orders: Array<api.IOrder>): Array<string> {
     const hash = Object.create(null);
-    hash[WAVES_ID] = true;
+    hash[DCC_ID] = true;
     return Object.keys(orders.reduce(getAssetsFromOrder, hash));
 }
 

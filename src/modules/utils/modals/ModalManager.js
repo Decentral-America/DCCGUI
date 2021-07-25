@@ -19,7 +19,7 @@
         const tsUtils = require('ts-utils');
         const ds = require('data-service');
         const { Money } = require('@waves/data-entities');
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         const analytics = require('@waves/event-sender');
 
         const DEFAULT_OPTIONS = {

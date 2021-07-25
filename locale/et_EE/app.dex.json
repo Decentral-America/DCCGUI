@@ -42,7 +42,7 @@
                 "required": "Selle välja täitmine on kohustuslik"
             },
             "expiration": "Aegumine",
-            "fee": "Tasu {{fee}} WAVES",
+            "fee": "Tasu {{fee}} DCC",
             "hasScript": "Kauplemiseks tühista [script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html)",
             "last": "Viimane",
             "limit": "Limit Order",

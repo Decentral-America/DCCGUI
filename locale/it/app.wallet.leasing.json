@@ -4,10 +4,10 @@
         "available": "Disponibile",
         "create": "Presta",
         "leased": "Prestati",
-        "title": "Bilancio WAVES"
+        "title": "Bilancio DCC"
     },
     "description": {
-        "text1": "Puoi trasferire o scambiare esclusivamente WAVES che non siano stati prestati. Il capitale prestato non può essere trasferito o scambiato né da te né da nessun altro.",
+        "text1": "Puoi trasferire o scambiare esclusivamente DCC che non siano stati prestati. Il capitale prestato non può essere trasferito o scambiato né da te né da nessun altro.",
         "text2": "Potrai revocare un prestito non appena la relativa transazione risulterà nella blockchain, il che di solito avviene nel giro di un minuto o poco meno.",
         "text3": "Il bilancio generato sarà aggiornato dopo 1000 blocchi.",
         "title": "Nota veloce"

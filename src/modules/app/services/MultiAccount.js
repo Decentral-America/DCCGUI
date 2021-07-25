@@ -2,7 +2,7 @@
 (() => {
     'use strict';
 
-    const { libs } = require('@waves/waves-transactions');
+    const { libs } = require('@decentralchain/waves-transactions');
     const {
         encryptSeed,
         decryptSeed,

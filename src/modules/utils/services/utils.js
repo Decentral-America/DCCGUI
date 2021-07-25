@@ -6,10 +6,10 @@
     const tsApiValidator = require('ts-api-validator');
     const { splitEvery, pipe, path, map, ifElse, concat, defaultTo, identity, isNil, propEq } = require('ramda');
     const { WindowAdapter, Bus } = require('@waves/waves-browser-bus');
-    const { libs } = require('@waves/waves-transactions');
+    const { libs } = require('@decentralchain/waves-transactions');
     const { base58Decode, base58Encode, stringToBytes, bytesToString } = libs.crypto;
     const ds = require('data-service');
-    const { SIGN_TYPE } = require('@waves/signature-adapter');
+    const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
     const { Money } = require('@waves/data-entities');
     const { STATUS_LIST } = require('@waves/oracle-data');
     const { BigNumber } = require('@waves/bignumber');
@@ -54,7 +54,7 @@
     ];
 
     const DEFAULT_ASSET_ICONS_MAP = Object.assign(Object.create(null), {
-        [WavesApp.defaultAssets.WAVES]: '/img/assets/waves.svg',
+        [WavesApp.defaultAssets.DCC]: '/img/assets/waves.svg',
         [WavesApp.defaultAssets.BTC]: '/img/assets/bitcoin.svg',
         [WavesApp.defaultAssets.ETH]: '/img/assets/ethereum.svg',
         [WavesApp.defaultAssets.LTC]: '/img/assets/ltc.svg',
@@ -1043,10 +1043,10 @@
                     }, 50);
                     return null;
                 }
-                if (asset1 === WavesApp.defaultAssets.WAVES) {
+                if (asset1 === WavesApp.defaultAssets.DCC) {
                     asset2 = WavesApp.defaultAssets.BTC;
                 } else {
-                    asset2 = WavesApp.defaultAssets.WAVES;
+                    asset2 = WavesApp.defaultAssets.DCC;
                 }
                 setTimeout(() => {
                     $state.go(`main.${dex}`, { assetId1: asset1, assetId2: asset2 });
@@ -1774,7 +1774,7 @@
                  */
                 const isAdvancedMode = user.getSetting('advancedMode');
 
-                const hasCustomFee = data.matcherFee.asset.id && data.matcherFee.asset.id !== 'WAVES';
+                const hasCustomFee = data.matcherFee.asset.id && data.matcherFee.asset.id !== 'DCC';
 
                 /**
                  * @type {number | undefined}

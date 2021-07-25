@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    const { SIGN_TYPE } = require('@waves/signature-adapter');
+    const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
     const { signature } = require('data-service');
     const $ = require('jquery');
 
@@ -159,7 +159,7 @@
              * @private
              */
             _currentHasFee() {
-                const waves = balanceWatcher.getBalance().WAVES;
+                const waves = balanceWatcher.getBalance().DCC;
 
                 if (!this.fee) {
                     return null;

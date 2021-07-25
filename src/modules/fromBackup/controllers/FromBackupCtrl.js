@@ -2,7 +2,7 @@
     'use strict';
 
     const networkByte = (WavesApp.network.code || 'W').charCodeAt(0);
-    const { libs } = require('@waves/waves-transactions');
+    const { libs } = require('@decentralchain/waves-transactions');
 
     const getName = (names, name) => {
         let index = 0;

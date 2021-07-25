@@ -1,5 +1,5 @@
 import {IAssetPair, IHash} from '../interface';
-import {WAVES_ID} from '@waves/signature-adapter';
+import {DCC_ID} from '@decentralchain/signature-adapter';
 import {Asset, Money, AssetPair, OrderPrice} from '@waves/data-entities';
 import {BigNumber} from '@waves/bignumber';
 import {get} from '../api/assets/assets';
@@ -51,11 +51,11 @@ export function normalizeUrl(url: string): string {
 }
 
 export function normalizeAssetId(assetId: string | void) {
-    return assetId || WAVES_ID;
+    return assetId || DCC_ID;
 }
 
 export function idToNode(id: string): string {
-    return id === WAVES_ID ? '' : id;
+    return id === DCC_ID ? '' : id;
 }
 
 export function toHash<T, K extends keyof T>(list: Array<T>, property: K): IHash<T> {

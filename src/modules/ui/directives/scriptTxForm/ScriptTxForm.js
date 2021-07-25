@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    const { SIGN_TYPE } = require('@waves/signature-adapter');
+    const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
     const BASE_64_PREFIX = 'base64:';
     const { uniqueId } = require('ts-utils');
     const { fetch } = require('data-service');

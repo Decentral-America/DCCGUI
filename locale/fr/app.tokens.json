@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "Ce champ définit le nombre de décimales dans lesquelles votre token d'actif sera divisé.",
-        "scriptDescription": "Chaque validation d'une transaction par le script d'un Actif Intelligent augmente les frais de transaction de 0,004 WAVES. Par exemple, si une transaction régulière est faite pour un Actif Intelligent, le coût est de 0,001 + 0,004 = 0,005 WAVES. Si une opération d'échange est effectuée, le coût est de 0,003 + 0,004 = 0,007 WAVES.",
+        "scriptDescription": "Chaque validation d'une transaction par le script d'un Actif Intelligent augmente les frais de transaction de 0,004 DCC. Par exemple, si une transaction régulière est faite pour un Actif Intelligent, le coût est de 0,001 + 0,004 = 0,005 DCC. Si une opération d'échange est effectuée, le coût est de 0,003 + 0,004 = 0,007 DCC.",
         "scriptHeader": "Un Actif Intelligent est un actif avec un script joint qui place des conditions sur chaque transaction effectuée pour le token en question.",
         "scriptLearnMore": "En savoir plus",
         "totalTokens": {

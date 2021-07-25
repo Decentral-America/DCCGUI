@@ -10,8 +10,8 @@
      */
     const controller = function (Base, $scope, user, utils) {
 
-        const { encryptSeed } = require('@waves/waves-transactions').seedUtils;
-        const { crypto } = require('@waves/waves-transactions').libs;
+        const { encryptSeed } = require('@decentralchain/waves-transactions').seedUtils;
+        const { crypto } = require('@decentralchain/waves-transactions').libs;
         const { publicKey: getPublicKey, address: getAddress, base58Decode } = crypto;
         const checkAccount = (account) => {
             if (!account) {
