@@ -4,8 +4,8 @@
     const ds = require('data-service');
     const { Money } = require('@waves/data-entities');
     const { BigNumber } = require('@waves/bignumber');
-    const { currentCreateOrderFactory } = require('@waves/signature-adapter');
-    const { libs } = require('@waves/waves-transactions');
+    const { currentCreateOrderFactory } = require('@decentralchain/signature-adapter');
+    const { libs } = require('@decentralchain/waves-transactions');
     const { address } = libs.crypto;
 
     /**
@@ -135,7 +135,7 @@
 
                         return Promise.all([
                             this._scriptInfo(matcherAddress),
-                            ds.api.assets.get('WAVES')
+                            ds.api.assets.get('DCC')
                         ]).then(([info, asset]) => ({
                             asset,
                             hasScript: info.extraFee.getTokens().gt(0),

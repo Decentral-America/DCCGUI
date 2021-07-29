@@ -145,7 +145,7 @@
             "rating": {
                 "canVoteTip": "クリックしてトークンを評価",
                 "tooltipLink": "詳細を表示",
-                "tooltipNeedWAVES": "0.001 WAVES",
+                "tooltipNeedWAVES": "0.001 DCC",
                 "tooltipNeedWCT": "トークンを評価するには、最低1 WCTが必要です。",
                 "tooltipText": "評価に際してトークンは転送されません。投票には規定の残高のみが必要です。スコアは24時間後に反映されます。その間は残高を維持してください。手数料は0.001WAVESです。",
                 "tooltipTitle": "トークンを評価するには、ウォレットに最低1 WCTが必要です。"
@@ -811,7 +811,7 @@
             "title": "スポンサーシップを変更"
         },
         "sponsorship": {
-            "amountPerTx": "トランザクションごとの数量 (単位: 0.001 WAVES)",
+            "amountPerTx": "トランザクションごとの数量 (単位: 0.001 DCC)",
             "assetId": "ID",
             "continue": "次へ",
             "errors": {

@@ -160,7 +160,7 @@
                 if (this.isLockedPair(assetId)) {
                     return null;
                 }
-                const wavesId = WavesApp.defaultAssets.WAVES;
+                const wavesId = WavesApp.defaultAssets.DCC;
                 const btcId = WavesApp.defaultAssets.BTC;
                 const assetId2 = assetId === wavesId ? btcId : wavesId;
 

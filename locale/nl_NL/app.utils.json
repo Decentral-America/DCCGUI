@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Klik om token te beoordelen",
                 "tooltipLink": "Bekijk Details",
-                "tooltipNeedWAVES": "en 0,001 WAVES",
+                "tooltipNeedWAVES": "en 0,001 DCC",
                 "tooltipNeedWCT": "Om een token te kunnen beoordelen, heeft u nodig minstens 1",
-                "tooltipText": "Tokens worden niet overgedragen, alleen uw bestaande balans is vereist voor stemmen. Uw score wordt na 24 uur toegepast. Bewaar de huidige tokens in het account gedurende deze tijd. \nTarief 0,001 WAVES.",
+                "tooltipText": "Tokens worden niet overgedragen, alleen uw bestaande balans is vereist voor stemmen. Uw score wordt na 24 uur toegepast. Bewaar de huidige tokens in het account gedurende deze tijd. \nTarief 0,001 DCC.",
                 "tooltipTitle": "Om een token te beoordelen, heeft u tenminste 1 WCT in uw portemonnee nodig."
             },
             "reissue": {
@@ -438,7 +438,7 @@
             "scanQrCode": "QR-code scan",
             "title": "Deel uw adres",
             "warningText": "Het versturen van elke andere digitale asset naar dit adres resulteert in permanent verlies van deze asset.",
-            "warningTitle": "Stuur enkel WAVES and WAVES tokens naar dit adres"
+            "warningTitle": "Stuur enkel DCC and DCC tokens naar dit adres"
         },
         "receive": {
             "accountStatus": "Account status",
@@ -811,7 +811,7 @@
             "title": "Verander gesponsorde transactie"
         },
         "sponsorship": {
-            "amountPerTx": "Hoeveelheid per transactie (per 0.001 WAVES)",
+            "amountPerTx": "Hoeveelheid per transactie (per 0.001 DCC)",
             "assetId": "ID",
             "continue": "Ga door",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "Transactiekosten {{fee, money-currency}}",
             "title": "Schakel gesponsorde transactie in",
             "warningHeader": "Gebruikers kunnen transactiekosten betalen in {{name}}",
-            "warningText": "Voor elke transactie wordt 0.001 WAVES in rekening gebracht vanaf uw account en {{name}} wordt aan uw account toegevoegd. Het aantal {{name}} dat in rekening wordt gebracht aan gebruikers van transacties wordt door u betaald als u een gesponsorde transactie inschakelt. Stel dit aantal in het formulier hieronder in. Sponsorship werkt enkel als uw balans ten minste 1.005 WAVES is. Als u minder dan dit aantal WAVES op uw balans heeft zal de gesponsorde transactie niet meer werken."
+            "warningText": "Voor elke transactie wordt 0.001 DCC in rekening gebracht vanaf uw account en {{name}} wordt aan uw account toegevoegd. Het aantal {{name}} dat in rekening wordt gebracht aan gebruikers van transacties wordt door u betaald als u een gesponsorde transactie inschakelt. Stel dit aantal in het formulier hieronder in. Sponsorship werkt enkel als uw balans ten minste 1.005 DCC is. Als u minder dan dit aantal DCC op uw balans heeft zal de gesponsorde transactie niet meer werken."
         },
         "startLease": {
             "amount": "Hoeveelheid",
@@ -960,7 +960,7 @@
                 "1_0_0-beta_26": "{span.line}[1. Some minor bugs have been fixed.]",
                 "1_0_0-beta_27": "{span.line}[1. Added Chinese language.]{span.line}[2. Added Turkish language.]",
                 "1_0_0-beta_30": "{span.line} [1. Je kunt nu tokens die je hebt gegenereerd, branden en opnieuw uitgeven.] {span.line} [2. De Waves Auth API-ondersteuning toegevoegd.] {span.line} [3. Sommige kleine fouten zijn verholpen.]",
-                "1_0_0-beta_31": "{span.line}[1. U kunt nu WAVES en BTC kopen met een creditcard.]{span.line}[2. Verbeterde gebruikersinterface in het venster Kopen / verkopen.] {span.line}[3. Ondersteuning voor 32-bits Windows toegevoegd.] {span.line}[4. Talrijke andere fouten gerepareerd.]",
+                "1_0_0-beta_31": "{span.line}[1. U kunt nu DCC en BTC kopen met een creditcard.]{span.line}[2. Verbeterde gebruikersinterface in het venster Kopen / verkopen.] {span.line}[3. Ondersteuning voor 32-bits Windows toegevoegd.] {span.line}[4. Talrijke andere fouten gerepareerd.]",
                 "1_0_0-beta_32": "{span.line}[1. U kunt nu massaoverdrachten van de klant maken.]{span.line}[2. Sommige kleine fouten zijn verholpen.]",
                 "1_0_0-beta_35": "{span.line}[1. U kunt nu tokens sorteren, filteren en verbergen op het Portfolio-tabblad.]{span.line}[2. DASH-gateway is gelanceerd.]{span.line}[3. Ondersteuning voor Hindi toegevoegd.]{span.line}[4. Ondersteuning voor Nederlands toegevoegd.]{span.line}[5. U kunt nu andere gebruikers factureren.]{span.line}[6. Daarnaast zijn er kleine bugs opgelost.]",
                 "1_0_0-beta_36": "{span.line}[1. Belangrijke leaseknooppunten worden vermeld op de leasepagina.]{span.line}[2. Een aantal bugs zijn opgelost.]",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1. Invocation script transaction support added. [Read more](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_2_8": "{span.line}[1. Spam tokens and transactions have been hidden in client.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_3_0": "{span.line}[1. Spam tokens and transactions have been hidden in client.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
-                "1_3_18": "{span.line}[1. Added login to wallet using a private key.]\n{span.line}[2. The 24 hours price change of a token is now bound to token/WAVES pair.]",
+                "1_3_18": "{span.line}[1. Added login to wallet using a private key.]\n{span.line}[2. The 24 hours price change of a token is now bound to token/DCC pair.]",
                 "1_3_19": "{span.line}[1. Bancor gateway has been launched.]\n{span.line}[2. User menu interface has been improved.]",
                 "1_3_2": "{span.line}[1. WEST gateway has been launched.]\n{span.line}[2. Improved UI and additional minor bugs have been fixed.]",
                 "1_3_20": "{span.line}[1. Improved system for storing and restoring accounts from local storage (Need to update the [desktop application](https://wavesplatform.com/technology/wallet)).]\n{span.line}[2. Fixed rounding of prices in the orderbook.]",

@@ -10,7 +10,7 @@
     const controller = function (Base, $scope) {
 
         const analytics = require('@waves/event-sender');
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
 
         const ANALYTICS_TX_NAMES = {
             [SIGN_TYPE.CREATE_ORDER]: 'Create order',

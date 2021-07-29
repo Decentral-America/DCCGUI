@@ -233,7 +233,7 @@
             canShowDex(balance) {
                 return balance.isPinned ||
                     balance.asset.isMyAsset ||
-                    balance.asset.id === WavesApp.defaultAssets.WAVES ||
+                    balance.asset.id === WavesApp.defaultAssets.DCC ||
                     gatewayService.getPurchasableWithCards()[balance.asset.id] ||
                     gatewayService.getCryptocurrencies()[balance.asset.id] ||
                     gatewayService.getFiats()[balance.asset.id];
@@ -272,7 +272,7 @@
             }
 
             isDepositSupported(asset) {
-                const isWaves = asset.id === WavesApp.defaultAssets.WAVES;
+                const isWaves = asset.id === WavesApp.defaultAssets.DCC;
 
                 return gatewayService.hasSupportOf(asset, 'deposit') || isWaves;
             }

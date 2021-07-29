@@ -42,7 +42,7 @@
                 "required": "この項目は必須です"
             },
             "expiration": "有効期限",
-            "fee": "手数料  {{fee}} WAVES",
+            "fee": "手数料  {{fee}} DCC",
             "hasScript": "トレードの為にスクリプト(https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) をキャンセル",
             "last": "最終",
             "limit": "Limit Order",

@@ -2,7 +2,7 @@
     'use strict';
 
     const analytics = require('@waves/event-sender');
-    const { validators, libs } = require('@waves/waves-transactions');
+    const { validators, libs } = require('@decentralchain/waves-transactions');
     const { isPublicKey } = validators;
     const { address, publicKey, base58Decode } = libs.crypto;
     const TABS = {

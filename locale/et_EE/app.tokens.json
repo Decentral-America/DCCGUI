@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "See väli määratleb kümnendkohtade arvu, mida teie vara tokenid jagatakse.",
-        "scriptDescription": "Iga tehingu valideerimine Smart Asset'i skriptiga suurendab tehingutasu 0,004 WAVES võrra. Näiteks, kui Smart Asset'le tehakse regulaarne tx, on maksumus 0,001 + 0,004 = 0,005 WAVES. Börsi tehingu sooritamise korral on maksumus 0,003 + 0,004 = 0,007 WAVES.",
+        "scriptDescription": "Iga tehingu valideerimine Smart Asset'i skriptiga suurendab tehingutasu 0,004 DCC võrra. Näiteks, kui Smart Asset'le tehakse regulaarne tx, on maksumus 0,001 + 0,004 = 0,005 DCC. Börsi tehingu sooritamise korral on maksumus 0,003 + 0,004 = 0,007 DCC.",
         "scriptHeader": "Smart Asset on vara, millel on lisatud skript, mis seab tingimused igale kõnealusele tokeniga tehtud tehingule.",
         "scriptLearnMore": "Lisateave",
         "totalTokens": {

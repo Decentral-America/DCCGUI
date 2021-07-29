@@ -9,7 +9,7 @@
         DROP_DOWN_LIST.push({ name, id: WavesApp.defaultAssets[name] });
     });
     Object.keys(WavesApp.defaultAssets).forEach((name) => {
-        if (!DROP_DOWN_ORDER_LIST.includes(name) && name !== 'WAVES' && name !== 'BTC') {
+        if (!DROP_DOWN_ORDER_LIST.includes(name) && name !== 'DCC' && name !== 'BTC') {
             DROP_DOWN_LIST.push({ name, id: WavesApp.defaultAssets[name] });
         }
     });
@@ -74,7 +74,7 @@
              */
             tabs = [
                 { name: 'directives.watchlist.all', value: 'all' },
-                { name: 'WAVES', value: WavesApp.defaultAssets.WAVES },
+                { name: 'DCC', value: WavesApp.defaultAssets.DCC },
                 { name: 'BTC', value: WavesApp.defaultAssets.BTC }
             ];
             /**
@@ -405,14 +405,14 @@
                     return Promise.resolve(new BigNumber(1));
                 }
 
-                return waves.node.assets.getAsset(activeTab === 'all' ? WavesApp.defaultAssets.WAVES : activeTab)
+                return waves.node.assets.getAsset(activeTab === 'all' ? WavesApp.defaultAssets.DCC : activeTab)
                     .then((asset) => {
                         this.volumeAsset = asset;
 
                         if (activeTab === 'all') {
                             return Promise.resolve(new BigNumber(1));
                         } else {
-                            return waves.utils.getRate(WavesApp.defaultAssets.WAVES, activeTab);
+                            return waves.utils.getRate(WavesApp.defaultAssets.DCC, activeTab);
                         }
                     });
             }
@@ -710,7 +710,7 @@
              * @private
              */
             static _isId(query) {
-                return WatchList._getBytes(query) > 16 || query === 'WAVES';
+                return WatchList._getBytes(query) > 16 || query === 'DCC';
             }
 
             /**

@@ -15,7 +15,7 @@
     },
     "helpIcon": {
         "demicals": "Questo campo definisce il numero di decimali in cui i token del tuo asset saranno divisibili.",
-        "scriptDescription": "Ogni convalida di transazione avvenuta tramite script di uno Smart Asset incrementa il costo della transazione di 0.004 Waves. Ad esempio, il costo di una operazione di invio fondi tramite Smart Asset sarà di 0.001 + 0.004 = 0.005 WAVES. Il costo di una transazione sull'exchange sarà 0.003 + 0.004 = 0.007 WAVES.",
+        "scriptDescription": "Ogni convalida di transazione avvenuta tramite script di uno Smart Asset incrementa il costo della transazione di 0.004 Waves. Ad esempio, il costo di una operazione di invio fondi tramite Smart Asset sarà di 0.001 + 0.004 = 0.005 DCC. Il costo di una transazione sull'exchange sarà 0.003 + 0.004 = 0.007 DCC.",
         "scriptHeader": "Uno Smart Asset è un asset connesso ad uno script capace di agire in base a determinate condizioni per ogni transazione eseguita con il token in questione.",
         "scriptLearnMore": "Maggiori dettagli",
         "totalTokens": {

@@ -17,7 +17,7 @@
                                  balanceWatcher, user) {
 
         const { flatten, propEq } = require('ramda');
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         const analytics = require('@waves/event-sender');
 
         const ANALYTICS_TABS_NAMES = {

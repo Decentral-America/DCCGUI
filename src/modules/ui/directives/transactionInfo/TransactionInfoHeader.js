@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    const { SIGN_TYPE } = require('@waves/signature-adapter');
+    const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
 
     /**
      * @param {app.utils} utils

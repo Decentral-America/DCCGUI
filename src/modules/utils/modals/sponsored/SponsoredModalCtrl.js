@@ -12,7 +12,7 @@
     const controller = function (Base, $scope, waves, balanceWatcher, utils) {
 
         const { isEmpty } = require('ts-utils');
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
         const { Money } = require('@waves/data-entities');
         const ds = require('data-service');
         const analytics = require('@waves/event-sender');
@@ -147,7 +147,7 @@
 
             _updateBalances() {
                 Promise.all([
-                    balanceWatcher.getBalanceByAssetId(WavesApp.defaultAssets.WAVES),
+                    balanceWatcher.getBalanceByAssetId(WavesApp.defaultAssets.DCC),
                     balanceWatcher.getBalanceByAssetId(this.assetId)
                 ]).then(([waves, asset]) => {
                     this.wavesBalance = waves;

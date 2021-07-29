@@ -23,7 +23,7 @@
             constructor(asset) {
                 super($scope);
                 this.asset = asset;
-                this.wavesId = WavesApp.defaultAssets.WAVES;
+                this.wavesId = WavesApp.defaultAssets.DCC;
                 this.isDemo = !user.address;
                 this.quantity = this.asset.quantity.div(new BigNumber(10).pow(this.asset.precision)).toFormat();
                 this.minFee = ds.utils.getTransferFeeList().find(money => money.asset.id === this.asset.id);
@@ -118,7 +118,7 @@
                         case TYPES.LEASE_IN:
                         case TYPES.LEASE_OUT:
                         case TYPES.CANCEL_LEASING:
-                            return this.asset.id === WavesApp.defaultAssets.WAVES;
+                            return this.asset.id === WavesApp.defaultAssets.DCC;
                         case TYPES.ISSUE:
                         case TYPES.REISSUE:
                         case TYPES.BURN:

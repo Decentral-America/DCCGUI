@@ -42,7 +42,7 @@
                 "required": "To pole jest wymagane"
             },
             "expiration": "Wygaśnięcie",
-            "fee": "prowizja {{fee}} WAVES",
+            "fee": "prowizja {{fee}} DCC",
             "hasScript": "Anuluj  [script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) by handlować",
             "last": "Ostatni",
             "limit": "Limit Order",

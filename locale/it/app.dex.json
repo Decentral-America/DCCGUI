@@ -42,7 +42,7 @@
                 "required": "Questo campo è obbligatorio"
             },
             "expiration": "Scadenza",
-            "fee": "Spese {{fee}} WAVES",
+            "fee": "Spese {{fee}} DCC",
             "hasScript": "Cancella [script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) da scambiare",
             "last": "Ultimi",
             "limit": "Ordine limite",

@@ -4,10 +4,10 @@
         "available": "Kullanılabilir",
         "create": "Kiralamaya başla",
         "leased": "Kiralanmış",
-        "title": "WAVES Bakiyesi"
+        "title": "DCC Bakiyesi"
     },
     "description": {
-        "text1": "Sadece kiralanmamış WAVES'lerinizi transfer veya takas edebilirsiniz. Kiralanmış miktarlar başka bir adrese gönderilemez veya takas amacı ile kullanılamaz.",
+        "text1": "Sadece kiralanmamış DCC'lerinizi transfer veya takas edebilirsiniz. Kiralanmış miktarlar başka bir adrese gönderilemez veya takas amacı ile kullanılamaz.",
         "text2": "Kiralama işlemini dilediğiniz zaman iptal edebilirsiniz. İptal işlemi saniyeler içerisinde gerçekleşir.",
         "text3": "Üretim bakiyesi 1000 Blok sonra güncellenecektir.",
         "title": "Kiralamadan Önce"

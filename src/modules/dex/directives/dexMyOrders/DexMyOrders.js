@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    const { SIGN_TYPE } = require('@waves/signature-adapter');
+    const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
     const { filter, whereEq, uniqBy, prop, where, gt, pick, __, map } = require('ramda');
     const ds = require('data-service');
     const analytics = require('@waves/event-sender');
@@ -520,7 +520,7 @@
                     const pair = `${assetPair.amountAsset.displayName} / ${assetPair.priceAsset.displayName}`;
                     const isNew = DexMyOrders._isNewOrder(order.timestamp.getTime());
                     const percent = new BigNumber(order.progress * 100).toFixed(2);
-                    const feeAsset = order.feeAsset || order.matcherFeeAssetId || 'WAVES';
+                    const feeAsset = order.feeAsset || order.matcherFeeAssetId || 'DCC';
                     const matcherFee = order.fee || order.matcherFee;
                     if (matcherFee) {
                         if (matcherFee instanceof Money) {

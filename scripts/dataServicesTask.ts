@@ -17,8 +17,8 @@ export function createDataServicesTask(): TaskFunction {
             '-u', '@waves/oracle-data',
             '-u', '@waves/data-entities',
             '-u', '@waves/signature-generator',
-            '-u', '@waves/signature-adapter',
-            '-u', '@waves/waves-transactions',
+            '-u', '@decentralchain/signature-adapter',
+            '-u', '@decentralchain/waves-transactions',
             '-u', '@waves/bignumber',
             '--no-bf',
             '-o', normalize('./data-service-dist/data-service-es6.js')

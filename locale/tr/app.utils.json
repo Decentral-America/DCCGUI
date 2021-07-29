@@ -145,9 +145,9 @@
             "rating": {
                 "canVoteTip": "Kripto parayı değerlendirmek için tıklayın",
                 "tooltipLink": "Daha fazla",
-                "tooltipNeedWAVES": "ve 0.001 WAVES",
+                "tooltipNeedWAVES": "ve 0.001 DCC",
                 "tooltipNeedWCT": "Oy vermek için en az 1 WCT'niz olması gerekmektedir.",
-                "tooltipText": "İşlem komisyon ücreti 0.001 WAVES'dir. Kripto paralarınız cüzdanınızı terketmez. Oylama için bakiyeniz olması gerekmektedir. Puanlar 24 saat sonra işlenir. Bu süre zarfında mevcut bakiyenizi koruyun.",
+                "tooltipText": "İşlem komisyon ücreti 0.001 DCC'dir. Kripto paralarınız cüzdanınızı terketmez. Oylama için bakiyeniz olması gerekmektedir. Puanlar 24 saat sonra işlenir. Bu süre zarfında mevcut bakiyenizi koruyun.",
                 "tooltipTitle": "Oy vermek için en az 1 WCT'niz olması gerekmektedir."
             },
             "reissue": {
@@ -438,7 +438,7 @@
             "scanQrCode": "QR kodu tara",
             "title": "Adresi kopyala ve paylaş",
             "warningText": "Bu adrese başka bir kripto para gönderimi fonlarınızın kaybına yol açar",
-            "warningTitle": "Bu adrese sadece WAVES ve Waves Platform üzerinde üretilmiş kripto para gönderin"
+            "warningTitle": "Bu adrese sadece DCC ve Waves Platform üzerinde üretilmiş kripto para gönderin"
         },
         "receive": {
             "accountStatus": "Hesap durumu",
@@ -811,7 +811,7 @@
             "title": "Sponsorluğu değiştir."
         },
         "sponsorship": {
-            "amountPerTx": "İşlem başı miktar (0.001 WAVES)",
+            "amountPerTx": "İşlem başı miktar (0.001 DCC)",
             "assetId": "ID",
             "continue": "Devam",
             "errors": {
@@ -825,7 +825,7 @@
             "fee": "İşlem komisyonu {{fee, money-currency}}",
             "title": "Sponsorluğu aktifleştir",
             "warningHeader": "Kullanıcılar işlem ücretlerini {{name}} ile ödeyebilirler",
-            "warningText": "Her bir işlemde hesabınızdan 0.001 WAVES düşecektir ve {{name}} bakiyenize eklenecektir. Kullanıcılardan düşecek olan {{name}} sponsorluğu ayarlarken  sizin tarafınızdan belirlenecektir. (aşağıdaki forma miktarı girin). Sponsorluk için en az 1.005 WAVES bakiyeniz olması gerekmektedir. Eğer bakiyeniz bunun altına düşerse sponsorluk iptal olur."
+            "warningText": "Her bir işlemde hesabınızdan 0.001 DCC düşecektir ve {{name}} bakiyenize eklenecektir. Kullanıcılardan düşecek olan {{name}} sponsorluğu ayarlarken  sizin tarafınızdan belirlenecektir. (aşağıdaki forma miktarı girin). Sponsorluk için en az 1.005 DCC bakiyeniz olması gerekmektedir. Eğer bakiyeniz bunun altına düşerse sponsorluk iptal olur."
         },
         "startLease": {
             "amount": "Miktar",
@@ -1000,7 +1000,7 @@
                 "1_2_6": "{span.line}[1. Çağırma scripti ile işlem desteği eklendi. [Daha Fazla](https://blog.wavesplatform.com/ride-for-dapps-hits-waves-testnet-e3f2906dd2aa)]\n{span.line}[2. Görsel tasarım geliştirildi ve ufak hatalar giderildi.]",
                 "1_2_8": "{span.line}[1. Spam kripto paralar ve işlemler gizlendi.]\n{span.line}[2. Görsel tasarım geliştirildi ve ufak hatalar giderildi.]",
                 "1_3_0": "{span.line}[1. Açılış sayfası güncellendi ve sayfalar arası dolaşım geliştirildi.]",
-                "1_3_18": "{span.line}[1. Özel anahtar ile giriş eklendi]\n{span.line}[2. Bir token'in 24 saatlik değişimi token/WAVES olarak ayarlandı.]",
+                "1_3_18": "{span.line}[1. Özel anahtar ile giriş eklendi]\n{span.line}[2. Bir token'in 24 saatlik değişimi token/DCC olarak ayarlandı.]",
                 "1_3_19": "{span.line}[1. Bancor gateway has been launched.]\n{span.line}[2. User menu interface has been improved.]",
                 "1_3_2": "{span.line}[1. WEST geçidi faaliyete alındı.]\n{span.line}[2. Görsel tasarım geliştirildi ve ufak hatalar giderildi.]",
                 "1_3_20": "{span.line}[1. Improved system for storing and restoring accounts from local storage (Need to update the [desktop application](https://wavesplatform.com/technology/wallet)).]\n{span.line}[2. Fixed rounding of prices in the orderbook.]",

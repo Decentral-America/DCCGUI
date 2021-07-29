@@ -4,7 +4,7 @@ import { listUTX } from '../api/transactions/transactions';
 import { T_TX } from '../api/transactions/interface';
 import { IPollAPI, Poll } from '../utils/Poll';
 import { MoneyHash } from '../utils/MoneyHash';
-import { TRANSACTION_TYPE_NUMBER } from '@waves/signature-adapter';
+import { TRANSACTION_TYPE_NUMBER } from '@decentralchain/signature-adapter';
 
 
 export class UTXManager {

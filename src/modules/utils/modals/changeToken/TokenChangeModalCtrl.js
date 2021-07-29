@@ -14,7 +14,7 @@
     const controller = function (Base, $scope, createPoll, utils, waves, user, balanceWatcher) {
 
         const entities = require('@waves/data-entities');
-        const { SIGN_TYPE } = require('@waves/signature-adapter');
+        const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
 
         const analytics = require('@waves/event-sender');
         const ds = require('data-service');
@@ -123,7 +123,7 @@
                 });
 
                 createPoll(this, this._getGraphData, 'chartData', 15000);
-                ds.api.assets.get(WavesApp.defaultAssets.WAVES).then(asset => {
+                ds.api.assets.get(WavesApp.defaultAssets.DCC).then(asset => {
                     this.receive(balanceWatcher.change, () => this._updateWavesBalance(asset));
                     this._updateWavesBalance(asset);
                 });

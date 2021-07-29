@@ -4,10 +4,10 @@
         "available": "Beschikbaar",
         "create": "Begin leasen",
         "leased": "Geleased",
-        "title": "WAVES Balans"
+        "title": "DCC Balans"
     },
     "description": {
-        "text1": "U kunt enkel WAVES versturen of met WAVES handelen die niet geleased zijn. Het aantal geleasede WAVES kunnen niet verhandeld of verstuurd worden door u of iemand anders.",
+        "text1": "U kunt enkel DCC versturen of met DCC handelen die niet geleased zijn. Het aantal geleasede DCC kunnen niet verhandeld of verstuurd worden door u of iemand anders.",
         "text2": "U kunt een lease transactie annuleren zodra deze in de blockchain opgenomen is. Normaal gesproken gebeurt dit binnen één minuut.",
         "text3": "Het genererende saldo wordt na 1000 blocks geüpdate.",
         "title": "Opmerkingen"
