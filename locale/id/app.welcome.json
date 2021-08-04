@@ -60,7 +60,7 @@
         "feb2017": {
             "date": "Desember 2017",
             "text": "Versi pertama dari pertukaran bawaan diluncurkan diluncurkan.",
-            "title": "Waves DEX Beta"
+            "title": "Decentral.Exchange Beta"
         },
         "feb2018": {
             "date": "Februari 2018",
@@ -69,7 +69,7 @@
         },
         "jan2019": {
             "date": "Januari 2019",
-            "text": "Dukungan untuk perdagangan di Waves DEX dengan Akun Cerdas diaktifkan.",
+            "text": "Dukungan untuk perdagangan di Decentral.Exchange dengan Akun Cerdas diaktifkan.",
             "text_2": "Peluncuran gateway Bitcoin Satoshi Vision",
             "title": "Perdagangan Akun Cerdas",
             "title_2": "BSV Gateway"
@@ -107,12 +107,12 @@
         },
         "sep2018": {
             "date": "September 2018",
-            "text": "Integrasi dengan Waves DEX memungkinkan pengguna untuk berdagang dengan keamanan maksimum.",
+            "text": "Integrasi dengan Decentral.Exchange memungkinkan pengguna untuk berdagang dengan keamanan maksimum.",
             "title": "Ledger Nano S"
         },
         "sep2019": {
             "date": "September 2019",
-            "text": "Otentikasi dua faktor memberi pengguna Waves DEX keamanan yang lebih besar.",
+            "text": "Otentikasi dua faktor memberi pengguna Decentral.Exchange keamanan yang lebih besar.",
             "title": "2FA"
         }
     },
@@ -142,19 +142,19 @@
         "changeName": "Ganti Nama",
         "chart": "GRAFIK",
         "comingSoon": "Coming soon",
-        "contestLinkDescription": "Menangkan 5.000 DCC dalam kontes perdagangan di Waves DEX!",
+        "contestLinkDescription": "Menangkan 5.000 DCC dalam kontes perdagangan di Decentral.Exchange!",
         "contestLinkLink": "Aturan",
         "controlAssets": "Kontrol aset adalah milik Anda sendiri - dana tidak meninggalkan dompet Anda dan tidak dapat dibekukan",
         "cookies": "Cookies",
         "copyAddress": "Salin alamat",
-        "copyright": "© 2019 Waves Platform",
+        "copyright": "© 2021 Blockchain Costa Rica",
         "copyright-new": "© 2019 Waves.Exchange",
         "copyrightVordex": "© 2019 VORDEX",
         "createAccount": "Create account",
         "createToken": "Buat token",
         "currentAccountName": "Nama akun saat ini",
         "dashboard": "Dasbor",
-        "decentralised": "Terdesentralisasi",
+        "decentralized": "Terdesentralisasi",
         "descExchange": "We are working on an awesome new project, which will be ready soon. Stay tuned!",
         "dexWithHardware": "Gunakan DEX dengan dompet perangkat keras Ledger Nano S dan Ledger Blue",
         "documentation": "Dokumentasi",
@@ -192,7 +192,7 @@
         "mainPage": "Halaman Utama",
         "majorFiatCryptocurrencies": "Fiat dan cryptocurrency utama didukung: BTC, LTC, ETH, USD, dan lainnya",
         "markets": "Pasar",
-        "marketsDescription": "Waves DEX memungkinkan Anda untuk melakukan perdagangan dengan cepat dan aman, terlepas dari apakah Anda berdagang melalui aplikasi seluler, klien desktop, dompet web atau Waves API.",
+        "marketsDescription": "Decentral.Exchange memungkinkan Anda untuk melakukan perdagangan dengan cepat dan aman, terlepas dari apakah Anda berdagang melalui aplikasi seluler, klien desktop, dompet web atau Waves API.",
         "marketsTableDescription": "Untuk melihat lebih banyak pasangan yang diperdagangkan, klik",
         "marketsTableDescriptionLink": "Lihat Exchange",
         "menu": "Menu",
@@ -206,7 +206,7 @@
         "productsTools": "Produk & alat",
         "renameAccount": "Ganti nama akun",
         "roadmap": "Peta jalan",
-        "roadmapOpportunitiesAhead": "Masa depan Waves DEX: peta jalan kami untuk peluang di masa depan.",
+        "roadmapOpportunitiesAhead": "Masa depan Decentral.Exchange: peta jalan kami untuk peluang di masa depan.",
         "save": "Simpan",
         "scanQrCode": "Pindai kode QR",
         "scriptAccount": "Akun skrip",
@@ -235,7 +235,7 @@
         "volume": "VOLUME",
         "wallet": "Dompet",
         "wavesBlockchain": "Waves Blockchain",
-        "wavesDexWeb": "Web Waves DEX",
+        "wavesDexWeb": "Web Decentral.Exchange",
         "wavesExplorer": "Waves Explorer",
         "wavesIde": "Waves IDE",
         "wavesKeeper": "Waves Keeper",

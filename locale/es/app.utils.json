@@ -840,7 +840,7 @@
         "termsAccept": {
             "body": {
                 "advancedMode": "Características avanzadas",
-                "analytics": "Me gustaría ayudar a mejorar DecentralDEX mediante el envío de estadísticas de uso anónimas a los desarrolladores.",
+                "analytics": "Me gustaría ayudar a mejorar Decentral.Exchange mediante el envío de estadísticas de uso anónimas a los desarrolladores.",
                 "backup": "Entiendo que si la app se lleva a otro dispositivo o se borra, mi cuenta solo se podrá recuperar con la frase de backup (SEED).",
                 "ok": "Confirmar y Empezar",
                 "privacyPolicy": "He leído y acepto la [Política de privacidad](https://decentralchain.io/privacy-policy).",
@@ -921,7 +921,7 @@
         },
         "unsuccessfulMigration": {
             "checkbox": "Don't show this again",
-            "description": "You have started the account migration from DecentralDEX to this exchange, but it hasn't been finished. Your accounts haven't been moved. Go back to DecentralDEX and start the process from the beginning.",
+            "description": "You have started the account migration from Decentral.Exchange to this exchange, but it hasn't been finished. Your accounts haven't been moved. Go back to Decentral.Exchange and start the process from the beginning.",
             "title": "Unfinished Migration",
             "understand": "Lo entiendo"
         }
@@ -1022,9 +1022,9 @@
         "day": "d",
         "dexMoves": "We are moving soon! Stay with us at [Waves.Exchange](https://waves.exchange)",
         "hour": "h",
-        "info": "We're moving from Waves DEX to Waves.Exchange. Do you want to move your accounts again?",
+        "info": "We're moving from Decentral.Exchange to Decentral.Exchange. Do you want to move your accounts again?",
         "min": "m",
-        "notification": "We're moving from Waves DEX to Waves.Exchange. Don't forget to move your accounts!",
+        "notification": "We're moving from Decentral.Exchange to Decentral.Exchange. Don't forget to move your accounts!",
         "sec": "s",
         "startMoving": "Safe moving"
     }

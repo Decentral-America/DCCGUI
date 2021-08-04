@@ -16,7 +16,7 @@
         </mask>
         <use fill="#777" xlink:href="#c"/>
         <path fill="#FFF" d="M-14.583-8.276h22.5v38.897h-22.5z" mask="url(#d)" opacity=".3"/>
-        <ellipse cx="15.417" cy="17.793" fill="#5A81EA" fill-rule="nonzero" rx="4.583" ry="4.552"/>
+        <ellipse cx="15.417" cy="17.793" fill="#ff8d00" fill-rule="nonzero" rx="4.583" ry="4.552"/>
         <path fill="#FFF" fill-rule="nonzero" d="M17.917 16.966v1.655H16.25v1.655h-1.667V18.62h-1.666v-1.655h1.666V15.31h1.667v1.656z"/>
     </g>
 </svg>

@@ -105,7 +105,7 @@
 
             $onDestroy() {
                 super.$onDestroy();
-                window.document.title = 'DecentralDEX';
+                window.document.title = 'Decentral.Exchange';
             }
 
             // hide and show graph to force its resize

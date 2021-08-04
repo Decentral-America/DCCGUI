@@ -1,20 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
-    <g fill="none" fill-rule="evenodd">
-        <path fill="#DFE8FF" fill-rule="nonzero" d="M61.5 65H5.03c-1.942 0-3.53-1.53-3.53-3.4V17.4c0-1.87 1.588-3.4 3.53-3.4h52.94c1.942 0 3.53 1.53 3.53 3.4V65z"/>
-        <rect width="42" height="15" x="10.5" y="30.5" fill="#CAD9FF" rx="1"/>
-        <rect width="12" height="9" x="10.5" y="48.5" fill="#CAD9FF" rx="1"/>
-        <rect width="12" height="9" x="25.5" y="48.5" fill="#CAD9FF" rx="1"/>
-        <rect width="12" height="9" x="40.5" y="48.5" fill="#CAD9FF" rx="1"/>
-        <path fill="#1F5AF6" d="M3.5 14h56a2 2 0 0 1 2 2v8.5h-60V16a2 2 0 0 1 2-2z"/>
-        <circle cx="7.125" cy="19.25" r="1.875" fill="#CCDAFF"/>
-        <circle cx="13.125" cy="19.25" r="1.875" fill="#CCDAFF" opacity=".5"/>
-        <circle cx="19.125" cy="19.25" r="1.875" fill="#CCDAFF" opacity=".1"/>
-        <path fill="#3E73FF" fill-rule="nonzero" d="M61.5 35h7.286C78.804 35 87 42.5 87 51.667V65H61.5V35z"/>
-        <path fill="#FFF" fill-rule="nonzero" d="M67.5 53.808V39.962h1.73c6.75 0 12.116 5.365 12.116 12.115v1.73H67.5z"/>
-        <path fill="#094DFF" fill-rule="nonzero" d="M87.404 70H2.596C1.212 70 0 68.833 0 67.5S1.212 65 2.596 65h84.808C88.788 65 90 66.167 90 67.5S88.788 70 87.404 70zM83 57h4v5h-4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z"/>
-        <circle cx="72.5" cy="67.5" r="8.5" fill="#094DFF"/>
-        <circle cx="72.5" cy="67.5" r="3.5" fill="#FFF"/>
-        <circle cx="19.5" cy="67.5" r="8.5" fill="#094DFF"/>
-        <circle cx="19.5" cy="67.5" r="3.5" fill="#FFF"/>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3D26BE;}
+	.st1{clip-path:url(#SVGID_00000112604434971441267170000004269272871100914840_);}
+	.st2{opacity:0.9;fill:#3D26BE;enable-background:new    ;}
+	.st3{clip-path:url(#SVGID_00000050650962408178039740000006435167497071051162_);}
+</style>
+<desc>Created with Sketch.</desc>
+<g id="surface1">
+	<path class="st0" d="M45.1,26.4h-0.7c-7.9,0-14.3,6.4-14.3,14.3v8.1h29.3v-8.1C59.4,32.8,53,26.4,45.1,26.4"/>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="38.2" y="59.3" width="12.9" height="19.9"/>
+		</defs>
+		<clipPath id="SVGID_00000041271766302895870070000016178577975552274311_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000041271766302895870070000016178577975552274311_);">
+			<path class="st2" d="M40.7,79.2h7.9c0.2,0,0.3-0.1,0.3-0.3l-1.7-7.4c2.2-1,3.8-3.2,3.8-5.8c0-3.5-2.8-6.3-6.3-6.3
+				c-3.5,0-6.3,2.8-6.3,6.3c0,2.6,1.6,4.8,3.8,5.8l-1.7,7.4C40.4,79,40.6,79.2,40.7,79.2"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_00000170957188618079384060000004168497389342418875_" x="5.4" y="7.2" width="78.7" height="70.3"/>
+		</defs>
+		<clipPath id="SVGID_00000140723584856148083460000010765136632132346770_">
+			<use xlink:href="#SVGID_00000170957188618079384060000004168497389342418875_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000140723584856148083460000010765136632132346770_);">
+			<path class="st0" d="M44.7,7.2C23,7.2,5.4,24.8,5.4,46.6c0,12.5,5.8,23.6,14.8,30.8V50.3c0-0.8,0.7-1.5,1.5-1.5h2.7v-8.1
+				c0-11,9-20,20-20h0.7c11,0,20,9,20,20v8.1h2.7c0.8,0,1.5,0.7,1.5,1.5v27.1c9-7.2,14.8-18.3,14.8-30.8
+				C84.1,24.8,66.4,7.2,44.7,7.2"/>
+		</g>
+	</g>
+</g>
 </svg>

@@ -33,7 +33,7 @@
                 axisY: 'rate',
                 view: {
                     rate: {
-                        lineColor: '#1f5af6',
+                        lineColor: '#3d26be',
                         fillColor: '#FFF',
                         gradientColor: ['#EAF0FE', '#FFF'],
                         lineWidth: 4

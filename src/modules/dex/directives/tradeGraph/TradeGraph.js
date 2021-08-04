@@ -14,7 +14,7 @@
         default: {
             lineColor: {
                 asks: '#e5494d',
-                bids: '#1f5af6'
+                bids: '#3d26be'
             },
             fillColor: {
                 asks: '#ffe4e4',
@@ -24,7 +24,7 @@
         black: {
             lineColor: {
                 asks: '#e5494d',
-                bids: '#5a81ea'
+                bids: '#ff8d00'
             },
             fillColor: {
                 asks: 'rgba(229, 73, 77, 0.15)',

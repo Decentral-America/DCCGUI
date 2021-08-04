@@ -60,7 +60,7 @@
         "feb2017": {
             "date": "2017년 12월",
             "text": "플래그십 빌트인 거래소의 첫 번째 버전 런칭.",
-            "title": "Waves DEX 베타"
+            "title": "Decentral.Exchange 베타"
         },
         "feb2018": {
             "date": "2018년 2월",
@@ -69,7 +69,7 @@
         },
         "jan2019": {
             "date": "2019년 1월",
-            "text": "Waves DEX 내 스마트 계정으로 거래 지원 활성화",
+            "text": "Decentral.Exchange 내 스마트 계정으로 거래 지원 활성화",
             "text_2": "Bitcoin Satoshi Vision 게이트웨이 런칭",
             "title": "스마트 계정 거래",
             "title_2": "BSV 게이트웨이"
@@ -107,12 +107,12 @@
         },
         "sep2018": {
             "date": "2018년 9월",
-            "text": "Waves DEX와의 통합을 통해 사용자들은 안전하게 거래할 수 있습니다.",
+            "text": "Decentral.Exchange와의 통합을 통해 사용자들은 안전하게 거래할 수 있습니다.",
             "title": "Ledger Nano S"
         },
         "sep2019": {
             "date": "2019년 9월",
-            "text": "2단계 인증은 Waves DEX 사용자에게 더욱더 안전된 보안을 제공합니다.",
+            "text": "2단계 인증은 Decentral.Exchange 사용자에게 더욱더 안전된 보안을 제공합니다.",
             "title": "2FA"
         }
     },
@@ -142,7 +142,7 @@
         "changeName": "Change Name",
         "chart": "차트",
         "comingSoon": "Coming soon",
-        "contestLinkDescription": "Waves DEX 트레이딩 컨테스트에서 우승하여 5,000 WAVES를 받으세요!",
+        "contestLinkDescription": "Decentral.Exchange 트레이딩 컨테스트에서 우승하여 5,000 WAVES를 받으세요!",
         "contestLinkLink": "규칙",
         "controlAssets": "자산을 통제할 수 있는 사람은 당신뿐입니다 – 자금은 지갑에서 안전히 보호되며 동결될 수 없습니다",
         "cookies": "Cookies",
@@ -154,7 +154,7 @@
         "createToken": "토큰 생성",
         "currentAccountName": "Current account name",
         "dashboard": "대시보드",
-        "decentralised": "탈중앙화 완료",
+        "decentralized": "탈중앙화 완료",
         "descExchange": "We are working on an awesome new project, which will be ready soon. Stay tuned!",
         "dexWithHardware": "Ledger Nano S 및 Ledger Blue 하드웨어 지갑과 함께 DEX를 사용하세요",
         "documentation": "문서화",
@@ -192,7 +192,7 @@
         "mainPage": "메인 페이지",
         "majorFiatCryptocurrencies": "주요 법정화폐 및 암호화폐 지원: BTC, LTC, ETH, USD 등",
         "markets": "마켓",
-        "marketsDescription": "사용자는 모바일 앱, 데스크톱 클라이언트, 웹 지갑 또는 Waves API를 통해 Waves DEX에서 빠르고 안전하게 거래할 수 있습니다.",
+        "marketsDescription": "사용자는 모바일 앱, 데스크톱 클라이언트, 웹 지갑 또는 Waves API를 통해 Decentral.Exchange에서 빠르고 안전하게 거래할 수 있습니다.",
         "marketsTableDescription": "더 많은 거래 페어를 보려면 클릭하세요",
         "marketsTableDescriptionLink": "거래소 보기",
         "menu": "메뉴",
@@ -206,7 +206,7 @@
         "productsTools": "제품 및 도구",
         "renameAccount": "계정 이름 변경",
         "roadmap": "로드맵",
-        "roadmapOpportunitiesAhead": "Waves DEX의 미래: 기회로 가득찬 로드맵입니다.",
+        "roadmapOpportunitiesAhead": "Decentral.Exchange의 미래: 기회로 가득찬 로드맵입니다.",
         "save": "Save",
         "scanQrCode": "Scan QR Code",
         "scriptAccount": "Script 계정",
@@ -235,7 +235,7 @@
         "volume": "거래량",
         "wallet": "지갑",
         "wavesBlockchain": "Waves 블록체인",
-        "wavesDexWeb": "Waves DEX Web",
+        "wavesDexWeb": "Decentral.Exchange Web",
         "wavesExplorer": "Waves Explorer",
         "wavesIde": "Waves IDE",
         "wavesKeeper": "Waves Keeper",

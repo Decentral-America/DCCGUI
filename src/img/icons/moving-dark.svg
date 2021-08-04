@@ -1,25 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-    <title>Style/Icons/Other/90/Moving-Dark</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Style/Icons/Other/90/Moving-Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M61.5,65 L5.02941176,65 C3.08823529,65 1.5,63.47 1.5,61.6 L1.5,17.4 C1.5,15.53 3.08823529,14 5.02941176,14 L57.9705882,14 C59.9117647,14 61.5,15.53 61.5,17.4 L61.5,65 Z" id="Path" fill="#BCBCBC" fill-rule="nonzero"></path>
-        <rect id="Rectangle" fill="#999999" x="10.5" y="30.5" width="42" height="15" rx="1"></rect>
-        <rect id="Rectangle" fill="#999999" x="10.5" y="48.5" width="12" height="9" rx="1"></rect>
-        <rect id="Rectangle" fill="#999999" x="25.5" y="48.5" width="12" height="9" rx="1"></rect>
-        <rect id="Rectangle" fill="#999999" x="40.5" y="48.5" width="12" height="9" rx="1"></rect>
-        <path d="M3.5,14 L59.5,14 C60.6045695,14 61.5,14.8954305 61.5,16 L61.5,24.5 L61.5,24.5 L1.5,24.5 L1.5,16 C1.5,14.8954305 2.3954305,14 3.5,14 Z" id="Rectangle" fill="#5A81EA"></path>
-        <circle id="Oval" fill="#CCDAFF" cx="7.125" cy="19.25" r="1.875"></circle>
-        <circle id="Oval" fill="#CCDAFF" opacity="0.5" cx="13.125" cy="19.25" r="1.875"></circle>
-        <circle id="Oval" fill="#CCDAFF" opacity="0.1" cx="19.125" cy="19.25" r="1.875"></circle>
-        <path d="M61.5,35 L68.7857143,35 C78.8035714,35 87,42.5 87,51.6666667 L87,65 L61.5,65 L61.5,35 Z" id="Path" fill="#7C9FFF" fill-rule="nonzero"></path>
-        <path d="M67.5,53.8076923 L67.5,39.9615385 L69.2307692,39.9615385 C75.9807692,39.9615385 81.3461538,45.3269231 81.3461538,52.0769231 L81.3461538,53.8076923 L67.5,53.8076923 Z" id="Path" fill="#2D2D2D" fill-rule="nonzero"></path>
-        <path d="M87.4038462,70 L2.59615385,70 C1.21153846,70 0,68.8333333 0,67.5 L0,67.5 C0,66.1666667 1.21153846,65 2.59615385,65 L87.4038462,65 C88.7884615,65 90,66.1666667 90,67.5 L90,67.5 C90,68.8333333 88.7884615,70 87.4038462,70 Z" id="Path" fill="#5A81EA" fill-rule="nonzero" opacity="0.9"></path>
-        <path d="M83,57 L87,57 L87,57 L87,62 L83,62 C82.4477153,62 82,61.5522847 82,61 L82,58 C82,57.4477153 82.4477153,57 83,57 Z" id="Rectangle" fill="#5A81EA" fill-rule="nonzero"></path>
-        <circle id="Oval" fill="#5A81EA" cx="72.5" cy="67.5" r="8.5"></circle>
-        <circle id="Oval" fill="#2D2D2D" opacity="0.8" cx="72.5" cy="67.5" r="3.5"></circle>
-        <circle id="Oval" fill="#5A81EA" cx="19.5" cy="67.5" r="8.5"></circle>
-        <circle id="Oval" fill="#2D2D2D" opacity="0.8" cx="19.5" cy="67.5" r="3.5"></circle>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF8D00;}
+	.st1{clip-path:url(#SVGID_00000007415128539677381180000010155354254950100884_);}
+	.st2{opacity:0.9;fill:#FF8D00;enable-background:new    ;}
+	.st3{clip-path:url(#SVGID_00000047752915389631110370000015124421213747763883_);}
+</style>
+<desc>Created with Sketch.</desc>
+<g id="surface1">
+	<path class="st0" d="M45.2,27.5h-0.7c-7.9,0-14.3,6.4-14.3,14.3v8.1h29.3v-8.1C59.5,33.9,53.1,27.5,45.2,27.5"/>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="38.3" y="60.4" width="12.9" height="19.9"/>
+		</defs>
+		<clipPath id="SVGID_00000103227812082505581070000001269502761308022439_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000103227812082505581070000001269502761308022439_);">
+			<path class="st2" d="M40.9,80.3h7.9c0.2,0,0.3-0.1,0.3-0.3l-1.7-7.4c2.2-1,3.8-3.2,3.8-5.8c0-3.5-2.8-6.3-6.3-6.3
+				c-3.5,0-6.3,2.8-6.3,6.3c0,2.6,1.6,4.8,3.8,5.8L40.6,80C40.6,80.1,40.7,80.3,40.9,80.3"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_00000109733017102560161950000006605162598909154180_" x="5.5" y="8.3" width="78.7" height="70.3"/>
+		</defs>
+		<clipPath id="SVGID_00000062182300818307000270000009327958340616556985_">
+			<use xlink:href="#SVGID_00000109733017102560161950000006605162598909154180_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000062182300818307000270000009327958340616556985_);">
+			<path class="st0" d="M44.9,8.3C23.1,8.3,5.5,25.9,5.5,47.7c0,12.5,5.8,23.6,14.8,30.8V51.4c0-0.8,0.7-1.5,1.5-1.5h2.7v-8.1
+				c0-11,9-20,20-20h0.7c11,0,20,9,20,20v8.1h2.7c0.8,0,1.5,0.7,1.5,1.5v27.1c9-7.2,14.8-18.3,14.8-30.8
+				C84.2,25.9,66.6,8.3,44.9,8.3"/>
+		</g>
+	</g>
+</g>
 </svg>

@@ -38,7 +38,7 @@
     },
     "error": {
         "updateClient": {
-            "body": "We are constantly working to make DecentralDEX better and more useful.\nPlease update the application to continue.  Download the application from the official [website](https://decentralchain.io)!",
+            "body": "We are constantly working to make Decentral.Exchange better and more useful.\nPlease update the application to continue.  Download the application from the official [website](https://decentralchain.io)!",
             "title": "It's time to update your app!"
         }
     },

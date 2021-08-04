@@ -16,7 +16,7 @@
         "passForgot": {
             "attention": "Let op!",
             "description": "Om het wachtwoord te herstellen, moet u alle accounts opnieuw instellen, een nieuw wachtwoord instellen, elk account importeren via de SEED of via de privésleutel.",
-            "descriptionExchange": "U staat op het punt al uw Waves.Exchange-accounts van dit apparaat te verwijderen. Deze actie heeft geen invloed op uw Waves DEX-accounts.",
+            "descriptionExchange": "U staat op het punt al uw Waves.Exchange-accounts van dit apparaat te verwijderen. Deze actie heeft geen invloed op uw Decentral.Exchange-accounts.",
             "importantDesc": "Als u de SEED of privésleutel niet hebt opgeslagen, kunt u de toegang tot uw account niet herstellen.",
             "importantDescEx": "Deze actie is onomkeerbaar! Als u de seed-zin of privésleutel niet hebt opgeslagen, kunt u de toegang tot uw Waves.Exchange-accounts niet herstellen.",
             "importantDescExchange": "Deze actie is onomkeerbaar! Als u de seed-zin of privésleutel niet hebt opgeslagen, kunt u de toegang tot uw Waves.Exchange-accounts niet herstellen."

@@ -335,11 +335,11 @@ tr.context-menu-hover {
   box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
 }
 ._tv-button.ok {
-  background: #5a81ea;
+  background: #ff8d00;
   color: #fff!important;
 }
 .feature-no-touch ._tv-button.ok:hover {
-  background: #1f5af6;
+  background: #3d26be;
 }
 ._tv-button.cancel {
   background: #424242;
@@ -463,7 +463,7 @@ button._tv-button {
 }
 .tv-search-row__input:focus,
 .tv-search-row__input:active {
-  box-shadow: 0px 0px 0px 1px #5a81ea;
+  box-shadow: 0px 0px 0px 1px #ff8d00;
 }
 .tv-insert-study-item {
   color: #FFF;
@@ -486,7 +486,7 @@ button._tv-button {
 }
 .custom-select .items .item.selected {
   background: #353535;
-  border-left: 4px solid #5a81ea;
+  border-left: 4px solid #ff8d00;
 }
 .feature-no-touch .custom-select .items .item:hover {
   background: #353535;
@@ -507,16 +507,16 @@ button._tv-button {
   background-color: #353535;
 }
 .feature-no-touch :focus, .feature-touch :focus {
-  border-color: #5a81ea;
+  border-color: #ff8d00;
 }
 .tv-control-checkbox__input:checked+.tv-control-checkbox__box {
-  background-color: #5a81ea;
+  background-color: #ff8d00;
 }
 .tv-control-checkbox__input:checked+.tv-control-checkbox__box:after {
-  border-color: #5a81ea;
+  border-color: #ff8d00;
 }
 .button.compare.active svg {
-  fill: #5a81ea;
+  fill: #ff8d00;
 }
 .tv-control-input {
   color: #777;
@@ -536,29 +536,29 @@ button._tv-button {
 .feature-no-touch .tv-control-checkbox__input:focus+.tv-control-checkbox__box:after,
 .feature-touch .tv-control-checkbox:active .tv-control-checkbox__box:after,
 .feature-touch .tv-control-checkbox__input:focus+.tv-control-checkbox__box:after {
-  border-color: #5a81ea;
+  border-color: #ff8d00;
 }
 .feature-no-touch .tv-control-checkbox:hover .tv-control-checkbox__input:checked+.tv-control-checkbox__box {
-  background-color: #5a81ea;
+  background-color: #ff8d00;
 }
 .feature-no-touch .tv-control-checkbox:active .tv-control-checkbox__input:checked+.tv-control-checkbox__box,
 .feature-no-touch .tv-control-checkbox__input:focus:checked+.tv-control-checkbox__box,
 .feature-touch .tv-control-checkbox:active .tv-control-checkbox__input:checked+.tv-control-checkbox__box,
 .feature-touch .tv-control-checkbox__input:focus:checked+.tv-control-checkbox__box {
-  background-color: #5a81ea;
+  background-color: #ff8d00;
 }
 .feature-no-touch .tv-control-input:focus,
 .feature-touch .tv-control-input:focus {
-  border-color: #5a81ea;
+  border-color: #ff8d00;
 }
 .feature-no-touch .tv-control-checkbox:hover .tv-control-checkbox__input:checked+.tv-control-checkbox__box:after {
-  border-color: #5a81ea;
+  border-color: #ff8d00;
 }
 .feature-no-touch .tv-control-checkbox:active .tv-control-checkbox__input:checked+.tv-control-checkbox__box:after,
 .feature-no-touch .tv-control-checkbox__input:focus:checked+.tv-control-checkbox__box:after,
 .feature-touch .tv-control-checkbox:active .tv-control-checkbox__input:checked+.tv-control-checkbox__box:after,
 .feature-touch .tv-control-checkbox__input:focus:checked+.tv-control-checkbox__box:after {
-  border-color: #5a81ea;
+  border-color: #ff8d00;
 }
 div.symbol-edit-popup{
   border:1px solid #777;
@@ -585,7 +585,7 @@ div.symbol-edit-popup .table-wrapper{
   background-color: #353535;
 }
 .feature-no-touch .tv-objects-tree-item__button:hover svg {
-  fill: #5a81ea;
+  fill: #ff8d00;
 }
 .properties-tabs a.properties-tabs-label.active {
   color: #FFF;
@@ -603,7 +603,7 @@ div.symbol-edit-popup .table-wrapper{
   background: #2d2d2d;
 }
 .tv-insert-study-item__title-text .i-match {
-  color: #5a81ea;
+  color: #ff8d00;
 }
 .feature-no-touch .tv-control-input {
   color: #FFF;
@@ -614,6 +614,6 @@ div.symbol-edit-popup .table-wrapper{
   color: #FFF;
 }
 ._tv-dialog-content textarea._tv-dialog-content-textareaactive {
-  border-color: #5a81ea;
+  border-color: #ff8d00;
   color: #FFF;
 }

@@ -103,7 +103,7 @@
                             dataset: 'values',
                             key: 'rate',
                             label: 'Rate',
-                            color: TokenChangeModalCtrl.seriesColor || '#5a81ea',
+                            color: TokenChangeModalCtrl.seriesColor || '#ff8d00',
                             type: ['line', 'area']
                         }
                     ],

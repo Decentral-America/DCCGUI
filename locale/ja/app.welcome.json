@@ -60,7 +60,7 @@
         "feb2017": {
             "date": "2017年12月",
             "text": "フラッグシップとなるビルトイン取引所の最初のバージョンが発表。",
-            "title": "Waves DEXベータ"
+            "title": "Decentral.Exchangeベータ"
         },
         "feb2018": {
             "date": "2018年2月",
@@ -69,7 +69,7 @@
         },
         "jan2019": {
             "date": "2019年1月",
-            "text": "スマートアカウントによるWaves DEXでの取引がサポート。",
+            "text": "スマートアカウントによるDecentral.Exchangeでの取引がサポート。",
             "text_2": "ビットコインSVゲートウェイのローンチ。",
             "title": "スマートアカウントトレード",
             "title_2": "BSV ゲートウェイ"
@@ -107,12 +107,12 @@
         },
         "sep2018": {
             "date": "2018年9月",
-            "text": "Waves DEXとの統合により、ユーザーは最高のセキュリティで取引することができます。",
+            "text": "Decentral.Exchangeとの統合により、ユーザーは最高のセキュリティで取引することができます。",
             "title": "Ledger Nano S"
         },
         "sep2019": {
             "date": "2019年9月",
-            "text": "二段階認証は、Waves DEXユーザーにさらに高いセキュリティを提供します。",
+            "text": "二段階認証は、Decentral.Exchangeユーザーにさらに高いセキュリティを提供します。",
             "title": "2FA"
         }
     },
@@ -142,19 +142,19 @@
         "changeName": "名前を変更",
         "chart": "チャート",
         "comingSoon": "Coming soon",
-        "contestLinkDescription": "Waves DEXのトレーディングコンテストで5,000WAVESを勝ち取ろう！",
+        "contestLinkDescription": "Decentral.Exchangeのトレーディングコンテストで5,000WAVESを勝ち取ろう！",
         "contestLinkLink": "ルール",
         "controlAssets": "資産の管理はあなたの責任です - 資金はあなたのウォレットに管理されています。そして、資産を凍結することはできません",
         "cookies": "Cookies",
         "copyAddress": "アドレスをコピー",
-        "copyright": "©2019 Waves Platform",
+        "copyright": "©2021 Blockchain Costa Rica",
         "copyright-new": "© 2019 Waves.Exchange",
         "copyrightVordex": "© 2019 VORDEX",
         "createAccount": "Create account",
         "createToken": "トークンを作成",
         "currentAccountName": "現在のアカウント名",
         "dashboard": "ダッシュボード",
-        "decentralised": "分散された",
+        "decentralized": "分散された",
         "descExchange": "We are working on an awesome new project, which will be ready soon. Stay tuned!",
         "dexWithHardware": "ハードウェアウォレットLedger Nano SおよびLedger BlueでDEXを使用",
         "documentation": "ドキュメント",
@@ -192,7 +192,7 @@
         "mainPage": "メインページ",
         "majorFiatCryptocurrencies": "対応する主要な法定通貨と暗号通貨：BTC、LTC、ETH、USDなど",
         "markets": "マーケット",
-        "marketsDescription": "Waves DEXを使用すると、モバイルアプリ、デスクトップクライアント、Web ウォレット、またはWaves APIのいずれを使用して取引しているかに関係なく、取引を迅速かつ安全に実行できます。",
+        "marketsDescription": "Decentral.Exchangeを使用すると、モバイルアプリ、デスクトップクライアント、Web ウォレット、またはWaves APIのいずれを使用して取引しているかに関係なく、取引を迅速かつ安全に実行できます。",
         "marketsTableDescription": "もっと取引ペアを見るためにクリック",
         "marketsTableDescriptionLink": "取引所を見る",
         "menu": "メニュー",
@@ -206,7 +206,7 @@
         "productsTools": "製品とツール",
         "renameAccount": "アカウント名を変更",
         "roadmap": "ロードマップ",
-        "roadmapOpportunitiesAhead": "Waves DEXの将来：将来の機会に向けたWavesのロードマップ",
+        "roadmapOpportunitiesAhead": "Decentral.Exchangeの将来：将来の機会に向けたWavesのロードマップ",
         "save": "保存",
         "scanQrCode": "QRコードをスキャン",
         "scriptAccount": "スクリプトアカウント",
@@ -235,7 +235,7 @@
         "volume": "ボリューム",
         "wallet": "ウォレット",
         "wavesBlockchain": "Waves ブロックチェーン",
-        "wavesDexWeb": "Waves DEX ウェブ",
+        "wavesDexWeb": "Decentral.Exchange ウェブ",
         "wavesExplorer": "Waves エクスプローラー",
         "wavesIde": "Waves IDE",
         "wavesKeeper": "Waves Keeper",

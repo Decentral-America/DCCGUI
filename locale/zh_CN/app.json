@@ -38,7 +38,7 @@
     },
     "error": {
         "updateClient": {
-            "body": "我们一直在努力使Waves DEX更好，更有用。 \n请更新应用程序以继续。从官方[网站]（https://wavesplatform.com/technology/wallet）下载该应用程序！",
+            "body": "我们一直在努力使Decentral.Exchange更好，更有用。 \n请更新应用程序以继续。从官方[网站]（https://wavesplatform.com/technology/wallet）下载该应用程序！",
             "title": "现在该更新您的应用了！"
         }
     },

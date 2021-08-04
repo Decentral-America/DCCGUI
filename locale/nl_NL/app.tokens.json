@@ -30,7 +30,7 @@
     },
     "name": "Naam van uw asset",
     "NFT": {
-        "description": "Een non-fungible token (NFT) is een uniek, individueel token dat bestaat op de Waves blockchain. Momenteel wordt het weergeven van NFT's in Waves Wallet en op Waves DEX niet ondersteund. U kunt uw NFT's bekijken in [Waves Explorer] (https://wavesexplorer.com/)",
+        "description": "Een non-fungible token (NFT) is een uniek, individueel token dat bestaat op de Waves blockchain. Momenteel wordt het weergeven van NFT's in Waves Wallet en op Decentral.Exchange niet ondersteund. U kunt uw NFT's bekijken in [Waves Explorer] (https://wavesexplorer.com/)",
         "title": "U maakt een non-fungible token."
     },
     "notifications": {

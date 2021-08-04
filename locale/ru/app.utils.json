@@ -921,7 +921,7 @@
         },
         "unsuccessfulMigration": {
             "checkbox": "Больше не показывать",
-            "description": "Вы начали процесс миграции с Waves DEX на эту биржу, но не завершили его. Ваши аккаунты не были перенесены. Вам нужно вернуться на Waves DEX и начать процесс сначала.",
+            "description": "Вы начали процесс миграции с Decentral.Exchange на эту биржу, но не завершили его. Ваши аккаунты не были перенесены. Вам нужно вернуться на Decentral.Exchange и начать процесс сначала.",
             "title": "Незавершенная миграция",
             "understand": "Понятно"
         }
@@ -1022,9 +1022,9 @@
         "day": "д",
         "dexMoves": "Мы скоро переезжаем! Оставайтесь с нами на [Waves.Exchange](https://waves.exchange)",
         "hour": "ч",
-        "info": "Мы переезжаем с Waves DEX на Waves.Exchange. Вы хотите снова перенести свои аккаунты?",
+        "info": "Мы переезжаем с Decentral.Exchange на Waves.Exchange. Вы хотите снова перенести свои аккаунты?",
         "min": "м",
-        "notification": "Мы переезжаем с Waves DEX на Waves.Exchange. Не забудьте перенести свои аккаунты!",
+        "notification": "Мы переезжаем с Decentral.Exchange на Waves.Exchange. Не забудьте перенести свои аккаунты!",
         "sec": "с",
         "startMoving": "Безопасный переезд"
     }

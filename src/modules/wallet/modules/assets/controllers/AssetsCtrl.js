@@ -394,14 +394,14 @@
                 switch (this.theme) {
                     case 'black':
                         return ({
-                            lineColor: '#5a81ea',
+                            lineColor: '#ff8d00',
                             fillColor: '#2d2d2d',
                             gradientColor: ['#334375', '#2d2d2d'],
                             lineWidth: 4
                         });
                     default:
                         return ({
-                            lineColor: '#1f5af6',
+                            lineColor: '#3d26be',
                             fillColor: '#fff',
                             gradientColor: ['#eaf0fe', '#fff'],
                             lineWidth: 4

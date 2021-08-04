@@ -21,7 +21,7 @@
                             dataset: 'values',
                             key: 'rate',
                             label: 'Rate',
-                            color: '#5a81ea',
+                            color: '#ff8d00',
                             type: ['line', 'area']
                         }
                     ],

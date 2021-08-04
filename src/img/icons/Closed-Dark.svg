@@ -10,7 +10,7 @@
             <rect id="Rectangle" fill="#999999" x="11" y="43" width="17" height="14" rx="2"></rect>
             <rect id="Rectangle" fill="#999999" x="31.5" y="43" width="17" height="14" rx="2"></rect>
             <rect id="Rectangle" fill="#999999" x="52" y="43" width="17" height="14" rx="2"></rect>
-            <path d="M4,0 L76,0 C78.209139,-4.05812251e-16 80,1.790861 80,4 L80,12 L80,12 L0,12 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#5A81EA"></path>
+            <path d="M4,0 L76,0 C78.209139,-4.05812251e-16 80,1.790861 80,4 L80,12 L80,12 L0,12 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#ff8d00"></path>
             <circle id="Oval" fill="#DFE8FF" cx="6" cy="6" r="2"></circle>
             <circle id="Oval" fill="#DFE8FF" opacity="0.497093564" cx="12" cy="6" r="2"></circle>
             <circle id="Oval" fill="#DFE8FF" opacity="0.204194568" cx="18" cy="6" r="2"></circle>

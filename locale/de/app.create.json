@@ -2,7 +2,7 @@
     "backupSeed": {
         "back": "Zurück",
         "copySeed": "kopieren",
-        "description": "Please be careful and never input your SEED into other clients, because your account will be compromised and you will lose all of your funds. You should only use the official Waves clients.",
+        "description": "Please be careful and never input your SEED into other clients, because your account will be compromised and you will lose all of your funds. You should only use the official DecentralChain clients.",
         "needConfirm": "Sie müssen die Phrase auf dem nächsten Bildschirm bestätigen.",
         "ok": "Ich habe es aufgeschrieben.",
         "or": "oder",
@@ -33,14 +33,14 @@
         "createNewAccount": "Wähen sie ihren Avatar",
         "description": {
             "becomePart": "Become part of a fast-growing area of the crypto world. You are the only person who can access your crypto assets",
-            "dex": "Trade quickly and securely. You retain complete control over your funds when trading them on our decentralised exchange",
+            "dex": "Trade quickly and securely. You retain complete control over your funds when trading them on our decentralized exchange",
             "enterName": "Enter account name or",
             "wallet": "Store, manage and receive interest on your digital assets balance, easily and securely"
         },
         "from": "Dieser Avatar ist einzigartig, Sie können ihn später nicht ändern.",
         "header": {
             "accountName": "Account name",
-            "dex": "Decentralised Exchange",
+            "dex": "decentralized Exchange",
             "wallet": "Wallet",
             "withBlockchain": "Get Started with Blockchain"
         },
@@ -68,7 +68,7 @@
         "backup": "Sicherung jetzt durchführen",
         "description": "Sie müssen die geheime Phrase sichern. Sie ist elementar für den Zugang zu ihrem Account.",
         "modal": {
-            "descriptionP1": "Die DecentralChain warnt über immer häufiger werdende scam und phishing Angriffe in den letzten Monaten. Betrüger verstehen Malware in ihrer eigenen Version des Waves Clients und versprechen Bonusse und Rabatte um ahnungslose Nutzer zu überlisten.",
+            "descriptionP1": "Die DecentralChain warnt über immer häufiger werdende scam und phishing Angriffe in den letzten Monaten. Betrüger verstehen Malware in ihrer eigenen Version des DecentralChain Clients und versprechen Bonusse und Rabatte um ahnungslose Nutzer zu überlisten.",
             "descriptionP2": "Seien sie vorsichtig und geben sie niemals ihren SEED in fragwürdigen Clients ein, ansonsten wird ihr Konto kompromittiert und sich verlieren ihr Guthaben.",
             "descriptionP3": "Verwenden sie nur den offiziellen DCC Client.",
             "ok": "Ich verstehe",
