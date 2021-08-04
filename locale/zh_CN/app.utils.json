@@ -921,7 +921,7 @@
         },
         "unsuccessfulMigration": {
             "checkbox": "不再显示",
-            "description": "您已开始将帐户从Waves DEX迁移到此交换，但尚未完成。您的帐户尚未移动。返回Waves DEX并从头开始该过程。",
+            "description": "您已开始将帐户从Decentral.Exchange迁移到此交换，但尚未完成。您的帐户尚未移动。返回Decentral.Exchange并从头开始该过程。",
             "title": "未完成的迁移",
             "understand": "我明白"
         }
@@ -1022,9 +1022,9 @@
         "day": "d",
         "dexMoves": "我们即将搬家！和我们一起在[Waves.Exchange]（https://waves.exchange）",
         "hour": "h",
-        "info": "我们正在从Waves DEX迁移到Waves.Exchange。您是否要再次移动帐户？",
+        "info": "我们正在从Decentral.Exchange迁移到Waves.Exchange。您是否要再次移动帐户？",
         "min": "m",
-        "notification": "我们正在从Waves DEX迁移到Waves.Exchange。不要忘记移动您的帐户！",
+        "notification": "我们正在从Decentral.Exchange迁移到Waves.Exchange。不要忘记移动您的帐户！",
         "sec": "s",
         "startMoving": "安全移动"
     }

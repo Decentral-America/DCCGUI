@@ -60,7 +60,7 @@
         "feb2017": {
             "date": "Aralık 2017",
             "text": "Yerleşik borsaya sahip amiral gemisinin ilk sürümü hayata geçirildi.",
-            "title": "Waves DEX Beta"
+            "title": "Decentral.Exchange Beta"
         },
         "feb2018": {
             "date": "Şubat 2018",
@@ -69,7 +69,7 @@
         },
         "jan2019": {
             "date": "Ocak 2019",
-            "text": "Akıllı Hesaplarla Waves DEX'te alım satım desteği etkinleştirildi.",
+            "text": "Akıllı Hesaplarla Decentral.Exchange'te alım satım desteği etkinleştirildi.",
             "text_2": "Bitcoin Satoshi Vision Geçidi'nin faaliyete başlaması",
             "title": "Akıllı Hesap Takası",
             "title_2": "BSV Geçidi"
@@ -154,7 +154,7 @@
         "createToken": "Kripto para oluştur",
         "currentAccountName": "Şu anki hesap adı",
         "dashboard": "Panel",
-        "decentralised": "Merkezsiz",
+        "decentralized": "Merkezsiz",
         "descExchange": "We are working on an awesome new project, which will be ready soon. Stay tuned!",
         "dexWithHardware": "DEX'i donanım cüzdanları Ledger Nano S ve Ledger Blue ile birlikte kullanın",
         "documentation": "Dokümantasyon",

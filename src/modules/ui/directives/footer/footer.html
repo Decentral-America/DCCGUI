@@ -2,7 +2,7 @@
     <w-desktop-only>
         <div class="footer-actions">
             <a ng-if="!$ctrl._isDesktopUpdate" class="footer-action footnote-1 submit-400" target="_blank" rel="noopener noreferrer"
-               href="http://dex.wavesplatform.com" w-analytics event="'Waves DEX Web Click'" w-i18n="welcome.wavesDexWeb"></a>
+               href="http://decentral.exchange" w-analytics event="'Decentral.Exchange Web Click'" w-i18n="welcome.wavesDexWeb"></a>
             <a ng-if="!$ctrl._isDesktopUpdate" class="footer-action footnote-1 submit-400" target="_blank" rel="noopener noreferrer"
                href="https://decentralchain.io/soporte" w-analytics event="'Footer Support Click'" w-i18n="welcome.support"></a>
             <span ng-if="$ctrl._isDesktopUpdate" class="footer-action footnote-1 submit-400 pointer" ng-click="$ctrl.showFAQ()">FAQ</span>
@@ -10,7 +10,7 @@
     </w-desktop-only>
     <div class="footer__left">
         <w-web-only>
-            <a class="footer__logo logo logo_footer margin-2" href="https://wavesplatform.com" target="_blank" rel="noopener noreferrer"></a>
+            <a class="footer__logo logo logo_footer margin-2" href="https://decentralchain.io" target="_blank" rel="noopener noreferrer"></a>
             <div class="footer__left-item margin-2" w-i18n="welcome.broughtBy"></div>
         </w-web-only>
         <div class="footer__left-item margin-1" w-i18n="welcome.copyright"></div>
@@ -27,16 +27,16 @@
                    w-i18n="welcome.wavesWallet"
                    event-target="'ui'"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   href="https://wavesplatform.com/products-wallet"></a>
+                   href="https://decentralchain.io/wallet"></a>
                 <a w-analytics event="'Footer Keeper Click'"
                    w-i18n="welcome.wavesKeeper"
                    event-target="'ui'"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   href="https://wavesplatform.com/products-keeper"></a>
+                   href="https://decentralchain.io/cubensis-connect"></a>
                 <a w-analytics event="'Footer Blockchain Click'"
                    w-i18n="welcome.wavesBlockchain"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   event-target="'ui'" href="https://wavesplatform.com/products-blockchain"></a>
+                   event-target="'ui'" href="https://decentralchain.io/custom-blockchain"></a>
                 <a w-analytics event="'Footer IDE Click'"
                    w-i18n="welcome.wavesIde"
                    event-target="'ui'"
@@ -46,7 +46,7 @@
                    w-i18n="welcome.wavesExplorer"
                    event-target="'ui'"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   href="http://wavesexplorer.com"></a>
+                   href="http://decentralscan.com"></a>
             </div>
 
             <div class="footer__right-item">
@@ -55,27 +55,27 @@
                    w-i18n="welcome.gitHub"
                    event-target="'ui'"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   href="https://github.com/wavesplatform"></a>
+                   href="https://github.com/Decentral-America/Decentral-Coin"></a>
                 <a w-analytics event="'Footer API Click'"
                    w-i18n="welcome.api"
                    event-target="'ui'"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   href="https://docs.wavesplatform.com/en/waves-api-and-sdk/dex-api.html"></a>
+                   href="https://docs.decentralchain.io"></a>
                 <a w-analytics event="'Footer Stack Overflow Click'"
                    w-i18n="welcome.stackOverflow"
                    event-target="'ui'"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   href="https://stackoverflow.com/questions/tagged/wavesplatform"></a>
+                   href="https://stackoverflow.com/questions/tagged/decentralchain"></a>
                 <a w-analytics event="'Footer Documentation Click'"
                    w-i18n="welcome.documentation"
                    event-target="'ui'"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   href="https://docs.wavesplatform.com"></a>
+                   href="https://docs.decentralchain.io"></a>
                 <a w-analytics event="'Footer Waves Labs Click'"
                    w-i18n="welcome.wavesLabs"
                    event-target="'ui'"
                    class="footer__link" target="_blank" rel="noopener noreferrer"
-                   href="https://waveslabs.com"></a>
+                   href="https://decentralamerica.com"></a>
             </div>
 
             <div class="footer__right-item">
@@ -90,28 +90,16 @@
             <div class="footer__right-item">
                 <div class="footer__title" w-i18n="welcome.social"></div>
                 <a w-analytics event="'Footer Blog Click'"
-                   class="footer__link" w-i18n="welcome.blog" target="_blank" rel="noopener noreferrer" href="https://blog.wavesplatform.com/"></a>
+                   class="footer__link" w-i18n="welcome.blog" target="_blank" rel="noopener noreferrer" href="https://decentralchain.io/blog/"></a>
                 <a w-analytics event="'Footer Twitter Click'"
-                   class="footer__link" w-i18n="welcome.twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Waves_DEX"></a>
+                   class="footer__link" w-i18n="welcome.twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/decentralchain"></a>
                 <a w-analytics event="'Footer Telegram Click'" event-params='{Language: $ctrl.lang}'
-                   class="footer__link" w-i18n="welcome.telegram" target="_blank" rel="noopener noreferrer" href="{{::$ctrl.telegramLink}}"></a>
+                   class="footer__link" w-i18n="welcome.telegram" target="_blank" rel="noopener noreferrer" href="https://t.me/joinchat/0DGH7Uwt_Qw2MzQx"></a>
                 <a w-analytics event="'Footer Forum Click'"
-                   class="footer__link" w-i18n="welcome.forum" target="_blank" rel="noopener noreferrer" href="https://forum.wavesplatform.com"></a>
+                   class="footer__link" w-i18n="welcome.forum" target="_blank" rel="noopener noreferrer" href="https://docs.decentralchain.io"></a>
             </div>
         </div>
 
-        <div class="toaster-mobiles" ng-if="::$ctrl.isToasterMobilesVisible">
-            <a w-analytics event="::'Download Mobile Client Click'" event-target="::'all'"
-               href="{{::$ctrl.mobileAppLink}}" class="toaster-mobiles__link">
-                <div class="toaster-mobiles__mobile-app-logo"></div>
-                <div class="toaster-mobiles__text-wrapper">
-                    <div class="toaster-mobiles__title" w-i18n="welcome.downloadMobileApp"></div>
-                    <div class="toaster-mobiles__sub-title" w-i18n="welcome.instantAccessWalletDex"></div>
-                </div>
-            </a>
-            <div class="toaster-mobiles__close">
-                <button class="toaster-mobiles__close-icon" ng-click="$ctrl.hideToaster()"></button>
-            </div>
-        </div>
+
     </w-web-only>
 </footer>

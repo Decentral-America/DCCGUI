@@ -43,7 +43,7 @@
             },
             "expiration": "Terminación",
             "fee": "Comisión de {{fee}} DCC",
-            "hasScript": "Cancele[script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html) por operar",
+            "hasScript": "Cancele[script](https://docs.decentralchain.io) por operar",
             "last": "Última",
             "limit": "Limit Order",
             "market": "Market Order",
@@ -140,7 +140,7 @@
             "time": "Tiempo",
             "total": "Total",
             "type": "Tipo",
-            "withScript": "No se puede utilizar el DEX mientras un [script](https://docs.wavesplatform.com/en/waves-client/advanced_features/script_transaction.html)esté instalado en su cuenta"
+            "withScript": "No se puede utilizar el DEX mientras un [script](https://docs.decentralchain.io)esté instalado en su cuenta"
         },
         "noChartDataMessage": "{div}[No hay suficientes ordenes de compra y venta]{div}[para crear un gráfico de Profundidad de Mercado]",
         "noChartDataTitle": "Nada por aquí...",
@@ -186,7 +186,7 @@
             "helpIcon": {
                 "assetId": "Identificación de Activo",
                 "AssetId1AssetId2": "Activo1 ID/ Activo2 ID",
-                "description": "Puede encontrar más información sobre la búsqueda de activos [aquí] (https://docs.wavesplatform.com/en/waves-dex/start-trading-on-the-waves-dex.html)",
+                "description": "Puede encontrar más información sobre la búsqueda de activos [aquí] (https://docs.decentralchain.io)",
                 "header": "Puede buscar por:",
                 "name": "Nombre",
                 "name1Name2": "Nombre 1/ Nombre 2"

@@ -921,7 +921,7 @@
         },
         "unsuccessfulMigration": {
             "checkbox": "Dit niet meer tonen",
-            "description": "U bent begonnen met de accountmigratie van Waves DEX naar deze exchange, maar deze is nog niet voltooid. Uw accounts zijn niet verplaatst. Ga terug naar Waves DEX en start het proces vanaf het begin.",
+            "description": "U bent begonnen met de accountmigratie van Decentral.Exchange naar deze exchange, maar deze is nog niet voltooid. Uw accounts zijn niet verplaatst. Ga terug naar Decentral.Exchange en start het proces vanaf het begin.",
             "title": "Onvoltooide migratie",
             "understand": "Ik begrijp het"
         }
@@ -1022,9 +1022,9 @@
         "day": "d",
         "dexMoves": "We gaan binnenkort verhuizen! Blijf bij ons op [Waves.Exchange] (https://waves.exchange)",
         "hour": "h",
-        "info": "We gaan van Waves DEX naar Waves.Exchange. Wilt u uw accounts opnieuw verplaatsen?",
+        "info": "We gaan van Decentral.Exchange naar Waves.Exchange. Wilt u uw accounts opnieuw verplaatsen?",
         "min": "m",
-        "notification": "We gaan van Waves DEX naar Waves.Exchange. Wilt u uw accounts opnieuw verplaatsen?",
+        "notification": "We gaan van Decentral.Exchange naar Waves.Exchange. Wilt u uw accounts opnieuw verplaatsen?",
         "sec": "s",
         "startMoving": "Veilig verhuizen"
     }

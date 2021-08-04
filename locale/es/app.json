@@ -38,7 +38,7 @@
     },
     "error": {
         "updateClient": {
-            "body": "We are constantly working to make DecentralDEX better and more useful.\nPlease update the application to continue.  Download the application from the official [website](https://wavesplatform.com/technology/wallet)!",
+            "body": "We are constantly working to make Decentral.Exchange better and more useful.\nPlease update the application to continue.  Download the application from the official [website](https://decentralchain.io)!",
             "title": "It's time to update your app!"
         }
     },
@@ -85,8 +85,8 @@
         "tryDesktop": {
             "cancel": "Continuar con pagina web",
             "label": "Recordar mi elección y no recordarme de nuevo",
-            "message": "Te recomendamos utilizar el app DecentralDEX desktop. Si no la tienes, puedes descargarla desde la pagina oficial.",
-            "title": "Utilizar el app DecentralDEX desktop",
+            "message": "Te recomendamos utilizar el app Decentral.Exchange desktop. Si no la tienes, puedes descargarla desde la pagina oficial.",
+            "title": "Utilizar el app Decentral.Exchange desktop",
             "try": "Abrir desktop app"
         }
     },

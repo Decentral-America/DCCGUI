@@ -69,7 +69,7 @@
         },
         "jan2019": {
             "date": "Enero 2019",
-            "text": "El soporte para operar en DecentralDEX con Smart Accounts está habilitado.",
+            "text": "El soporte para operar en Decentral.Exchange con Smart Accounts está habilitado.",
             "text_2": "Lanzamiento de la puerta de enlace Bitcoin Satoshi Vision",
             "title": "Comercio con Smart Accounts",
             "title_2": "Puerta de enlace BSV"
@@ -107,12 +107,12 @@
         },
         "sep2018": {
             "date": "Septiembre 2018",
-            "text": "La integración con DecentralDEX permite a los usuarios operar con la máxima seguridad.",
+            "text": "La integración con Decentral.Exchange permite a los usuarios operar con la máxima seguridad.",
             "title": "Ledger Nano S"
         },
         "sep2019": {
             "date": "Septiembre 2019",
-            "text": "La autenticación de dos factores ofrece a los usuarios del  DecentralDEX una seguridad aún mayor.",
+            "text": "La autenticación de dos factores ofrece a los usuarios del  Decentral.Exchange una seguridad aún mayor.",
             "title": "2FA"
         }
     },
@@ -142,7 +142,7 @@
         "changeName": "Cambiar nombre",
         "chart": "GRÁFICO",
         "comingSoon": "Coming soon",
-        "contestLinkDescription": "¡Gana 5.000 DCC en un concurso de trading en DecentralDEX!",
+        "contestLinkDescription": "¡Gana 5.000 DCC en un concurso de trading en Decentral.Exchange!",
         "contestLinkLink": "Reglas",
         "controlAssets": "El control de los activos es solo suyo, los fondos no salen de su billetera y no se pueden congelar",
         "cookies": "Cookies",
@@ -154,7 +154,7 @@
         "createToken": "Crear token",
         "currentAccountName": "Nombre de cuenta actual",
         "dashboard": "Tablero",
-        "decentralised": "Descentralizado",
+        "decentralized": "Descentralizado",
         "descExchange": "We are working on an awesome new project, which will be ready soon. Stay tuned!",
         "dexWithHardware": "Utilice DEX con las carteras de hardware Ledger Nano S y Ledger Blue",
         "documentation": "Documentación",
@@ -192,7 +192,7 @@
         "mainPage": "Pagina principal",
         "majorFiatCryptocurrencies": "Compatible con las principales criptomonedas y fiat: BTC, LTC, ETH, USD y otros",
         "markets": "Mercados",
-        "marketsDescription": "DecentralDEX le permite ejecutar operaciones de forma rápida y segura, independientemente de si se realizan transacciones a través de una aplicación móvil, un cliente de escritorio, una billetera web o la API de DCC.",
+        "marketsDescription": "Decentral.Exchange le permite ejecutar operaciones de forma rápida y segura, independientemente de si se realizan transacciones a través de una aplicación móvil, un cliente de escritorio, una billetera web o la API de DCC.",
         "marketsTableDescription": "Para ver más pares negociados, haga clic en",
         "marketsTableDescriptionLink": "Ver intercambio",
         "menu": "Menú",
@@ -206,7 +206,7 @@
         "productsTools": "Productos y herramientas",
         "renameAccount": "Cambiar el nombre de la cuenta",
         "roadmap": "Hoja de ruta",
-        "roadmapOpportunitiesAhead": "El futuro de DecentralDEX: nuestra hoja de ruta para las oportunidades que tenemos por delante.",
+        "roadmapOpportunitiesAhead": "El futuro de Decentral.Exchange: nuestra hoja de ruta para las oportunidades que tenemos por delante.",
         "save": "Guardar",
         "scanQrCode": "Escanear código QR",
         "scriptAccount": "La cuenta del Script",
@@ -225,10 +225,10 @@
         "timerMinutes": "minutes",
         "timerSeconds": "seconds",
         "tokenCreation": "Creación rápida de tokens",
-        "tokenCreationCosts": "La creación de tokens cuesta solo 100 DCC y tarda 1 minuto",
+        "tokenCreationCosts": "La creación de tokens cuesta solo 1 DCC y tarda 1 minuto",
         "tokenomicaToasterButton": "Aprende Más",
         "tokenomicaToasterText": "Conviértase en accionista de la primera plataforma todo-en-uno para la emisión y comercialización de activos tokenizados.",
-        "tradeOnWaves": "Utilizar el intercambio descentralizado de DCC",
+        "tradeOnWaves": "Crea activos digitales y tokeniza en segundos, seguro y fácil.",
         "tradeOnWavesDescription": "Compre y venda tokens de forma rápida y segura con todas las ventajas de un intercambio centralizado, pero conservando el control total de sus fondos.",
         "transactions": "Transacciones",
         "twitter": "Twitter",

@@ -60,7 +60,7 @@
         "feb2017": {
             "date": "2017年12月",
             "text": "推出旗舰内置交换的第一个版本。",
-            "title": "Waves DEX Beta"
+            "title": "Decentral.Exchange Beta"
         },
         "feb2018": {
             "date": "2018年2月",
@@ -69,7 +69,7 @@
         },
         "jan2019": {
             "date": "2019年1月",
-            "text": "支持使用智能帐户进行Waves DEX交易。",
+            "text": "支持使用智能帐户进行Decentral.Exchange交易。",
             "text_2": "推出比特币Satoshi Vision网关",
             "title": "智能账户交易",
             "title_2": "BSV网关"
@@ -112,7 +112,7 @@
         },
         "sep2019": {
             "date": "2019年9月",
-            "text": "双因素身份验证为Waves DEX用户提供了更高的安全性。",
+            "text": "双因素身份验证为Decentral.Exchange用户提供了更高的安全性。",
             "title": "2FA"
         }
     },
@@ -142,7 +142,7 @@
         "changeName": "更换名字",
         "chart": "图表",
         "comingSoon": "快来了",
-        "contestLinkDescription": "在Waves DEX的交易竞赛中赢得5,000个WAVES！",
+        "contestLinkDescription": "在Decentral.Exchange的交易竞赛中赢得5,000个WAVES！",
         "contestLinkLink": "规则",
         "controlAssets": "资产控制权是你自己的 - 资金不会留下你的钱包，也不能冻结",
         "cookies": "Cookies",
@@ -154,7 +154,7 @@
         "createToken": "创建令牌",
         "currentAccountName": "当前帐户名称",
         "dashboard": "仪表板",
-        "decentralised": "分散",
+        "decentralized": "分散",
         "descExchange": "我们正在做一个很棒的新项目，它将很快准备就绪。敬请关注！",
         "dexWithHardware": "将DEX与硬件钱包Ledger Nano S和Ledger Blue配合使用",
         "documentation": "文档",
@@ -192,7 +192,7 @@
         "mainPage": "主页",
         "majorFiatCryptocurrencies": "支持的主要法定货币和加密货币：BTC，LTC，ETH，USD等",
         "markets": "市场",
-        "marketsDescription": "Waves DEX允许您快速安全地执行交易，无论您是通过移动应用程序，桌面客户端，网络钱包还是Waves API进行交易。",
+        "marketsDescription": "Decentral.Exchange允许您快速安全地执行交易，无论您是通过移动应用程序，桌面客户端，网络钱包还是Waves API进行交易。",
         "marketsTableDescription": "要查看更多交易对，请单击",
         "marketsTableDescriptionLink": "查看Exchange",
         "menu": "菜单",
@@ -206,7 +206,7 @@
         "productsTools": "产品和工具",
         "renameAccount": "重命名帐户",
         "roadmap": "路线图",
-        "roadmapOpportunitiesAhead": "Waves DEX的未来：我们未来机遇的路线图。",
+        "roadmapOpportunitiesAhead": "Decentral.Exchange的未来：我们未来机遇的路线图。",
         "save": "保存",
         "scanQrCode": "扫描二维码",
         "scriptAccount": "脚本帐户",
@@ -235,7 +235,7 @@
         "volume": "值",
         "wallet": "智能数字钱包",
         "wavesBlockchain": "波浪幣区块链",
-        "wavesDexWeb": "Waves DEX Web",
+        "wavesDexWeb": "Decentral.Exchange Web",
         "wavesExplorer": "Waves Explorer",
         "wavesIde": "Waves IDE",
         "wavesKeeper": "Waves Keeper",

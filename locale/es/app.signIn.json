@@ -16,15 +16,15 @@
         "passForgot": {
             "attention": "¡Atención!",
             "description": "Si olvida la contraseña, debe restaurar todas sus cuentas desde sus frases de seguridad (SEED) y establecer una nueva contraseña",
-            "descriptionExchange": "Está a punto de eliminar todas sus cuentas de DecentralDEX de este dispositivo. Esta acción no afectará sus cuentas de DecentralDEX.",
+            "descriptionExchange": "Está a punto de eliminar todas sus cuentas de Decentral.Exchange de este dispositivo. Esta acción no afectará sus cuentas de Decentral.Exchange.",
             "importantDesc": "Si no ha guardado la frase SEED o la clave privada, no podrá recuperar el acceso a su cuenta.",
-            "importantDescEx": "¡Esta acción es irreversible! Si no ha guardado la frase inicial o la clave privada, no podrá recuperar el acceso a sus cuentas de DecentralDEX.",
+            "importantDescEx": "¡Esta acción es irreversible! Si no ha guardado la frase inicial o la clave privada, no podrá recuperar el acceso a sus cuentas de Decentral.Exchange.",
             "importantDescExchange": "¡Esta acción es irreversible! Si no ha guardado la frase inicial o la clave privada, no podrá recuperar el acceso a sus cuentas de DCC."
         },
         "password": {
             "forgot": "¿Olvidó su contraseña?",
             "overwrite": "Overwrite accounts",
-            "overwriteDescription": "Overwrite all DecentralDEX accounts on this device"
+            "overwriteDescription": "Overwrite all Decentral.Exchange accounts on this device"
         },
         "signIn": "Iniciar sesión",
         "welcomeBack": "¡Bienvenido de nuevo!"

@@ -60,7 +60,7 @@
         "feb2017": {
             "date": "Grudzień 2017",
             "text": "Uruchomiona zostaje pierwsza flagowa wersja wbudowanej giełdy.",
-            "title": "Waves DEX Beta"
+            "title": "Decentral.Exchange Beta"
         },
         "feb2018": {
             "date": "Luty 2018",
@@ -69,7 +69,7 @@
         },
         "jan2019": {
             "date": "Styczeń 2019",
-            "text": "Wsparcie handlu na Waves Dex z użyciem inteligentnych kont (Smart Accounts) jest już włączone.",
+            "text": "Wsparcie handlu na Decentral.Exchange z użyciem inteligentnych kont (Smart Accounts) jest już włączone.",
             "text_2": "Uruchomienie bramki dla Bitcoin Satoshi Vision",
             "title": "Handel kontami typu Smart Account",
             "title_2": "Brama (gateway) BSV"
@@ -107,12 +107,12 @@
         },
         "sep2018": {
             "date": "Wrzesień 2018",
-            "text": "Integracja z Waves DEX umożliwia użytkownikom handel z maksymalnym bezpieczeństwem.",
+            "text": "Integracja z Decentral.Exchange umożliwia użytkownikom handel z maksymalnym bezpieczeństwem.",
             "title": "Ledger Nano S"
         },
         "sep2019": {
             "date": "Wrzesień 2019",
-            "text": "Dwustopniowe uwierzytelnianie daje użytkownikom Waves DEX jeszcze większe bezpieczeństwo.",
+            "text": "Dwustopniowe uwierzytelnianie daje użytkownikom Decentral.Exchange jeszcze większe bezpieczeństwo.",
             "title": "2FA"
         }
     },
@@ -142,19 +142,19 @@
         "changeName": "Zmień nazwę",
         "chart": "WYKRES",
         "comingSoon": "Coming soon",
-        "contestLinkDescription": "Wygraj 5000 DCC w konkursie tradingowym na Waves DEX!",
+        "contestLinkDescription": "Wygraj 5000 DCC w konkursie tradingowym na Decentral.Exchange!",
         "contestLinkLink": "Zasady",
         "controlAssets": "Kontrola aktywów należy wyłącznie do Ciebie - fundusze nie opuszczają Twojego portfela i nie mogą zostać zamrożone",
         "cookies": "Cookies",
         "copyAddress": "Kopiuj adres",
-        "copyright": "© 2019 Waves Platform",
+        "copyright": "© 2021 Blockchain Costa Rica",
         "copyright-new": "© 2019 Waves.Exchange",
         "copyrightVordex": "© 2019 VORDEX",
         "createAccount": "Create account",
         "createToken": "Utwórz token",
         "currentAccountName": "Obecna nazwa konta",
         "dashboard": "Dashboard",
-        "decentralised": "Zdecentralizowane",
+        "decentralized": "Zdecentralizowane",
         "descExchange": "We are working on an awesome new project, which will be ready soon. Stay tuned!",
         "dexWithHardware": "Użyj DEX z portfelami sprzętowymi Ledger Nano S i Ledger Blue",
         "documentation": "Dokumentacja",
@@ -192,7 +192,7 @@
         "mainPage": "Strona główna",
         "majorFiatCryptocurrencies": "Główne obsługiwane waluty fiat i kryptowaluty: BTC, LTC, ETH, USD i inne",
         "markets": "Rynki",
-        "marketsDescription": "Waves DEX umożliwia wykonywanie transakcji szybko i bezpiecznie, niezależnie od tego, czy handlujesz za pomocą aplikacji mobilnej, klienta desktopowego, portfela internetowego czy interfejsu API Waves.",
+        "marketsDescription": "Decentral.Exchange umożliwia wykonywanie transakcji szybko i bezpiecznie, niezależnie od tego, czy handlujesz za pomocą aplikacji mobilnej, klienta desktopowego, portfela internetowego czy interfejsu API Waves.",
         "marketsTableDescription": "Aby zobaczyć więcej par handlowych",
         "marketsTableDescriptionLink": "Wyświetl giełdę",
         "menu": "Menu",
@@ -206,7 +206,7 @@
         "productsTools": "Produkty i narzędzia",
         "renameAccount": "Zmień nazwę konta",
         "roadmap": "Plan (roadmap)",
-        "roadmapOpportunitiesAhead": "Przyszłość Waves DEX: nasz plan na przyszłość.",
+        "roadmapOpportunitiesAhead": "Przyszłość Decentral.Exchange: nasz plan na przyszłość.",
         "save": "Zapisz",
         "scanQrCode": "Skanuj QR kod",
         "scriptAccount": "Konto skryptowe",
@@ -235,7 +235,7 @@
         "volume": "WOLUMEN",
         "wallet": "Portfel",
         "wavesBlockchain": "Blockchain Waves",
-        "wavesDexWeb": "Sieć Waves DEX",
+        "wavesDexWeb": "Sieć Decentral.Exchange",
         "wavesExplorer": "Eksplorator Waves",
         "wavesIde": "Waves IDE",
         "wavesKeeper": "Waves Keeper",

@@ -138,7 +138,7 @@
         "token": {
             "warning": {
                 "header": "Zgadzasz się,że:",
-                "text": "{div.line}[I) Nie użyjesz tokena do nieuczciwych celów;]\n{div.line}[II) Nie będziesz duplikować w całości ani w części nazwy istniejącej kryptowaluty lub nazwy znanej firmy celem wprowadzania użytkowników w błąd;]\n{div.line}[III) Nie używaj nazw państw, innych jednostek administracyjnych ani instytucji miejskich do nazwy tokena w celu wprowadzenia w błąd użytkowników.]\n{div.line}[IV) Nie ustawisz skryptu na Smart Asset, który ogranicza transakcje wymiany na Waves DEX według ilości aktywów;]\n{div.line}[V) Nie ustawisz fałszywej informacji w opisie Smart Asset dotyczącej zasad rządzących używaniem tokena, które nie odpowiadają regułom zainstalowanego na nim skryptu;]",
+                "text": "{div.line}[I) Nie użyjesz tokena do nieuczciwych celów;]\n{div.line}[II) Nie będziesz duplikować w całości ani w części nazwy istniejącej kryptowaluty lub nazwy znanej firmy celem wprowadzania użytkowników w błąd;]\n{div.line}[III) Nie używaj nazw państw, innych jednostek administracyjnych ani instytucji miejskich do nazwy tokena w celu wprowadzenia w błąd użytkowników.]\n{div.line}[IV) Nie ustawisz skryptu na Smart Asset, który ogranicza transakcje wymiany na Decentral.Exchange według ilości aktywów;]\n{div.line}[V) Nie ustawisz fałszywej informacji w opisie Smart Asset dotyczącej zasad rządzących używaniem tokena, które nie odpowiadają regułom zainstalowanego na nim skryptu;]",
                 "textWarning": "Nieprzestrzeganie tych punktów spowoduje, że twój token zostanie sklasyfikowany jako spam i będzie dostępny do wyszukiwania tylko według ID"
             }
         }

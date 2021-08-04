@@ -68,7 +68,7 @@
         "backup": "Haz el respaldo ahora",
         "description": "Debes guardar la frase secreta (SEED). Esta es crucial para acceder a tu cuenta.",
         "modal": {
-            "descriptionP1": "Waves Platform quiere advertirte sobre el incremento de ataques de estafa y suplantación de identidad durante el último mes. Los estafadores ocultan su malware en sus propias versiones de DecentralChain y prometen bonificaciones y descuentos para atraer a los usuarios.",
+            "descriptionP1": "Blockchain Costa Rica quiere advertirte sobre el incremento de ataques de estafa y suplantación de identidad durante el último mes. Los estafadores ocultan su malware en sus propias versiones de DecentralChain y prometen bonificaciones y descuentos para atraer a los usuarios.",
             "descriptionP2": "Por favor, ten cuidado y nunca introduzcas tu frase de respaldo (SEED) en estos 'clientes', porque tu cuenta puede ser comprometida y perder todos tus fondos.",
             "descriptionP3": "Deberías confiar SOLO en el cliente oficial de DecentralChain.",
             "ok": "Lo entiendo",

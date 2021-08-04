@@ -60,7 +60,7 @@
         "feb2017": {
             "date": "Дек 2017",
             "text": "Выпущена первая версия встроенной биржи.",
-            "title": "Бета-версия Waves DEX"
+            "title": "Бета-версия Decentral.Exchange"
         },
         "feb2018": {
             "date": "Фев 2018",
@@ -69,7 +69,7 @@
         },
         "jan2019": {
             "date": "Янв 2019",
-            "text": "Доступна поддержка торговли со смарт-аккаунтов на Waves DEX.",
+            "text": "Доступна поддержка торговли со смарт-аккаунтов на Decentral.Exchange.",
             "text_2": "Запущен гейтвей Bitcoin Satoshi Vision.",
             "title": "Поддержка смарт-аккаунтов",
             "title_2": "Гейтвей BSV"
@@ -107,12 +107,12 @@
         },
         "sep2018": {
             "date": "Сен 2018",
-            "text": "Интеграция с Waves DEX обеспечивает максимальную безопасность торгов.",
+            "text": "Интеграция с Decentral.Exchange обеспечивает максимальную безопасность торгов.",
             "title": "Ledger Nano S"
         },
         "sep2019": {
             "date": "Сен 2019",
-            "text": "Двухфакторная аутентификация обеспечит пользователям Waves DEX еще большую безопасность.",
+            "text": "Двухфакторная аутентификация обеспечит пользователям Decentral.Exchange еще большую безопасность.",
             "title": "2FA"
         }
     },
@@ -142,19 +142,19 @@
         "changeName": "Изменить имя",
         "chart": "ГРАФИК",
         "comingSoon": "Совсем скоро",
-        "contestLinkDescription": "Win 5,000 DCC in a trading contest on Waves DEX!",
+        "contestLinkDescription": "Win 5,000 DCC in a trading contest on Decentral.Exchange!",
         "contestLinkLink": "Rules",
         "controlAssets": "Контроль над активами только в ваших руках – средства не покидают ваш кошелек и не могут быть заморожены",
         "cookies": "Cookies",
         "copyAddress": "Скопировать",
-        "copyright": "© 2019 Waves Platform",
+        "copyright": "© 2021 Blockchain Costa Rica",
         "copyright-new": "© 2019 Waves.Exchange",
         "copyrightVordex": "© 2019 VORDEX",
         "createAccount": "Создать аккаунт",
         "createToken": "Создать токен",
         "currentAccountName": "Имя вашего аккаунта",
         "dashboard": "Обзор",
-        "decentralised": "Децентрализованная",
+        "decentralized": "Децентрализованная",
         "descExchange": "Мы работаем над превосходным новым проектом, который скоро будет запущен. Следите за новостями!",
         "dexWithHardware": "Пользуйтесь DEX с холодными кошельками: Ledger Nano S и Ledger Blue",
         "documentation": "Документация",
@@ -192,7 +192,7 @@
         "mainPage": "Главная страница",
         "majorFiatCryptocurrencies": "Поддержка основных крипто и фиатных валют: BTC, LTC, ETH, USD, и другие",
         "markets": "Рынки",
-        "marketsDescription": "Waves DEX позволяет выполнять сделки быстро и безопасно, независимо от того, торгуете ли вы через мобильное приложение, настольный клиент, веб-кошелек или Waves API.",
+        "marketsDescription": "Decentral.Exchange позволяет выполнять сделки быстро и безопасно, независимо от того, торгуете ли вы через мобильное приложение, настольный клиент, веб-кошелек или Waves API.",
         "marketsTableDescription": "Чтобы посмотреть больше пар, кликните на",
         "marketsTableDescriptionLink": "Показать биржу",
         "menu": "Меню",
@@ -206,7 +206,7 @@
         "productsTools": "Продукты",
         "renameAccount": "Переименовать",
         "roadmap": "План разработки",
-        "roadmapOpportunitiesAhead": "Будущее Waves DEX: наш роудмап разработки",
+        "roadmapOpportunitiesAhead": "Будущее Decentral.Exchange: наш роудмап разработки",
         "save": "Сохранить",
         "scanQrCode": "Отсканируйте QR код",
         "scriptAccount": "Скрипт аккаунт",
@@ -235,7 +235,7 @@
         "volume": "ОБЪЕМ",
         "wallet": "Кошелёк",
         "wavesBlockchain": "Waves Blockchain",
-        "wavesDexWeb": "Waves DEX Web",
+        "wavesDexWeb": "Decentral.Exchange Web",
         "wavesExplorer": "Waves Explorer",
         "wavesIde": "Waves IDE",
         "wavesKeeper": "Waves Keeper",

@@ -2,7 +2,7 @@
     "signUp": {
         "headers": {
             "onePassBtn": "¡Empecemos!",
-            "onePassDesc": "El almacenamiento local de datos, las frases semilla y el cifrado hacen que DecentralDEX sea confiable, sin embargo vamos más allá. Es hora de cambiar a un nuevo nivel de seguridad. Inicie sesión en sus cuentas y cambie entre ellas con un par de toques.",
+            "onePassDesc": "El almacenamiento local de datos, las frases semilla y el cifrado hacen que Decentral.Exchange sea confiable, sin embargo vamos más allá. Es hora de cambiar a un nuevo nivel de seguridad. Inicie sesión en sus cuentas y cambie entre ellas con un par de toques.",
             "onePassword": "Una contraseña única para todas sus cuentas",
             "protect": "Proteja sus cuentas",
             "protectDesc": "Establezca una contraseña única para todas sus cuentas",
