@@ -43,7 +43,7 @@ _Please see the [issues](https://github.com/wavesplatform/WavesGUI/issues) secti
 
 ## build container
 
-docker build --build-arg web_environment=mainnet -t blockchaincostarica/wallet:0.0.5 .
+docker build --build-arg web_environment=mainnet -t blockchaincostarica/wallet:0.0.13 . && docker push blockchaincostarica/wallet:0.0.13
 
 
 docker run -p 80:80 -it blockchaincostarica/wallet:0.0.5
