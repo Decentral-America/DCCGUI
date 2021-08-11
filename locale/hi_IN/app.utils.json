@@ -36,7 +36,7 @@
                 "required": "यह फ़ील्ड आवश्यक है"
             },
             "fee": "शुल्क {{fee, money-currency}}",
-            "ideLink": "स्क्रिप्ट को [वेव्स राइड आईडीई](https://ide.wavesplatform.com/) के साथ विकसित किया जा सकता है",
+            "ideLink": "स्क्रिप्ट को [वेव्स राइड आईडीई](https://waves-ide.com//) के साथ विकसित किया जा सकता है",
             "ok": "साइन",
             "textAreaTitle": "Base64 स्क्रिप्ट",
             "warning": {

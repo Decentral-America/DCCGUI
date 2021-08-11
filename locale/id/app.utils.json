@@ -36,7 +36,7 @@
                 "required": "Bagian ini diperlukan"
             },
             "fee": "Biaya {{fee, money-currency}}",
-            "ideLink": "Skrip dapat dikembangkan dengan [Waves Ride IDE](https://ide.wavesplatform.com/)",
+            "ideLink": "Skrip dapat dikembangkan dengan [Waves Ride IDE](https://waves-ide.com//)",
             "ok": "Tandai",
             "textAreaTitle": "Skrip Base64",
             "warning": {

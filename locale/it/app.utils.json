@@ -36,7 +36,7 @@
                 "required": "Questo campo è richiesto"
             },
             "fee": "Spese {{fee, money-currency}}",
-            "ideLink": "Lo script può essere sviluppato con [Waves Ride IDE](https://ide.wavesplatform.com/)",
+            "ideLink": "Lo script può essere sviluppato con [Waves Ride IDE](https://waves-ide.com//)",
             "ok": "Firma",
             "textAreaTitle": "Script Base64",
             "warning": {

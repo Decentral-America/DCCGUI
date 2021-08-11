@@ -36,7 +36,7 @@
                 "required": "Selle välja täitmine on kohustuslik"
             },
             "fee": "Tasu {{fee, money-currency}}",
-            "ideLink": "Skripti saab arendada kasutade [Waves Ride IDE](https://ide.wavesplatform.com/)",
+            "ideLink": "Skripti saab arendada kasutade [Waves Ride IDE](https://waves-ide.com//)",
             "ok": "Kinnita",
             "textAreaTitle": "Base64 script",
             "warning": {

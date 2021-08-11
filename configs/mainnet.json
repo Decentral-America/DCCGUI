@@ -29,8 +29,11 @@
     "origins": ["https://waves.exchange"]
   },
   "WESTNetworkByte": "V",
-  "tokenrating": "https://decentralchain.io",
-  "assets": {},
+  "tokenrating": "",
+  "assets": {
+    "DCC": "DCC",
+    "CRC": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo"
+  },
   "matcherPriorityList": [{ "ticker": "DCC", "id": "DCC" }],
   "wavesExchangeLink": "https://decentral.exchange"
 }

@@ -36,7 +36,7 @@
                 "required": "Bu alan zorunludur"
             },
             "fee": "Komisyon {{fee, money-currency}}",
-            "ideLink": "Scriptler [Waves Ride IDE](https://ide.wavesplatform.com/) ile geliştirilir.",
+            "ideLink": "Scriptler [Waves Ride IDE](https://waves-ide.com//) ile geliştirilir.",
             "ok": "Giriş",
             "textAreaTitle": "Base64 script",
             "warning": {

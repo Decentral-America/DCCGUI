@@ -36,7 +36,7 @@
                 "required": "To pole jest wymagane"
             },
             "fee": "Prowizja {{fee, money-currency}}",
-            "ideLink": "Skrypt można opracować za pomocą [Waves Ride IDE](https://ide.wavesplatform.com/)",
+            "ideLink": "Skrypt można opracować za pomocą [Waves Ride IDE](https://waves-ide.com//)",
             "ok": "Podpisz",
             "textAreaTitle": "Base64 skrypt",
             "warning": {

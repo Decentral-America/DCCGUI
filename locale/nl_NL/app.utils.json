@@ -36,7 +36,7 @@
                 "required": "Dit veld is verplicht"
             },
             "fee": "Transactiekosten {{fee, money-currency}}",
-            "ideLink": "Scripts kunnen gemaakt worden door middel van [Waves Ride IDE](https://ide.wavesplatform.com/)",
+            "ideLink": "Scripts kunnen gemaakt worden door middel van [Waves Ride IDE](https://waves-ide.com//)",
             "ok": "Onderteken",
             "textAreaTitle": "Base64 script",
             "warning": {

@@ -36,7 +36,7 @@
                 "required": "This field is required"
             },
             "fee": "Fee {{fee, money-currency}}",
-            "ideLink": "Script can be developed with [Waves Ride IDE](https://ide.wavesplatform.com/)",
+            "ideLink": "Script can be developed with [Ride IDE](https://waves-ide.com//)",
             "ok": "Sign",
             "textAreaTitle": "Base64 script",
             "warning": {
@@ -906,7 +906,7 @@
             },
             "step3": {
                 "backButton": "Go Back",
-                "cell1": "Always check the URL: [https://client.wavesplatform.com](https://client.wavesplatform.com)",
+                "cell1": "Always check the URL: [https://decentral.exchange](https://decentral.exchange)",
                 "cell2": "Do not use browsers that have extensions or plugins to access your account.",
                 "cell3": "Do not open emails or links from unknown senders.",
                 "cell4": "Regularly update your operating system.",

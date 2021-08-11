@@ -36,7 +36,7 @@
                 "required": "Dieses Feld wird benötigt"
             },
             "fee": "Gebühr {{fee, money-currency}}",
-            "ideLink": "Skript kann mit der [Waves Ride IDE](https://ide.wavesplatform.com/) entwickelt werden.",
+            "ideLink": "Skript kann mit der [Waves Ride IDE](https://waves-ide.com//) entwickelt werden.",
             "ok": "Signieren",
             "textAreaTitle": "Base64-Skript",
             "warning": {

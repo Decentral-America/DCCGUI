@@ -36,7 +36,7 @@
                 "required": "この項目は必須です"
             },
             "fee": "手数料 {{fee, money-currency}}",
-            "ideLink": "スクリプトの開発は [Waves Ride IDE](https://ide.wavesplatform.com/)で可能です",
+            "ideLink": "スクリプトの開発は [Waves Ride IDE](https://waves-ide.com//)で可能です",
             "ok": "署名",
             "textAreaTitle": "Base64 スクリプト",
             "warning": {

@@ -36,7 +36,7 @@
                 "required": "这是必填栏"
             },
             "fee": "费用 {{fee, money-currency}}",
-            "ideLink": "脚本可以使用[Waves Ride IDE]开发（https://ide.wavesplatform.com/）",
+            "ideLink": "脚本可以使用[Waves Ride IDE]开发（https://waves-ide.com//）",
             "ok": "登录",
             "textAreaTitle": "Base64脚本",
             "warning": {
