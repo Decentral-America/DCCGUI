@@ -1,7 +1,7 @@
 {
   "tradingPairs": [],
   "oracles": {
-    "waves": "",
+    "waves": "31TayDxQeiDMSi4eiXHLp1C1p6WuGHPaNQS",
     "tokenomica": ""
   },
   "apiVersion": "v0",
@@ -9,7 +9,7 @@
   "bankRecipient": "3NCKpqzSnHmXhZEmqYy4U6RUKUAJDTxWgWP",
   "node": "https://testnet-node.decentralchain.io",
   "matcher": "https://matcher.decentralchain.io/matcher",
-  "api": "https://api.testnet.wavesplatform.com",
+  "api": "https://data-service.decentralchain.io",
   "explorer": "https://decentralscan.com/testnet",
   "coinomat": "https://localhost:8080/coinomat",
   "wavesGateway": "https://gateways-dev.wvservices.com",

@@ -1,7 +1,9 @@
 {
-  "tradingPairs": [],
+  "tradingPairs": [
+    
+  ],
   "oracles": {
-    "waves": "",
+    "waves": "3DUM611HQFwQcCQDQnA5W92Xs219smEHaaP",
     "tokenomica": ""
   },
   "apiVersion": "v0",
@@ -19,7 +21,7 @@
   "nodeList": "https://decentralscan.com/peers",
   "tokensNameListUrl": "https://decentralchain.io",
   "scamListUrl": "https://decentralchain.io",
-  "origin": "https://decentralchain.io",
+  "origin": "https://decentral.exchange",
   "featuresConfigUrl": "https://raw.githubusercontent.com/wavesplatform/waves-client-config/master/config.json",
   "feeConfigUrl": "https://raw.githubusercontent.com/wavesplatform/waves-client-config/master/fee.json",
   "migration": {
@@ -34,6 +36,9 @@
     "DCC": "DCC",
     "CRC": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo"
   },
-  "matcherPriorityList": [{ "ticker": "DCC", "id": "DCC" }],
+  "matcherPriorityList": [
+    {"ticker": "DCC", "id": "DCC"},
+    {"ticker": "CRC", "id": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo"}],
+    
   "wavesExchangeLink": "https://decentral.exchange"
 }
