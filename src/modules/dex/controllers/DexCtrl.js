@@ -197,7 +197,7 @@
                                 .catch(() => this._getPair({
                                     amount: WavesApp.defaultAssets.DCC,
                                     // price: WavesApp.defaultAssets.BTC
-                                    price: WavesApp.defaultAssets.DCC
+                                    price: WavesApp.defaultAssets.CRC
                                 }))
                                 .then(({ amountAsset, priceAsset }) => {
                                     const activeTab = user.getSetting('dex.watchlist.activeTab');
@@ -229,7 +229,7 @@
                 if (pair) {
                     return ds.api.pairs.get(pair.amount, pair.price);
                 } else {
-                    return ds.api.pairs.get(WavesApp.defaultAssets.DCC /* WavesApp.defaultAssets.BTC */);
+                    return ds.api.pairs.get(WavesApp.defaultAssets.CRC /* WavesApp.defaultAssets.BTC */);
                 }
             }
 

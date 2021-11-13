@@ -1,16 +1,16 @@
-import { getType } from 'mime';
-import { exec, spawn } from 'child_process';
-import { readdirSync, readFileSync, statSync, unlink } from 'fs';
-import { join, relative, extname, dirname } from 'path';
-import { IPackageJSON, IMetaJSON, TBuild, TConnection, TPlatform, IConfItem } from './interface';
-import { readFile, readJSON, readJSONSync, createWriteStream, mkdirp } from 'fs-extra';
-import { compile } from 'handlebars';
 import { transform } from 'babel-core';
-import { render } from 'less';
-import { minify } from 'html-minifier';
-import { get, ServerResponse, IncomingMessage, request } from 'https';
-import { Http2ServerRequest, Http2ServerResponse } from 'http2';
+import { exec, spawn } from 'child_process';
 import { serialize } from 'cookie';
+import { readdirSync, readFileSync, statSync, unlink } from 'fs';
+import { createWriteStream, mkdirp, readFile, readJSON, readJSONSync } from 'fs-extra';
+import { compile } from 'handlebars';
+import { minify } from 'html-minifier';
+import { Http2ServerRequest, Http2ServerResponse } from 'http2';
+import { get, IncomingMessage, request, ServerResponse } from 'https';
+import { render } from 'less';
+import { getType } from 'mime';
+import { dirname, extname, join, relative } from 'path';
+import { IConfItem, IMetaJSON, IPackageJSON, TBuild, TConnection, TPlatform } from './interface';
 
 const extract = require('extract-zip');
 
@@ -205,8 +205,8 @@ export async function getBuildParams(param: IPrepareHTMLOptions) {
         readJSON(join(__dirname, './meta.json')) as Promise<IMetaJSON>,
         readJSON(join(__dirname, '../src/themeConfig/theme.json')),
         (param.networkConfigFile
-                ? readJSON(param.networkConfigFile) as Promise<IConfItem>
-                : readJSON(join(__dirname, '..', 'configs', `${param.connection}.json`)) as Promise<IConfItem>
+            ? readJSON(param.networkConfigFile) as Promise<IConfItem>
+            : readJSON(join(__dirname, '..', 'configs', `${param.connection}.json`)) as Promise<IConfItem>
         ).catch(e => {
             console.error(e);
             return Promise.reject(e);
@@ -477,7 +477,7 @@ export async function getInitScript(
             };
 
 
-            config.platform = function() {
+            config.platform = function () {
                 const userAgent = navigator.userAgent;
                 const platform = navigator.platform;
                 const macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'];
@@ -710,7 +710,7 @@ export function mock(req, res, params) {
 }
 
 export function getRouter() {
-    const mocks = getFilesFrom(join(__dirname, '../api'), '.js');
+    const mocks = getFilesFrom(join(__dirname, '../data-service/api'), '.js');
     const routes = Object.create(null);
     mocks.forEach((path) => {
         routes[`/${moveTo(join(__dirname, '..'))(path).replace('.js', '.json')}`] = require(path);

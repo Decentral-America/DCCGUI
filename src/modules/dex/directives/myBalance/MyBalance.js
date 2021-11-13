@@ -162,7 +162,7 @@
                 }
                 const wavesId = WavesApp.defaultAssets.DCC;
                 // const btcId = WavesApp.defaultAssets.BTC;
-                const btcId = WavesApp.defaultAssets.DCC;
+                const btcId = WavesApp.defaultAssets.CRC;
                 const assetId2 = assetId === wavesId ? btcId : wavesId;
 
                 ds.api.pairs.get(assetId, assetId2).then((pair) => {

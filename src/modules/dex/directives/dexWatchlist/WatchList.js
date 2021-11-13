@@ -381,15 +381,17 @@
              */
             _getPairData() {
                 const pairs = this._getPairList();
+                console.log('pairs: ', pairs)
                 return Promise.all([
-                    this._getTabRate(),
-                    this._cache(pairs)
+                    this._getTabRate().catch(e => console.error('this one failed: ', e)),
+                    this._cache(pairs).catch(e => console.error('this other one failed: ', e))
                 ])
                     .then(([rate, pairs]) => {
                         this.loadingError = false;
                         return pairs.map(WatchList._addRateForPair(rate));
                     })
-                    .catch(() => {
+                    .catch((e) => {
+                        console.error('kaka: ', e);
                         this.loadingError = true;
                     });
             }
