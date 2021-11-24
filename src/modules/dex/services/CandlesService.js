@@ -111,7 +111,8 @@
                     }); // TODO
             }
 
-            getBars(symbolInfo, resolution, from, to, onHistoryCallback, onErrorCallback) {
+            getBars(symbolInfo, resolution, periodParams, onHistoryCallback, onErrorCallback) {
+                let { from, to } = periodParams;
                 from = CandlesService.convertToMilliseconds(from);
                 to = CandlesService.convertToMilliseconds(to);
                 const handleCandles = (candles) => {

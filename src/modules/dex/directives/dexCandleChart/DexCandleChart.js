@@ -249,7 +249,7 @@
                         user.setSetting('lastInterval', e);
                     });
                 });
-                this._chart.options.datafeed.onLoadError = () => {
+                this._chart._options.datafeed.onLoadError = () => {
                     this.notLoaded = true;
                 };
                 return this;
@@ -295,7 +295,7 @@
 
     controller.load = function () {
         const script = document.createElement('script');
-        script.src = '/trading-view/charting_library.min.js';
+        script.src = '/trading-view/charting_library.standalone.js';
         const promise = new Promise((resolve, reject) => {
             script.onload = resolve;
             script.onerror = reject;
