@@ -1045,7 +1045,7 @@
                 }
                 if (asset1 === WavesApp.defaultAssets.DCC) {
                     // asset2 = WavesApp.defaultAssets.BTC;
-                    asset2 = WavesApp.defaultAssets.DCC;
+                    asset2 = WavesApp.defaultAssets.CRC;
                 } else {
                     asset2 = WavesApp.defaultAssets.DCC;
                 }

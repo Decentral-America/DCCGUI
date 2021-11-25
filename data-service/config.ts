@@ -1,10 +1,10 @@
-import DataServiceClient from '@waves/data-service-client-js';
-import { IHash } from './interface';
-import { time } from './api/node/node';
-import { request } from './utils/request';
 import { MAINNET_DATA } from '@decentralchain/assets-pairs-order';
+import { IAssetInfo } from "@waves/data-entities/dist/entities/Asset";
+import DataServiceClient from '@waves/data-service-client-js';
 import { Signal } from 'ts-utils';
-import {IAssetInfo} from "@waves/data-entities/dist/entities/Asset";
+import { time } from './api/node/node';
+import { IHash } from './interface';
+import { request } from './utils/request';
 
 
 const config: IConfigParams = Object.create(null);
@@ -13,7 +13,7 @@ let dataService = null;
 export let timeDiff = 0;
 export let matcherSettingsPromise: Promise<Array<string>> = Promise.resolve(MAINNET_DATA);
 
-export const parse: <T>(str: string) => Promise<T> = str => (window as any).WavesApp.parseJSON(str);
+export const parse: <T>(str: string) => Promise<T> = str => { return (window as any).WavesApp.parseJSON(str) };
 
 export function get<K extends keyof IConfigParams>(key: K): IConfigParams[K] {
     return config[key];
@@ -75,5 +75,5 @@ export interface IConfigParams {
     oracleWaves: string;
     oracleTokenomica: string;
     tokenrating: string;
-    rewriteAssets: {[key: string]: Partial<IAssetInfo>}
+    rewriteAssets: { [key: string]: Partial<IAssetInfo> }
 }

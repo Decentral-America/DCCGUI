@@ -389,7 +389,7 @@
                         this.loadingError = false;
                         return pairs.map(WatchList._addRateForPair(rate));
                     })
-                    .catch(() => {
+                    .catch((e) => {
                         this.loadingError = true;
                     });
             }

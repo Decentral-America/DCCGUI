@@ -64,7 +64,8 @@
                     },
                     orderLimit: 0.05,
                     pinnedAssetIdList: [
-                        WavesApp.defaultAssets.DCC
+                        WavesApp.defaultAssets.DCC,
+                        WavesApp.defaultAssets.CRC
                         // WavesApp.defaultAssets.BTC,
                         // WavesApp.defaultAssets.ETH,
                         // WavesApp.defaultAssets.USD,
@@ -86,7 +87,7 @@
                             chartMode: 'month',
                             activeChartAssetId: WavesApp.defaultAssets.DCC,
                             chartAssetIdList: [
-                                WavesApp.defaultAssets.DCC
+                                WavesApp.defaultAssets.CRC
                                 // WavesApp.defaultAssets.BTC,
                                 // WavesApp.defaultAssets.ETH
                             ]
@@ -107,7 +108,7 @@
                         assetIdPair: {
                             amount: WavesApp.defaultAssets.DCC,
                             // price: WavesApp.defaultAssets.BTC
-                            price: WavesApp.defaultAssets.DCC
+                            price: WavesApp.defaultAssets.CRC
                         },
                         createOrder: {
                             expirationName: '30day'
@@ -116,9 +117,9 @@
                             showOnlyFavorite: false,
                             favourite: [
                                 [
-                                  WavesApp.defaultAssets.DCC
-                                  //  WavesApp.defaultAssets.BTC
-                                  ]
+                                    WavesApp.defaultAssets.CRC
+                                    //  WavesApp.defaultAssets.BTC
+                                ]
                             ],
                             activeTab: 'all'
                         },
