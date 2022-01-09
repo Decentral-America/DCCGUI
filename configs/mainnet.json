@@ -1,44 +1,54 @@
 {
-  "tradingPairs": [
+    "tradingPairs": [],
+    "oracles": {
+        "waves": "3DUM611HQFwQcCQDQnA5W92Xs219smEHaaP",
+        "tokenomica": ""
+    },
+    "apiVersion": "v0",
+    "bankRecipient": "3P7qtv5Z7AMhwyvf5sM6nLuWWypyjVKb7Us",
+    "code": "?",
+    "node": "https://mainnet-node.decentralchain.io",
+    "matcher": "https://mainnet-matcher.decentralchain.io/matcher",
+    "api": "https://data-service.decentralchain.io",
+    "explorer": "https://decentralscan.com",
+    "coinomat": "https://coinomat.com",
+    "wavesGateway": {
+        "original": "https://gw.wavesplatform.com",
+        "25iPQ8zKBRR5q1UKUksCijiyb18EGupggjus6muEbuvK": {
+            "url": "http://144.217.241.27:2000",
+            "isThirdParty": false,
+            "regex": "^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$"
+        }
+    },
+    "support": "https://decentralchain.io/soporte",
+    "termsAndConditions": "https://decentralchain.io/terms-and-conditions",
+    "privacyPolicy": "https://decentralchain.io/privacy-policy",
+    "nodeList": "https://decentralscan.com/peers",
+    "tokensNameListUrl": "https://decentralchain.io",
+    "scamListUrl": "https://decentralchain.io",
+    "origin": "https://decentral.exchange",
+    "featuresConfigUrl": "https://raw.githubusercontent.com/Decentral-America/waves-client-config/master/config.json",
+    "feeConfigUrl": "https://raw.githubusercontent.com/Decentral-America/waves-client-config/master/fee.json",
+    "migration": {
+        "webUrl": "https://waves.exchange/migration",
+        "desktopUrl": "http://localhost:8888/connect",
+        "desktopPort": 8888,
+        "origins": ["https://waves.exchange"]
+    },
+    "WESTNetworkByte": "V",
+    "tokenrating": "",
+    "assets": {
+        "DCC": "DCC",
+        "CRC": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo",
+        "BTC": "25iPQ8zKBRR5q1UKUksCijiyb18EGupggjus6muEbuvK"
+    },
+    "matcherPriorityList": [
+        { "ticker": "DCC", "id": "DCC" },
+        {
+            "ticker": "CRC",
+            "id": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo"
+        }
+    ],
 
-  ],
-  "oracles": {
-    "waves": "3DUM611HQFwQcCQDQnA5W92Xs219smEHaaP",
-    "tokenomica": ""
-  },
-  "apiVersion": "v0",
-  "bankRecipient": "3P7qtv5Z7AMhwyvf5sM6nLuWWypyjVKb7Us",
-  "code": "?",
-  "node": "https://mainnet-node.decentralchain.io",
-  "matcher": "https://mainnet-matcher.decentralchain.io/matcher",
-  "api": "https://data-service.decentralchain.io",
-  "explorer": "https://decentralscan.com",
-  "coinomat": "https://coinomat.com",
-  "wavesGateway": "https://gw.wavesplatform.com",
-  "support": "https://decentralchain.io/soporte",
-  "termsAndConditions": "https://decentralchain.io/terms-and-conditions",
-  "privacyPolicy": "https://decentralchain.io/privacy-policy",
-  "nodeList": "https://decentralscan.com/peers",
-  "tokensNameListUrl": "https://decentralchain.io",
-  "scamListUrl": "https://decentralchain.io",
-  "origin": "https://decentral.exchange",
-  "featuresConfigUrl": "https://raw.githubusercontent.com/Decentral-America/waves-client-config/master/config.json",
-  "feeConfigUrl": "https://raw.githubusercontent.com/Decentral-America/waves-client-config/master/fee.json",
-  "migration": {
-    "webUrl": "https://waves.exchange/migration",
-    "desktopUrl": "http://localhost:8888/connect",
-    "desktopPort": 8888,
-    "origins": ["https://waves.exchange"]
-  },
-  "WESTNetworkByte": "V",
-  "tokenrating": "",
-  "assets": {
-    "DCC": "DCC",
-    "CRC": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo"
-  },
-  "matcherPriorityList": [
-    {"ticker": "DCC", "id": "DCC"},
-    {"ticker": "CRC", "id": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo"}],
-
-  "wavesExchangeLink": "https://decentral.exchange"
+    "wavesExchangeLink": "https://decentral.exchange"
 }
