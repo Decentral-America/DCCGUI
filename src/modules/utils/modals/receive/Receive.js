@@ -10,9 +10,7 @@
      * @return {ReceiveCtrl}
      */
     const controller = function (Base, $scope, gatewayService, user, waves) {
-
         class ReceiveCtrl extends Base {
-
             /**
              * @type {string}
              */
@@ -23,9 +21,7 @@
              */
             tabs = {
                 cryptocurrency: false,
-                invoice: false,
-                card: false,
-                bank: false
+                invoice: false
             };
 
             /**
@@ -41,25 +37,22 @@
             /**
              * @type {Array}
              */
+            gatewayCryptocurrencies;
+
+            /**
+             * @type {Array}
+             */
             invoicables;
 
-            /**
-             * @type {Array}
-             */
-            purchasablesByCards;
-
-            /**
-             * @type {Array}
-             */
-            fiats;
-
-            constructor({ asset }) {
+            constructor({ asset, haveTabs }) {
                 super($scope);
 
                 /**
                  * @type {Asset}
                  */
                 this.asset = asset;
+
+                this.haveTabs = haveTabs;
 
                 if (this.asset) {
                     this.isSingleAsset = true;
@@ -76,86 +69,73 @@
                 }
 
                 this.enableTab('invoice');
-
-                if (gatewayService.hasSupportOf(this.asset, 'card')) {
-                    this.purchasablesByCards = [this.asset];
-                    this.enableTab('card');
-                }
-
-                if (gatewayService.hasSupportOf(this.asset, 'sepa')) {
-                    this.enableTab('bank');
-                }
             }
 
             initForAllAssets() {
-                const cryptocurrenciesRequests = this.getExtendedAssets(gatewayService.getCryptocurrencies());
-                const cryptocurrenciesRequest = Promise.all(cryptocurrenciesRequests).then((results) => {
+                const cryptocurrenciesRequests = this.getExtendedAssets(
+                    gatewayService.getCryptocurrencies()
+                );
+                const cryptocurrenciesRequest = Promise.all(
+                    cryptocurrenciesRequests
+                ).then((results) => {
                     this.cryptocurrencies = results;
                 });
 
-                const invoicesRequest = waves.node.assets.userBalances().then((results) => {
-                    this.invoicables = results
-                        .filter((balance) => !user.scam[balance.asset.id])
-                        .map((balance) => balance.asset);
-                });
+                const invoicesRequest = waves.node.assets
+                    .userBalances()
+                    .then((results) => {
+                        this.invoicables = results
+                            .filter((balance) => !user.scam[balance.asset.id])
+                            .map((balance) => balance.asset);
+                    });
 
-                const cardsRequests = this.getExtendedAssets(gatewayService.getPurchasableWithCards());
-                const cardsRequest = Promise.all(cardsRequests).then((results) => {
-                    this.purchasablesByCards = results;
-                });
+                Promise.all([cryptocurrenciesRequest, invoicesRequest]).then(
+                    () => {
+                        this.gatewayCryptocurrencies =
+                            this.cryptocurrencies.filter((c) => {
+                                return (
+                                    WavesApp.network.wavesGateway[c.id] !==
+                                    undefined
+                                );
+                            });
+                        if (this.gatewayCryptocurrencies.length === 1) {
+                            this.updateAssetBy(
+                                this.gatewayCryptocurrencies[0].id
+                            );
+                        }
 
-                const fiatsRequests = this.getExtendedAssets(gatewayService.getFiats());
-                const fiatsRequest = Promise.all(fiatsRequests).then((results) => {
-                    this.fiats = results;
-                });
+                        this.enableTab('cryptocurrency');
+                        this.enableTab('invoice');
 
-                Promise.all([
-                    cryptocurrenciesRequest,
-                    invoicesRequest,
-                    cardsRequest,
-                    fiatsRequest
-                ]).then(() => {
-                    this.updateAssetBy(this.cryptocurrencies[0].id);
-
-                    this.enableTab('cryptocurrency');
-                    this.enableTab('invoice');
-                    this.enableTab('card');
-                    this.enableTab('bank');
-
-                    this.initForSingleAsset();
-                });
+                        this.initForSingleAsset();
+                    }
+                );
             }
 
             /**
              * @param {Object} assetsIds
              */
             getExtendedAssets(assetsIds) {
-                return (
-                    Object
-                        .keys(assetsIds)
-                        .map(waves.node.assets.getAsset)
-                );
+                return Object.keys(assetsIds).map(waves.node.assets.getAsset);
             }
 
             /**
              * @param {string} id
              */
             updateAssetBy(id) {
-                this.asset = (
-                    this.cryptocurrencies.find((cryptocurrency) => cryptocurrency.id === id) ||
-                    this.invoicables.find((invoicable) => invoicable.id === id) ||
-                    this.purchasablesByCards.find((purchasableByCards) => purchasableByCards.id === id) ||
-                    this.fiats.find((fiat) => fiat.id === id)
-                );
+                this.asset =
+                    this.cryptocurrencies.find(
+                        (cryptocurrency) => cryptocurrency.id === id
+                    ) ||
+                    this.invoicables.find((invoicable) => invoicable.id === id);
             }
 
             /**
-             * @param {'cryptocurrency' | 'invoice' | 'card' | 'bank'} name
+             * @param {'cryptocurrency' | 'invoice'} name
              */
             enableTab(name) {
                 this.tabs[name] = true;
             }
-
         }
 
         return new ReceiveCtrl(this.locals);

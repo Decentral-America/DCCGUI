@@ -2,14 +2,8 @@
     'use strict';
 
     const GATEWAYS = {
-        // [WavesApp.defaultAssets.WEST]: { waves: 'WWEST', gateway: 'WEST' },
-        // [WavesApp.defaultAssets.ERGO]: { waves: 'WERGO', gateway: 'ERGO' },
-        // [WavesApp.defaultAssets.BNT]: { waves: 'WBNT', gateway: 'BNT' },
-        // [WavesApp.defaultAssets.ETH]: { waves: 'ETH', gateway: 'ETH' },
-        // [WavesApp.defaultAssets.BTC]: { waves: 'WBTC', gateway: 'BTC' }
+        [WavesApp.defaultAssets.BTC]: { waves: 'BTC', gateway: 'BTC' }
     };
-
-    const PATH = `${WavesApp.network.wavesGateway}/api/v1`;
 
     const KEY_NAME_PREFIX = 'wavesGateway';
 
@@ -18,50 +12,138 @@
      */
 
     const factory = function () {
-
         const { BigNumber } = require('@waves/bignumber');
 
         class WavesGatewayService {
-
             /**
              * @param {Asset} asset
              * @return {IGatewaySupportMap}
              */
             getSupportMap(asset) {
-                if (GATEWAYS[asset.id]) {
+                if (
+                    GATEWAYS[asset.id] ||
+                    WavesApp.network.wavesGateway[asset.id]
+                ) {
                     return {
                         deposit: true,
-                        withdraw: asset.id !== WavesApp.defaultAssets.BTC,
+                        withdraw: true,
                         errorAddressMessage: true,
                         wrongAddressMessage: true
                     };
                 }
             }
 
+            // Only used for deposit type gateways
+            getDepositAddress(asset, walletAddress) {
+                WavesGatewayService._assertAsset(asset.id);
+
+                const ASSETGATEWAY = `${
+                    WavesApp.network.wavesGateway[asset.id].url
+                }`;
+                const headers = {};
+                headers['Content-Type'] = 'application/json';
+                headers.Accept = 'application/json';
+
+                return ds
+                    .fetch(`${ASSETGATEWAY}/tunnel/${walletAddress}`, {
+                        method: 'GET',
+                        headers
+                    })
+                    .then((details) => {
+                        return {
+                            address: details.address
+                        };
+                    });
+            }
+
+            // Only used for round robin type gateways
+            getRobinAddress(asset, walletAddress, toTN, recaptcha) {
+                WavesGatewayService._assertAsset(asset.id);
+
+                const OTHERNETWORK = `${
+                    WavesApp.network.wavesGateway[asset.id].otherNetwork
+                }`;
+                const TICKER = asset.ticker;
+
+                let src = OTHERNETWORK;
+                let dst = 'TurtleNetwork';
+                if (!toTN) {
+                    src = 'TurtleNetwork';
+                    dst = OTHERNETWORK;
+                }
+
+                const ASSETGATEWAY = `${
+                    WavesApp.network.wavesGateway[asset.id].url
+                }`;
+                const headers = {};
+                headers['Content-Type'] = 'application/json';
+                headers.Accept = 'application/json';
+                const body = JSON.stringify({
+                    ticker: TICKER,
+                    dstAddress: walletAddress,
+                    srcNetwork: src,
+                    dstNetwork: dst,
+                    recaptcha: recaptcha
+                });
+
+                return ds
+                    .fetch(`${ASSETGATEWAY}/api/deposits`, {
+                        method: 'POST',
+                        headers,
+                        body
+                    })
+                    .then((details) => {
+                        return {
+                            address: details.depositAddress,
+                            expiry: details.expiry
+                        };
+                    });
+            }
+
             /**
              * From VST to Waves
              * @param {Asset} asset
-             * @param {string} wavesAddress
+             * @param {string} walletAddress
              * @return {Promise}
              */
-            getDepositDetails(asset, wavesAddress) {
+            getDepositDetails(asset, walletAddress) {
                 WavesGatewayService._assertAsset(asset.id);
 
-                const body = JSON.stringify({
-                    userAddress: wavesAddress,
-                    assetId: asset.id
-                });
+                const ASSETGATEWAY = `${
+                    WavesApp.network.wavesGateway[asset.id].url
+                }`;
+                const OTHERNETWORK = `${
+                    WavesApp.network.wavesGateway[asset.id].otherNetwork
+                }`;
+                const TICKER = asset.ticker;
+                const headers = {};
+                headers['Content-Type'] = 'application/json';
+                headers.Accept = 'application/json';
 
-                return ds.fetch(`${PATH}/external/deposit`, { method: 'POST', body })
-                    .then(details => {
-                        const [minAmount, maxAmount, fee] = [details.minAmount, details.maxAmount, details.fee]
-                            .map(value => this._normalaizeValue(value, -asset.precision));
-                        return ({
-                            address: details.address,
-                            minimumAmount: new BigNumber(minAmount),
-                            maximumAmount: new BigNumber(maxAmount),
-                            gatewayFee: new BigNumber(fee)
-                        });
+                let fetchUrl = `${ASSETGATEWAY}/api/fullinfo`;
+                if (WavesApp.network.wavesGateway[asset.id].otherNetwork) {
+                    fetchUrl = `${ASSETGATEWAY}/api/full-info/${OTHERNETWORK}/${TICKER}`;
+                }
+
+                return ds
+                    .fetch(fetchUrl, { method: 'GET', headers })
+                    .then((details) => {
+                        return {
+                            address: details.otherAddress,
+                            minimumAmount: new BigNumber(details.minAmount),
+                            maximumAmount: new BigNumber(details.maxAmount),
+                            gatewayFee: new BigNumber(details.fee),
+                            disclaimerLink: details.disclaimer,
+                            minRecoveryAmount: new BigNumber(
+                                details.recovery_amount
+                            ),
+                            recoveryFee: new BigNumber(details.recovery_fee),
+                            supportEmail: details.email,
+                            operator: details.company,
+                            walletAddress: walletAddress,
+                            gatewayType: details.type,
+                            gatewayUrl: `${ASSETGATEWAY}`
+                        };
                     });
             }
 
@@ -75,22 +157,34 @@
             getWithdrawDetails(asset, targetAddress) {
                 WavesGatewayService._assertAsset(asset.id);
 
-                const body = JSON.stringify({
-                    userAddress: targetAddress,
-                    assetId: asset.id
-                });
+                const ASSETGATEWAY = `${
+                    WavesApp.network.wavesGateway[asset.id].url
+                }`;
+                const OTHERNETWORK = `${
+                    WavesApp.network.wavesGateway[asset.id].otherNetwork
+                }`;
+                const TICKER = asset.ticker;
+                const headers = {};
+                headers['Content-Type'] = 'application/json';
+                headers.Accept = 'application/json';
 
-                return ds.fetch(`${PATH}/external/withdraw`, { method: 'POST', body })
-                    .then(details => {
-                        const [minAmount, maxAmount, fee] = [details.minAmount, details.maxAmount, details.fee]
-                            .map(value => this._normalaizeValue(value, -asset.precision));
-                        return ({
-                            address: details.recipientAddress,
-                            minimumAmount: new BigNumber(minAmount),
-                            maximumAmount: new BigNumber(maxAmount),
-                            gatewayFee: new BigNumber(fee),
-                            attachment: details.processId
-                        });
+                let fetchUrl = `${ASSETGATEWAY}/api/fullinfo`;
+                if (WavesApp.network.wavesGateway[asset.id].otherNetwork) {
+                    fetchUrl = `${ASSETGATEWAY}/api/full-info/${OTHERNETWORK}/${TICKER}`;
+                }
+
+                return ds
+                    .fetch(fetchUrl, { method: 'GET', headers: headers })
+                    .then((details) => {
+                        return {
+                            address: details.tnAddress,
+                            minimumAmount: new BigNumber(details.minAmount),
+                            maximumAmount: new BigNumber(details.maxAmount),
+                            gatewayFee: new BigNumber(details.other_total_fee),
+                            gatewayType: details.type,
+                            attachment: targetAddress,
+                            gatewayUrl: `${ASSETGATEWAY}`
+                        };
                     });
             }
 
@@ -99,7 +193,9 @@
              * @return {string}
              */
             getAssetKeyName(asset) {
-                return `${KEY_NAME_PREFIX}${GATEWAYS[asset.id].gateway}`;
+                return `${KEY_NAME_PREFIX}${
+                    WavesApp.network.wavesGateway[asset.id].gateway
+                }`;
             }
 
             /**
@@ -132,11 +228,13 @@
             }
 
             static _assertAsset(assetId) {
-                if (!GATEWAYS[assetId]) {
+                if (
+                    !GATEWAYS[assetId] &&
+                    !WavesApp.network.wavesGateway[assetId]
+                ) {
                     throw new Error('Asset is not supported by VST');
                 }
             }
-
         }
 
         return new WavesGatewayService();

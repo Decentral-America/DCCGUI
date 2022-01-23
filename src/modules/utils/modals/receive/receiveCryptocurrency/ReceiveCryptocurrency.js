@@ -10,13 +10,11 @@
      * @param {User} user
      * @return {ReceiveCryptocurrency}
      */
-    const controller = function (Base, $scope, gatewayService, user) {
-
+    const controller = function (Base, $scope, gatewayService, user, utils) {
         /**
          * @extends {ng.IController}
          */
         class ReceiveCryptocurrency extends Base {
-
             /**
              * @type {Asset}
              */
@@ -43,6 +41,16 @@
             gatewayAddress;
 
             /**
+             * @type {string}
+             */
+            gatewayType;
+
+            /**
+             * @type {string}
+             */
+            gatewayUrl;
+
+            /**
              * @type {boolean}
              */
             gatewayServerError = false;
@@ -51,11 +59,6 @@
              * @type {boolean}
              */
             gatewayServerPending = false;
-
-            /**
-             * @type {boolean}
-             */
-            isWEST;
 
             /**
              * @type {string}
@@ -73,14 +76,50 @@
             minAmount = null;
 
             /**
+             * @type {string}
+             */
+            supportEmail = null;
+
+            /**
+             * @type {string}
+             */
+            disclaimerLink = null;
+
+            /**
+             * @type {string}
+             */
+            operator = null;
+
+            /**
+             * @type {Money | null}
+             */
+            minRecoveryAmount = null;
+
+            /**
+             * @type {Money | null}
+             */
+            recoveryFee = null;
+
+            /**
              * @type {Money | null}
              */
             maxAmount = null;
 
+            /**
+             * @type {string}
+             */
+            walletAddress = null;
+
+            recaptcha = null;
+
+            completedRecaptcha = false;
+
             constructor() {
                 super();
 
-                this.observe('chosenAssetId', ({ value: id }) => this.onAssetChange({ id }));
+                this.observe('chosenAssetId', ({ value: id }) =>
+                    this.onAssetChange({ id })
+                );
 
                 this.observe('asset', this.updateGatewayAddress);
             }
@@ -88,39 +127,109 @@
             /**
              * @public
              */
-            updateGatewayAddress() {
+            async updateGatewayAddress() {
                 this.gatewayServerError = false;
                 this.gatewayServerPending = true;
+                this.recaptcha = null;
+                this.completedRecaptcha = false;
+                if (!this.asset) {
+                    const gatewayList = WavesApp.network.wavesGateway;
+                    this.asset = gatewayList[Object.keys(gatewayList)[0]];
+                }
 
-                const depositDetails = gatewayService.getDepositDetails(this.asset, user.address);
+                const depositDetails = gatewayService.getDepositDetails(
+                    this.asset,
+                    user.address
+                );
 
                 if (depositDetails) {
-                    depositDetails.then((details) => {
-                        this.gatewayAddress = details.address;
-                        this.minAmount = Money.fromTokens(details.minimumAmount, this.asset);
-                        this.maxAmount = Money.fromTokens(details.maximumAmount, this.asset);
-                        this.gatewayServerPending = false;
-                        $scope.$apply();
-                    }, () => {
-                        this.minAmount = Money.fromTokens(0.001, this.asset);
-                        this.gatewayAddress = null;
-                        this.gatewayServerError = true;
-                        this.gatewayServerPending = false;
-                        $scope.$apply();
-                    });
+                    await depositDetails.then(
+                        (details) => {
+                            this.gatewayAddress = details.address;
+                            this.minAmount = Money.fromTokens(
+                                details.minimumAmount,
+                                this.asset
+                            );
+                            this.maxAmount = Money.fromTokens(
+                                details.maximumAmount,
+                                this.asset
+                            );
+                            this.disclaimerLink = details.disclaimerLink;
+                            this.minRecoveryAmount = Money.fromTokens(
+                                details.minRecoveryAmount,
+                                this.asset
+                            );
+                            this.recoveryFee = Money.fromTokens(
+                                details.recoveryFee,
+                                this.asset
+                            );
+                            this.supportEmail = details.supportEmail;
+                            this.operator = details.operator;
+                            this.totalFee = details.gatewayFee;
+                            this.walletAddress = details.walletAddress;
+                            this.gatewayType = details.gatewayType;
+                            this.gatewayUrl = details.gatewayUrl;
+                        },
+                        () => {
+                            this.minAmount = Money.fromTokens(
+                                0.001,
+                                this.asset
+                            );
+                            this.gatewayAddress = null;
+                            this.gatewayServerError = true;
+                            this.gatewayServerPending = false;
+                        }
+                    );
 
-                    this.assetKeyName = gatewayService.getAssetKeyName(this.asset, 'deposit');
-                    // this.isWEST = this.asset.id === WavesApp.defaultAssets.WEST;
-                    this.isWEST = false;
+                    if (this.gatewayType === 'deposit') {
+                        await gatewayService.gateways[0]
+                            .getDepositAddress(this.asset, user.address)
+                            .then((result) => {
+                                this.gatewayAddress = result.address;
+                            });
+                    }
+
+                    if (this.gatewayType === 'round-robin') {
+                        this.gatewayAddress = null;
+                        this.gatewayExpiry = null;
+                    }
+
+                    this.assetKeyName = gatewayService.getAssetKeyName(
+                        this.asset,
+                        'deposit'
+                    );
                 }
+
+                this.gatewayServerPending = false;
+                $scope.$apply();
             }
 
+            updateRobin() {
+                gatewayService
+                    .getRobinAddress(
+                        this.asset,
+                        user.address,
+                        true,
+                        this.recaptcha
+                    )
+                    .then((result) => {
+                        this.gatewayAddress = result.address;
+                        this.gatewayExpiry = new Date(result.expiry);
+                        utils.safeApply($scope);
+                    });
+            }
+
+            mySubmit() {
+                this.updateRobin();
+                this.completedRecaptcha = true;
+                utils.safeApply($scope);
+            }
         }
 
         return new ReceiveCryptocurrency();
     };
 
-    controller.$inject = ['Base', '$scope', 'gatewayService', 'user'];
+    controller.$inject = ['Base', '$scope', 'gatewayService', 'user', 'utils'];
 
     angular.module('app.utils').component('wReceiveCryptocurrency', {
         controller,
@@ -130,6 +239,7 @@
             isSingleAsset: '<',
             onAssetChange: '&'
         },
-        templateUrl: 'modules/utils/modals/receive/receiveCryptocurrency/receive-cryptocurrency.html'
+        templateUrl:
+            'modules/utils/modals/receive/receiveCryptocurrency/receive-cryptocurrency.html'
     });
 })();

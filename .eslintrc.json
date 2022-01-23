@@ -319,12 +319,6 @@
       "error",
       "after"
     ],
-    "padded-blocks": [
-      "error",
-      {
-        "classes": "always"
-      }
-    ],
     "padding-line-between-statements": "error",
     "prefer-arrow-callback": "off",
     "prefer-const": "error",

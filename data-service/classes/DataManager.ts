@@ -1,16 +1,16 @@
 import { Money } from '@waves/data-entities';
-import { path } from 'ramda';
-import { IPollAPI, Poll } from '../utils/Poll';
-import { balanceList } from '../api/assets/assets';
-import { getReservedBalance } from '../api/matcher/getOrders';
-import { IBalanceItem } from '../api/assets/interface';
-import { IHash } from '../interface';
-import { UTXManager } from './UTXManager';
-import { getAliasesByAddress } from '../api/aliases/aliases';
-import { PollControl } from './PollControl';
-import { change, get } from '../config';
-import { getOracleData, IOracleData } from '../api/data';
 import { DATA_PROVIDER_VERSIONS, STATUS_LIST, TProviderAsset } from '@waves/oracle-data';
+import { path } from 'ramda';
+import { getAliasesByAddress } from '../api/aliases/aliases';
+import { balanceList } from '../api/assets/assets';
+import { IBalanceItem } from '../api/assets/interface';
+import { getOracleData, IOracleData } from '../api/data';
+import { getReservedBalance } from '../api/matcher/getOrders';
+import { change, get } from '../config';
+import { IHash } from '../interface';
+import { IPollAPI, Poll } from '../utils/Poll';
+import { PollControl } from './PollControl';
+import { UTXManager } from './UTXManager';
 
 
 export class DataManager {
@@ -74,20 +74,7 @@ export class DataManager {
         const WavesApp = (window as any).WavesApp;
 
         const gateways = {
-            // [WavesApp.defaultAssets.USD]: true,
-            // [WavesApp.defaultAssets.EUR]: true,
-            // [WavesApp.defaultAssets.TRY]: true,
-            // [WavesApp.defaultAssets.BTC]: true,
-            // [WavesApp.defaultAssets.ETH]: true,
-            // [WavesApp.defaultAssets.LTC]: true,
-            // [WavesApp.defaultAssets.ZEC]: true,
-            // [WavesApp.defaultAssets.BCH]: true,
-            // [WavesApp.defaultAssets.BSV]: true,
-            // [WavesApp.defaultAssets.DASH]: true,
-            // [WavesApp.defaultAssets.XMR]: true,
-            // [WavesApp.defaultAssets.WEST]: true,
-            // [WavesApp.defaultAssets.ERGO]: true,
-            // [WavesApp.defaultAssets.BNT]: true,
+            [WavesApp.defaultAssets.BTC]: true
         };
 
         const gatewaysSoon = (window as any).angular
@@ -129,7 +116,7 @@ export class DataManager {
         return assets[id] ? { ...assets[id], provider: lastData.oracle.name } : null;
     }
 
-    public getOraclesAssetData (id: string) {
+    public getOraclesAssetData(id: string) {
         const dataOracleWaves = this.getOracleAssetDataByOracleName(id, 'oracleWaves');
         const dataOracleTokenomica = this.getOracleAssetDataByOracleName(id, 'oracleTokenomica');
         return dataOracleWaves || dataOracleTokenomica;
