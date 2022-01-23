@@ -9,24 +9,16 @@
      * @param {ConfigService} configService
      * @return {GatewayService}
      */
-    const factory = function (coinomatService, coinomatCardService,
-                              coinomatSepaService, wavesGatewayService, configService) {
-
+    const factory = function (wavesGatewayService, configService) {
         class GatewayService {
-
             constructor() {
-                this.gateways = [
-                    coinomatService,
-                    coinomatCardService,
-                    coinomatSepaService,
-                    wavesGatewayService
-                ];
+                this.gateways = [wavesGatewayService];
             }
 
             getCryptocurrencies() {
                 return {
-                    ...coinomatService.getAll(),
-                    ...wavesGatewayService.getAll()
+                    ...wavesGatewayService.getAll(),
+                    ...WavesApp.network.wavesGateway
                 };
             }
 
@@ -63,16 +55,24 @@
                 const gateway = this._findGatewayFor(asset, 'withdraw');
 
                 if (!this.canUseGateway(asset)) {
-                    return Promise.reject({ code: 1001, message: 'Gateway is blocked' });
+                    return Promise.reject({
+                        code: 1001,
+                        message: 'Gateway is blocked'
+                    });
                 }
 
-                return gateway.getWithdrawDetails(asset, targetAddress, paymentId);
+                return gateway.getWithdrawDetails(
+                    asset,
+                    targetAddress,
+                    paymentId
+                );
             }
 
             canUseGateway(asset) {
-                const permissions = configService.get('PERMISSIONS.CANT_TRANSFER_GATEWAY');
-                return !permissions || !permissions
-                    .includes(asset.id);
+                const permissions = configService.get(
+                    'PERMISSIONS.CANT_TRANSFER_GATEWAY'
+                );
+                return !permissions || !permissions.includes(asset.id);
             }
 
             /**
@@ -82,7 +82,11 @@
              */
             getCardFiatWithLimits(crypto, wavesAddress, fiatList) {
                 const gateway = this._findGatewayFor(crypto, 'card');
-                return gateway.getFiatWithLimits(crypto, wavesAddress, fiatList);
+                return gateway.getFiatWithLimits(
+                    crypto,
+                    wavesAddress,
+                    fiatList
+                );
             }
 
             /**
@@ -92,12 +96,22 @@
              * @param {number} fiatAmount
              * @return {Promise<number>}
              */
-            getCardApproximateCryptoAmount(crypto, fiat, recipientAddress, fiatAmount) {
+            getCardApproximateCryptoAmount(
+                crypto,
+                fiat,
+                recipientAddress,
+                fiatAmount
+            ) {
                 const gateway = this._findGatewayFor(crypto, 'card');
                 if (!gateway) {
                     return Promise.resolve(0);
                 } else {
-                    return gateway.getApproximateCryptoAmount(crypto, fiat, recipientAddress, fiatAmount);
+                    return gateway.getApproximateCryptoAmount(
+                        crypto,
+                        fiat,
+                        recipientAddress,
+                        fiatAmount
+                    );
                 }
             }
 
@@ -113,7 +127,12 @@
                 if (!gateway) {
                     return '';
                 } else {
-                    return gateway.getCardBuyLink(crypto, fiat, recipientAddress, fiatAmount);
+                    return gateway.getCardBuyLink(
+                        crypto,
+                        fiat,
+                        recipientAddress,
+                        fiatAmount
+                    );
                 }
             }
 
@@ -225,19 +244,12 @@
                     }
                 }
             }
-
         }
 
         return new GatewayService();
     };
 
-    factory.$inject = [
-        'coinomatService',
-        'coinomatCardService',
-        'coinomatSepaService',
-        'wavesGatewayService',
-        'configService'
-    ];
+    factory.$inject = ['wavesGatewayService', 'configService'];
 
     angular.module('app.utils').factory('gatewayService', factory);
 })();

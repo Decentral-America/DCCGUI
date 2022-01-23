@@ -13,7 +13,6 @@
     "explorer": "https://decentralscan.com",
     "coinomat": "https://coinomat.com",
     "wavesGateway": {
-        "original": "https://gw.wavesplatform.com",
         "25iPQ8zKBRR5q1UKUksCijiyb18EGupggjus6muEbuvK": {
             "url": "http://144.217.241.27:2000",
             "isThirdParty": false,

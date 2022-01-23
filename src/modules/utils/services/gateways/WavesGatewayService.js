@@ -5,7 +5,6 @@
         [WavesApp.defaultAssets.BTC]: { waves: 'BTC', gateway: 'BTC' }
     };
 
-
     const KEY_NAME_PREFIX = 'wavesGateway';
 
     /**
@@ -21,7 +20,10 @@
              * @return {IGatewaySupportMap}
              */
             getSupportMap(asset) {
-                if (GATEWAYS[asset.id]) {
+                if (
+                    GATEWAYS[asset.id] ||
+                    WavesApp.network.wavesGateway[asset.id]
+                ) {
                     return {
                         deposit: true,
                         withdraw: true,
@@ -29,6 +31,73 @@
                         wrongAddressMessage: true
                     };
                 }
+            }
+
+            // Only used for deposit type gateways
+            getDepositAddress(asset, walletAddress) {
+                WavesGatewayService._assertAsset(asset.id);
+
+                const ASSETGATEWAY = `${
+                    WavesApp.network.wavesGateway[asset.id].url
+                }`;
+                const headers = {};
+                headers['Content-Type'] = 'application/json';
+                headers.Accept = 'application/json';
+
+                return ds
+                    .fetch(`${ASSETGATEWAY}/tunnel/${walletAddress}`, {
+                        method: 'GET',
+                        headers
+                    })
+                    .then((details) => {
+                        return {
+                            address: details.address
+                        };
+                    });
+            }
+
+            // Only used for round robin type gateways
+            getRobinAddress(asset, walletAddress, toTN, recaptcha) {
+                WavesGatewayService._assertAsset(asset.id);
+
+                const OTHERNETWORK = `${
+                    WavesApp.network.wavesGateway[asset.id].otherNetwork
+                }`;
+                const TICKER = asset.ticker;
+
+                let src = OTHERNETWORK;
+                let dst = 'TurtleNetwork';
+                if (!toTN) {
+                    src = 'TurtleNetwork';
+                    dst = OTHERNETWORK;
+                }
+
+                const ASSETGATEWAY = `${
+                    WavesApp.network.wavesGateway[asset.id].url
+                }`;
+                const headers = {};
+                headers['Content-Type'] = 'application/json';
+                headers.Accept = 'application/json';
+                const body = JSON.stringify({
+                    ticker: TICKER,
+                    dstAddress: walletAddress,
+                    srcNetwork: src,
+                    dstNetwork: dst,
+                    recaptcha: recaptcha
+                });
+
+                return ds
+                    .fetch(`${ASSETGATEWAY}/api/deposits`, {
+                        method: 'POST',
+                        headers,
+                        body
+                    })
+                    .then((details) => {
+                        return {
+                            address: details.depositAddress,
+                            expiry: details.expiry
+                        };
+                    });
             }
 
             /**
@@ -43,15 +112,21 @@
                 const ASSETGATEWAY = `${
                     WavesApp.network.wavesGateway[asset.id].url
                 }`;
+                const OTHERNETWORK = `${
+                    WavesApp.network.wavesGateway[asset.id].otherNetwork
+                }`;
+                const TICKER = asset.ticker;
                 const headers = {};
                 headers['Content-Type'] = 'application/json';
                 headers.Accept = 'application/json';
 
+                let fetchUrl = `${ASSETGATEWAY}/api/fullinfo`;
+                if (WavesApp.network.wavesGateway[asset.id].otherNetwork) {
+                    fetchUrl = `${ASSETGATEWAY}/api/full-info/${OTHERNETWORK}/${TICKER}`;
+                }
+
                 return ds
-                    .fetch(`${ASSETGATEWAY}/api/fullinfo`, {
-                        method: 'GET',
-                        headers
-                    })
+                    .fetch(fetchUrl, { method: 'GET', headers })
                     .then((details) => {
                         return {
                             address: details.otherAddress,
@@ -65,7 +140,9 @@
                             recoveryFee: new BigNumber(details.recovery_fee),
                             supportEmail: details.email,
                             operator: details.company,
-                            walletAddress: walletAddress
+                            walletAddress: walletAddress,
+                            gatewayType: details.type,
+                            gatewayUrl: `${ASSETGATEWAY}`
                         };
                     });
             }
@@ -83,11 +160,18 @@
                 const ASSETGATEWAY = `${
                     WavesApp.network.wavesGateway[asset.id].url
                 }`;
+                const OTHERNETWORK = `${
+                    WavesApp.network.wavesGateway[asset.id].otherNetwork
+                }`;
+                const TICKER = asset.ticker;
                 const headers = {};
                 headers['Content-Type'] = 'application/json';
                 headers.Accept = 'application/json';
 
-                const fetchUrl = `${ASSETGATEWAY}/api/fullinfo`;
+                let fetchUrl = `${ASSETGATEWAY}/api/fullinfo`;
+                if (WavesApp.network.wavesGateway[asset.id].otherNetwork) {
+                    fetchUrl = `${ASSETGATEWAY}/api/full-info/${OTHERNETWORK}/${TICKER}`;
+                }
 
                 return ds
                     .fetch(fetchUrl, { method: 'GET', headers: headers })
@@ -109,7 +193,9 @@
              * @return {string}
              */
             getAssetKeyName(asset) {
-                return `${KEY_NAME_PREFIX}${GATEWAYS[asset.id].gateway}`;
+                return `${KEY_NAME_PREFIX}${
+                    WavesApp.network.wavesGateway[asset.id].gateway
+                }`;
             }
 
             /**
@@ -142,7 +228,10 @@
             }
 
             static _assertAsset(assetId) {
-                if (!GATEWAYS[assetId]) {
+                if (
+                    !GATEWAYS[assetId] &&
+                    !WavesApp.network.wavesGateway[assetId]
+                ) {
                     throw new Error('Asset is not supported by VST');
                 }
             }
