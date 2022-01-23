@@ -14,7 +14,7 @@
     "coinomat": "https://coinomat.com",
     "wavesGateway": {
         "25iPQ8zKBRR5q1UKUksCijiyb18EGupggjus6muEbuvK": {
-            "url": "http://144.217.241.27:2000",
+            "url": "https://btc.decentralchain.io",
             "isThirdParty": false,
             "regex": "^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$"
         }
