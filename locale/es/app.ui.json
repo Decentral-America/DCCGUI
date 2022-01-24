@@ -270,7 +270,7 @@
             "scriptAddress": "Dirección de script",
             "seeAll": "Ver todo",
             "setAssetScript": {
-                "showScript-false": "Monstrar",
+                "showScript-false": "Mostrar",
                 "showScript-true": "Ocultar"
             },
             "show": "Mostrar",

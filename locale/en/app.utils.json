@@ -202,16 +202,17 @@
         "deposit": {
             "warningText": "Sending any other currency other than {{assetTicker}} to this address may result in the loss of your deposit.",
             "warningTitle": "Send only {{assetTicker}} to this deposit address.",
-            "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of {{assetTicker}} to a token in your Turtle Network account.",
+            "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of {{assetTicker}} to a token in your DCC account.",
             "helpDescrTitle": "Enter this address into your {{assetTicker}} client or wallet",
 
             "depositInstructionsTitle": "Important: This address is for one time use only and can only accept one deposit!",
-            "depositInstructionsText": "You must wait for your initial {{assetTicker}} deposit to be confirmed on the Turtle Network blockchain before receiving another {{assetTicker}} deposit address for the Turtle Network. If you make more than one {{assetTicker}} deposit to the same deposit address you will lose those deposits.",
+            "depositInstructionsText": "You must wait for your initial {{assetTicker}} deposit to be confirmed on DecentralChain before receiving another {{assetTicker}} deposit address for your DecentralChain wallet. If you make more than one {{assetTicker}} deposit to the same deposit address you will lose those deposits.",
             "warningMinAmountText": "If you send less than {{minAmount, BigNumber}} {{assetTicker}}, you will lose that money.",
             "warningMinAmountTitle": "The minimum deposit is {{minAmount, BigNumber}} {{assetTicker}}, the maximum deposit is {{maxAmount}} {{assetTicker}}",
             "totalFee": "{span.error-500}[Deposit Fee: {{totalFee}} {{assetTicker}}]",
             "disclaimer": "By using this service you agree with the [disclaimer]({{disclaimerLink}}).",
             "support": "For support please contact email [{{supportEmail}}](mailto:{{supportEmail}})",
+            "recoveryStatement": "I understand that I will lose my deposit if I don't save a backup phrase (SEED).",
             "operator": "This Gateway is operated by {{operator}}.",
 
             "coinomatBCH": {

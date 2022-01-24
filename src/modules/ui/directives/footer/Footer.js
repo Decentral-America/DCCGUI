@@ -40,8 +40,8 @@
                 this.hovered = false;
 
                 this.mobileAppLink = navigator.userAgent.match(/iPhone|iPad|iPod/i) ?
-                    'https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8' :
-                    'https://play.google.com/store/apps/details?id=com.wavesplatform.wallet';
+                    '#' :
+                    '#';
 
                 this.telegramLink = localStorage.getItem('lng') === 'ru' ?
                     'https://t.me/WavesCommunityRU' :

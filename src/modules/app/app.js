@@ -120,7 +120,6 @@
         'app.tokens',
         'app.unavailable',
         'app.stand',
-        'app.migration'
     ]);
 })();
 

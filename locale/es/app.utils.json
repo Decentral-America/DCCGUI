@@ -200,6 +200,21 @@
             "header": "Eliminar cuenta"
         },
         "deposit": {
+            "warningText": "Enviar cualquier otra moneda que no sea {{assetTicker}} a esta dirección puede resultar en la pérdida de su depósito.",
+            "warningTitle": "Envíe solo {{assetTicker}} a esta dirección de depósito.",
+            "helpDescrText": "Una vez que se confirme la transacción, la puerta de enlace procesará la transferencia de {{assetTicker}} a un token en su cuenta de DCC",
+            "helpDescrTitle": "Ingrese esta dirección en su cliente o billetera de {{assetTicker}}",
+
+            "depositInstructionsTitle": "Importante: ¡Esta dirección es para un solo uso y solo puede aceptar un depósito!",
+            "depositInstructionsText": "Debe esperar a que se confirme su depósito inicial de {{assetTicker}} en DecentralChain antes de recibir otra dirección de depósito de {{assetTicker}}. Si realiza más de un depósito de {{assetTicker}} a la misma dirección de depósito, perderá esos depósitos.",
+            "warningMinAmountText": "Si envía menos de {{minAmount, BigNumber}} {{assetTicker}}, perderá ese dinero.",
+            "warningMinAmountTitle": "El depósito mínimo es {{minAmount, BigNumber}} {{assetTicker}}, el depósito máximo es {{maxAmount}} {{assetTicker}}",
+            "totalFee": "{span.error-500}[Tarifa de depósito: {{totalFee}} {{assetTicker}}]",
+            "disclaimer": "Al utilizar este servicio, usted acepta: [disclaimer]({{disclaimerLink}}).",
+            "support": "Para soporte por favor contáctese con el correo electrónico [{{supportEmail}}](mailto:{{supportEmail}})",
+            "recoveryStatement": "Entiendo que perderé mi depósito si no guardo una frase de respaldo (SEED).",
+            "operator": "Este portal es operado por {{operator}}.",
+
             "coinomatBCH": {
                 "helpDescrText": "Cuando la transacción se confirme, la pasarela procesará la transferencia de BCH a un token en tu cuenta DCC",
                 "helpDescrTitle": "Introduce esta dirección en tu cliente o cartera de Bitcoin Cash",
@@ -279,7 +294,7 @@
                 "warningTitle": "Por favor, no deposite BNT desde contratos inteligentes! No deposite otros tokens ERC20! Sólo se permite Bancor."
             },
             "wavesGatewayBTC": {
-                "helpDescrText": "Once the transaction is confirmed, the gateway will process the transfer of BTC to a token in your DCC account.",
+                "helpDescrText": "Una vez confirmada la transacción, la puerta de enlace procesará la transferencia de BTC en forma de token en su cuenta DCC.",
                 "helpDescrTitle": "Ingrese esta dirección en su cartera o cliente BTC",
                 "warningMinAmountText": "Si mandas menos de {{minAmount, BigNumber}} {{assetTicker}} perderás tu dinero.",
                 "warningMinAmountTitle": "La cantidad mínima a depositar es de {{minAmount, BigNumber}} {{assetTicker}}",
