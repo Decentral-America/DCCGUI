@@ -146,9 +146,9 @@
                 "canVoteTip": "Cliquez pour évaluer le jeton",
                 "tooltipLink": "Plus de détails",
                 "tooltipNeedWAVES": "et 0.001 DCC",
-                "tooltipNeedWCT": "Pour noter un jeton, vous devez avoir au moins 1",
+                "tooltipNeedCRC": "Pour noter un jeton, vous devez avoir au moins 1",
                 "tooltipText": "Les jetons ne sont pas transférés, seul le solde existant est requis pour le vote. Votre score sera appliqué après 24 heures. Veuillez conserver les jetons sur le compte pendant ce temps. \nFrais 0.001 DCC.",
-                "tooltipTitle": "Pour évaluer un jeton, vous devez avoir au moins 1 WCT dans votre portefeuille."
+                "tooltipTitle": "Pour évaluer un jeton, vous devez avoir au moins 1 CRC dans votre portefeuille."
             },
             "reissue": {
                 "no": "Non réémissible",

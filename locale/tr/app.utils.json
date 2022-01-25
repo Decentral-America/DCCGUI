@@ -146,9 +146,9 @@
                 "canVoteTip": "Kripto parayı değerlendirmek için tıklayın",
                 "tooltipLink": "Daha fazla",
                 "tooltipNeedWAVES": "ve 0.001 DCC",
-                "tooltipNeedWCT": "Oy vermek için en az 1 WCT'niz olması gerekmektedir.",
+                "tooltipNeedCRC": "Oy vermek için en az 1 CRC'niz olması gerekmektedir.",
                 "tooltipText": "İşlem komisyon ücreti 0.001 DCC'dir. Kripto paralarınız cüzdanınızı terketmez. Oylama için bakiyeniz olması gerekmektedir. Puanlar 24 saat sonra işlenir. Bu süre zarfında mevcut bakiyenizi koruyun.",
-                "tooltipTitle": "Oy vermek için en az 1 WCT'niz olması gerekmektedir."
+                "tooltipTitle": "Oy vermek için en az 1 CRC'niz olması gerekmektedir."
             },
             "reissue": {
                 "no": "Sınırlı",

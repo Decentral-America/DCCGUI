@@ -131,7 +131,8 @@ function createBuildTask(args?: { platform: TPlatform; env: TBuild; config: stri
             connection: configName as TConnection,
             type: platform as TPlatform,
             outerScripts: [
-                '<script>Sentry.init({ dsn: "https://edc3970622f446d7aa0c9cb38be44a4f@sentry.io/291068" });<\/script>'
+               // Uncomment for Sentry
+               // '<script>Sentry.init({ dsn: "https://edc3970622f446d7aa0c9cb38be44a4f@sentry.io/291068" });<\/script>'
             ],
             scripts: [
                 ...(platform === 'desktop' ?

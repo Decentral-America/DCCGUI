@@ -41,9 +41,7 @@
   },
   "matcherPriorityList": [
       { "ticker": "DCC", "id": "DCC" },
-      {
-          "ticker": "CRC",
-          "id": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo"
-      }
+      { "ticker": "CRC", "id": "G9TVbwiiUZd5WxFxoY7Tb6ZPjGGLfynJK4a3aoC59cMo"},
+      { "ticker": "BTC", "id": "25iPQ8zKBRR5q1UKUksCijiyb18EGupggjus6muEbuvK" }
   ]
 }

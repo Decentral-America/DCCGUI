@@ -146,9 +146,9 @@
                 "canVoteTip": "Klik untuk menilai token",
                 "tooltipLink": "Detail selengkapnya",
                 "tooltipNeedWAVES": "dan 0,001 DCC",
-                "tooltipNeedWCT": "Untuk menilai token, Anda harus memiliki setidaknya 1",
+                "tooltipNeedCRC": "Untuk menilai token, Anda harus memiliki setidaknya 1",
                 "tooltipText": "Token tidak ditransfer, hanya saldo yang ada diperlukan untuk memilih. Skor Anda akan diterapkan setelah 24 jam. Harap simpan token saat ini di akun selama waktu ini. \nBiaya 0,001 DCC.",
-                "tooltipTitle": "Untuk menilai token, Anda harus memiliki setidaknya 1 WCT di dompet Anda."
+                "tooltipTitle": "Untuk menilai token, Anda harus memiliki setidaknya 1 CRC di dompet Anda."
             },
             "reissue": {
                 "no": "Tidak dapat diterbitkan lagi",

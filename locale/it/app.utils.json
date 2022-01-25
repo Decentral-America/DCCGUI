@@ -146,9 +146,9 @@
                 "canVoteTip": "Clicca per valutare il token",
                 "tooltipLink": "Maggiori dettagli",
                 "tooltipNeedWAVES": "e 0.001 DCC",
-                "tooltipNeedWCT": "Per valutare un token, devi averne almeno 1",
+                "tooltipNeedCRC": "Per valutare un token, devi averne almeno 1",
                 "tooltipText": "I token non verranno trasferiti, per votare è sufficiente un saldo positivo. Il tuo punteggio verrà applicato dopo 24 ore. Si prega di conservare nell'account i token necessari durante questo periodo.\nSpese 0,001 DCC.",
-                "tooltipTitle": "Per valutare un token, devi avere almeno 1 WCT nel tuo portafoglio."
+                "tooltipTitle": "Per valutare un token, devi avere almeno 1 CRC nel tuo portafoglio."
             },
             "reissue": {
                 "no": "Non riemettibile",

@@ -146,9 +146,9 @@
                 "canVoteTip": "Klik om token te beoordelen",
                 "tooltipLink": "Bekijk Details",
                 "tooltipNeedWAVES": "en 0,001 DCC",
-                "tooltipNeedWCT": "Om een token te kunnen beoordelen, heeft u nodig minstens 1",
+                "tooltipNeedCRC": "Om een token te kunnen beoordelen, heeft u nodig minstens 1",
                 "tooltipText": "Tokens worden niet overgedragen, alleen uw bestaande balans is vereist voor stemmen. Uw score wordt na 24 uur toegepast. Bewaar de huidige tokens in het account gedurende deze tijd. \nTarief 0,001 DCC.",
-                "tooltipTitle": "Om een token te beoordelen, heeft u tenminste 1 WCT in uw portemonnee nodig."
+                "tooltipTitle": "Om een token te beoordelen, heeft u tenminste 1 CRC in uw portemonnee nodig."
             },
             "reissue": {
                 "no": "Niet Heruitgeefbaar",

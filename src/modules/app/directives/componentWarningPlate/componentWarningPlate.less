@@ -105,21 +105,7 @@ w-warning-plate {
 .warning-timer_active {
   position: relative;
   z-index: 11;
-  display: block;
-
-  & + .ui-view {
-    height: calc(100% ~"- 40px");
-
-    .main-header_new-user {
-      top: 40px;
-
-      &.fixed {
-        .main-header__header {
-          top: 40px;
-        }
-      }
-    }
-  }
+  display: none;
 }
 
 body.desktopUpdate:not(.web) {
@@ -188,7 +174,6 @@ body.desktopUpdate:not(.web) {
 
   .warning-timer_active {
     & + .ui-view {
-      height: calc(100% ~"- 72px");
 
       .main-header_new-user {
         top: 72px;

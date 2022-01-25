@@ -146,9 +146,9 @@
                 "canVoteTip": "点击为代币评分",
                 "tooltipLink": "更多细节",
                 "tooltipNeedWAVES": "和 0.001 DCC",
-                "tooltipNeedWCT": "要为代币评分，您必须至少有1个",
+                "tooltipNeedCRC": "要为代币评分，您必须至少有1个",
                 "tooltipText": "代币不转让，投票只需要现有余额。您的分数将在24小时后应用。在此期间请保留帐户中的当前代币。 \n费用0.001波浪币。",
-                "tooltipTitle": "要为代币评分，您的钱包中必须至少有1个WCT。"
+                "tooltipTitle": "要为代币评分，您的钱包中必须至少有1个CRC。"
             },
             "reissue": {
                 "no": "不可再发行",

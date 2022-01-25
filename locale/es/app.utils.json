@@ -146,9 +146,9 @@
                 "canVoteTip": "Haga clic para calificar el token",
                 "tooltipLink": "Más detalles",
                 "tooltipNeedWAVES": "y 0.001 DCC",
-                "tooltipNeedWCT": "Para calificar un token, debes tener al menos 1",
+                "tooltipNeedCRC": "Para calificar un token, debes tener al menos 1",
                 "tooltipText": "Los Tokens no serán transferidos ya que solo se requiere saldo existente para votar. Su puntuación será aplicada transcurridas 24 horas. Por favor, mantenga los tokens en la cuenta durante este tiempo. Fee de 0.001 DCC",
-                "tooltipTitle": "Para calificar un token, debe tener al menos 1 WCT en su billetera."
+                "tooltipTitle": "Para calificar un token, debe tener al menos 1 CRC en su billetera."
             },
             "reissue": {
                 "no": "No re-emitible",
@@ -493,7 +493,7 @@
             },
             "gatewayError": "El servicio de puerta de enlace no se encuentra disponible. Intente de nuevo más tarde",
             "invoice": {
-                "title": "Factura"
+                "title": "Mi wallet"
             },
             "ledger": {
                 "cancel": "Anular",

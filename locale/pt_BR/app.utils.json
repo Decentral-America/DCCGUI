@@ -146,9 +146,9 @@
                 "canVoteTip": "Click to rate token",
                 "tooltipLink": "More Details",
                 "tooltipNeedWAVES": "and 0.001 DCC",
-                "tooltipNeedWCT": "To rate a token, you must have at least 1",
+                "tooltipNeedCRC": "To rate a token, you must have at least 1",
                 "tooltipText": "Tokens are not transferred, only an existing balance is required for voting.  Your score will be applied after 24 hours. Please keep the current tokens in the account during this time. \nFee 0.001 DCC.",
-                "tooltipTitle": "To rate a token, you must have at least 1 WCT in your wallet."
+                "tooltipTitle": "To rate a token, you must have at least 1 CRC in your wallet."
             },
             "reissue": {
                 "no": "Não reemissível",

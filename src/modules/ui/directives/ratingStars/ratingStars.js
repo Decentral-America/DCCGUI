@@ -13,9 +13,9 @@
                                  utils) {
 
         const { SIGN_TYPE } = require('@decentralchain/signature-adapter');
-        const WCT_ID = WavesApp.WCTAsset;
+        const CRC_ID = WavesApp.CRCAsset;
         const DCC_ID = WavesApp.defaultAssets.DCC;
-        const NEED_WCT = 1;
+        const NEED_CRC = 1;
 
         class RatingStars extends Base {
 
@@ -76,8 +76,8 @@
             _checkBalance() {
                 const balance = balanceWatcher.getBalance();
                 this.wavesBalance = balance[DCC_ID];
-                this.wctBalance = balance[WCT_ID];
-                if (this.wavesBalance.gte(this.fee) && this.wctBalance && this.wctBalance.getTokens().gte(NEED_WCT)) {
+                this.CRCBalance = balance[CRC_ID];
+                if (this.wavesBalance.gte(this.fee) && this.CRCBalance && this.CRCBalance.getTokens().gte(NEED_CRC)) {
                     this.hasBalance = true;
                     $scope.$apply();
                 }
@@ -123,7 +123,7 @@
             }
 
             openDex() {
-                utils.openDex(WCT_ID);
+                utils.openDex(CRC_ID);
             }
 
         }
