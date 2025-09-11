@@ -4,8 +4,6 @@ import * as concat from 'gulp-concat';
 
 const uglify = require('gulp-uglify');
 const hash = require('gulp-hash-filename');
-const header = require('gulp-header');
-const footer = require('gulp-footer');
 
 export function createBabelTask(
     name: string,
@@ -25,8 +23,6 @@ export function createBabelTask(
                     'transform-async-to-generator'
                 ]
             }))
-            .pipe(header('(function () {'))
-            .pipe(footer('})()'))
             .pipe(uglify({
                 mangle: false
             }))

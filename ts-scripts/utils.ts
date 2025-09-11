@@ -234,8 +234,17 @@ export async function getBuildParams(param: IPrepareHTMLOptions) {
         scripts: param.scripts
             ? scripts
             : scripts.slice(0, meta.vendors.length)
-                .concat([`<script>angular.module('app.templates', []);</script>`])
-                .concat(scripts.slice(meta.vendors.length)),
+                .concat(scripts.slice(meta.vendors.length))
+                .concat([`<script>
+                    // Ensure angular is loaded before creating module
+                    (function() {
+                        if (typeof angular !== 'undefined') {
+                            angular.module('app.templates', []);
+                        } else {
+                            console.error('AngularJS not loaded - cannot create app.templates module');
+                        }
+                    })();
+                </script>`]),
         isProduction,
         feeConfigUrl,
         bankRecipient,

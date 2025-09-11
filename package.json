@@ -104,6 +104,7 @@
     "@decentralchain/marshall": "0.14.0",
     "@decentralchain/signature-adapter": "6.1.7",
     "@decentralchain/waves-transactions": "4.2.6",
+    "@ledgerhq/logs": "^6.13.0",
     "@sentry/browser": "5.4.3",
     "@types/ramda": "0.25.34",
     "@uirouter/angularjs": "1.1.1",

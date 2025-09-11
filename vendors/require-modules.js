@@ -15,6 +15,7 @@
         '@waves/waves-crypto': 'WavesCrypto',
         '@waves/ledger/dist/transport-u2f': 'TransportU2F',
         '@ledgerhq/hw-transport-u2f': 'TransportU2F',
+        '@ledgerhq/logs': 'LedgerLogs',
         '@waves/ledger': 'WavesLedgerJs',
         '@decentralchain/signature-adapter': 'wavesSignatureAdapter',
         'ramda': 'R',

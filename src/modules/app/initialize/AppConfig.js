@@ -177,7 +177,8 @@
                             }
                         },
                         backend: {
-                            loadPath: `/locales/{{lng}}/{{ns}}.json?${WavesApp.version}`,
+                            projectId: 'decentral-exchange-dccgui',
+                            loadPath: `/locale/{{lng}}/{{ns}}.json?${WavesApp.version}`,
                             referenceLng: 'en'
                         }
                     });
